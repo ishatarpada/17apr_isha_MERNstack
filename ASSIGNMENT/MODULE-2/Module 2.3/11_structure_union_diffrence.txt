@@ -1,0 +1,24 @@
+                    STRUCTURE                                   |               UNION
+--------------------------------------------------------------------------------------------------------------------------------------------
+                                                                |
+1.  the keyword "struct" used for declare the structure .       | the keyword "union" is used for decalre the union.
+2.  structure is user defind data type.                         | union is user defind data type.
+3.  memory is allocated as per largest element .                | memory is allocated for each member .
+4.  we can acess all the member of structure .                  | we can acess only one member at a time in union.
+5.  syntex :                                                    | syntex : 
+            struct student                                      |           union student
+            {                                                   |            {
+                // define data member                           |                /* data */
+                int id;                                         |
+                char name[30];                                  |                int id;
+            }st; //defining the object                          |                char name[30];
+                                                                |            };
+
+                
+                
+
+                    
+                    
+                    
+
+                
