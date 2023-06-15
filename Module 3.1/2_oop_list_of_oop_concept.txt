@@ -1,0 +1,20 @@
+What is OOP? List OOP concepts.
+
+-> OOP is object orianted programming .
+-> Object Orianted Programming is the based on the object .
+-> The main purpose of OOP is the to deal with real world entity using programming launguage.
+
+=> list of OOP concepts :
+    1. Class :  Class is a collection of data member and member function .
+                Class is the blueprint of the object .
+
+    2. Object : Object is a instance of class.
+
+    3. Inheritance : Inheritance means reusabilty of data and function . inheritance means data or functions are derived from parent class(based class) in child class(derived class).
+    
+    4. Polymorphism : Polymorphism means execute a single operation in different ways .
+    
+    5. Encapsulation : process of wrapping the data in single section it is the Encapsulation .
+    
+    6. Abstraction : Abstraction means hiding the unnecessary internal details and showing only required     details .
+    
