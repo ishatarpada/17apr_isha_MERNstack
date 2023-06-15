@@ -1,0 +1,19 @@
+What is the difference between OOP and POP?
+
+----------------------------------------------------------------------------------------------------------------
+                    OOP                                 |                                     POP      
+----------------------------------------------------------------------------------------------------------------
+1. oop is object orianted programming .                 | pop is Procedural orianted programming.
+                                                        |
+2. oop is based on the object .                         | pop is the based on the Procedure.
+                                                        |
+3. oop is used less memory .                            | pop is used more memory .
+                                                        |
+4. oop is very high secure programming launguage.       | pop is less secure programming launguage .
+                                                        |
+5. oop is follow bottom up approch.                     | pop is follow top down approch .     
+                                                        |
+6. in oop , problem divided into the object .           | in pop , problem divided into the function. 
+                                                        |
+7. example : java , C++ , C#.                           | example : c , basic , pascal.
+---------------------------------------------------------------------------------------------------------------
