@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-10</title>
+</head>
+<body>
+    <center style="background-color: rgb(85, 68, 79); color: white; margin: 5px;">
+        <h2>Question 10 &numsp; How can we club two or more rows or columns into a single row or column in an HTML table?</h2>
+    </center>
+   
+        <p>
+            &#x279C; we merge multiple rows or columns into a single row or column in a table using the <b>"rowspan"</b> and <b>"colspan"</b> attributes.
+            <br>
+            &#x279C; To merge rows, we can use the rowspan attribute on a <td> or <th> element to specify the number of rows the cell should span.
+            <br>
+            &#x279C; For example, if we want to merge two rows into one, you would set <b>rowspan="2"</b> on the cell you want to span multiple rows.
+            <br>
+            &#x279C; To merge columns, we can use the rowspan attribute on a <td> or <th> element to specify the number of columns the cell should span.
+            <br>
+            &#x279C; For example, if we want to merge two columns into one, you would set <b>colspan="2"</b> on the cell you want to span multiple columns.
+        </p>
+        <p>
+            <h2><b>&#9787;row-span</b></h2>
+            we merge multiple rows  into a single row in a table using the <b>"rowspan"</b>  attribute.
+            <br>
+            <b>&#8658;example:</b>
+            <br>
+
+            <b>&#8658;syntex:</b><br>
+
+            &lt;center&gt;
+            <br>
+            &lt;table border="2px"&gt;
+            <br>
+
+            &nbsp;&nbsp;&nbsp;&lt;caption&gt;&nbsp;Product-Details&lt;/caption&gt;
+            <br>
+
+            &nbsp;&nbsp;&nbsp;&lt;thead&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;tr&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;No.&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Product name&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;prise&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Quntaity&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;tr&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;book&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;100&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Quntaity&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;tr&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;No.&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;phone-cover&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;500&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;2&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;tr&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;3&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;phone-charger&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1000&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;tr&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;4&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;laptop-stand&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1500&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp;&lt;thead&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp;&lt;tfoot&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;&nbsp;td&nbsp;style="text-align:&nbsp;right;"&nbsp;&gt;total&nbsp;:&nbsp;3500&lt;/td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp;&lt;tfoot&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp;&lt;table&gt;
+            <br><br>
+
+            <b>&#8658;output:-</b>
+                <center>
+                <table border="2px">
+                    <caption>Product-Details</caption>
+                    <thead>
+                        <tr>
+                            <td>No.</td>
+                            <td>Product name</td>
+                            <td>prise</td>
+                            <td>Quntaity</td>
+                        </tr>
+        
+                        <tr>
+                            <td>1.</td>
+                            <td>book</td>
+                            <td>100</td>
+                            <td>5</td>
+                        </tr>
+        
+                        <tr>
+                            <td>2.</td>
+                            <td>phone-cover</td>
+                            <td>500</td>
+                            <td>2</td>
+                        </tr>
+        
+                        <tr>
+                            <td>3.</td>
+                            <td>phone-charger</td>
+                            <td>1000</td>
+                            <td rowspan="2">1</td>
+                        </tr>
+        
+                        <tr>
+                            <td>4.</td>
+                            <td>laptop-stand</td>
+                            <td>1500</td>
+                        </tr>
+                    </thead>
+        
+                    <tfoot>
+                        <td style="text-align: right;">total&nbsp;:&nbsp;3500</td>
+                    </tfoot>
+                </table>
+            </center>
+        </p>
+
+        <p>
+            <h2><b>&#9787;column-span</b></h2>
+            we merge multiple columns  into a single columns in a table using the <b>"colspan"</b>  attribute.
+            <br>
+            <b>&#8658;example:</b>
+            <br>
+
+            <b>&#8658;syntex:</b><br>
+
+            &lt;center&gt;
+            <br>
+            &lt;table border="2px"&gt;
+            <br>
+
+            &nbsp;&nbsp;&nbsp;&lt;caption&gt;&nbsp;Product-Details&lt;/caption&gt;
+            <br>
+
+            &nbsp;&nbsp;&nbsp;&lt;thead&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;tr&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;No.&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Product name&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;prise&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Quntaity&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;tr&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;book&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;100&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Quntaity&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;tr&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;No.&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;phone-cover&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;500&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;2&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;tr&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;3&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;phone-charger&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1000&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;tr&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;4&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;laptop-stand&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1500&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1&lt;td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp;&lt;thead&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp;&lt;tfoot&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;&nbsp;td&nbsp;colspan="4" &nbsp; style="text-align:&nbsp;right;"&nbsp;&gt;total&nbsp;:&nbsp;3500&lt;/td&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp;&lt;tfoot&gt;
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp;&lt;table&gt;
+            <br><br>
+
+            <b>&#8658;output:-</b>
+            <center>
+                <table border="2px">
+                    <caption>product-details</caption>
+                    <thead>
+                        <tr>
+                            <td>No.</td>
+                            <td>Product name</td>
+                            <td>prise</td>
+                            <td>Quntaity</td>
+                        </tr>
+        
+                        <tr>
+                            <td>1.</td>
+                            <td>book</td>
+                            <td>100</td>
+                            <td>5</td>
+                        </tr>
+        
+                        <tr>
+                            <td>2.</td>
+                            <td>phone-cover</td>
+                            <td>500</td>
+                            <td>2</td>
+                        </tr>
+        
+                        <tr>
+                            <td>3.</td>
+                            <td>phone-charger</td>
+                            <td>1000</td>
+                            <td>1</td>
+                        </tr>
+        
+                        <tr>
+                            <td>4.</td>
+                            <td>laptop-stand</td>
+                            <td>1500</td>
+                            <td>1</td>
+                        </tr>
+                    </thead>
+        
+                    <tfoot>
+                        <td colspan="4" style="text-align: right;">total&nbsp;:&nbsp;3500</td>
+                    </tfoot>
+                </table>
+            </center>
+        </p>
+        
+</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-6</title>
+    <style>
+        .d1 , .d2 , .d3
+        {
+            margin: 50px;
+        }
+        .web {
+            background-color: rgb(112, 13, 69);
+            color: white;
+            border: 2px solid rgb(216, 222, 224);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .webb {
+            background-color: rgb(37, 176, 102);
+            color: white;
+            border: 2px solid rgb(225, 243, 233);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .web1 {
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        .web2 {
+            background-color:rgb(134, 83, 41);
+            color: white;
+            border: 2px solid rgb(239, 230, 218);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <center style="background-color: rgb(85, 68, 79); color: white; margin: 5px;">
+        <h2>Question 6 &numsp; What is the 'class' attribute in HTML?</h2>
+        <hr>
+    </center>
+    <p>
+        &#8658; The class attribute specifies one or more classnames for an element.
+        <br>
+        &#8658; The HTML class attribute is used to specify a class for an HTML element.
+        <br>
+        &#8658; Multiple HTML elements are the same class.
+        <br>
+        &#8658; The class attribute is often used to point to a class name in a style sheet.
+        <br><br>
+
+        &#x27A4; <big><b>use of class attribute :</b></big>
+        <br>
+        1.Different Elements Same Class
+        <br>
+        2.Multiple Classes
+        <br>
+        3.in CSS
+        <br><br>
+
+
+    <div class="d1" style="background-color :rgb(239, 230, 218)">
+        <big><b>1. Different Elements same Class</b></big>
+        <br>
+        &#8658; Even if the two elements do not have the same tag name, they can both point to the same class, and get
+        the same CSS styling:
+        <br>
+        &#8658; In the following example, both &lt;h2&gt; and &lt;p&gt; point to the "web2" class and will share the same style:
+                <br>
+                <br>
+
+                <b>Example:</b>
+                <br>
+                <big>syntex:-</big>
+                <br><br>
+
+                &lt;!DOCTYPE html&gt;
+                <br>
+                &numsp;&lt;html&gt;
+                <br>
+                &numsp;&numsp;&lt;head&gt;
+                <br>
+                &numsp;&numsp;&numsp;&lt;style&gt;
+                <br>
+                &numsp;&numsp;&numsp;&numsp;.web2 {
+                <br>
+                &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;background-color: rgb(227, 214, 197);
+                <br>
+                &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;color: white;
+                <br>
+                &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;border: 2px solid black;
+                <br>
+                &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;margin: 20px;
+                <br>
+                &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;padding: 20px;
+                <br>
+                &numsp;&numsp;&numsp;&numsp;&numsp;&numsp;&numsp;}
+                <br>
+                &numsp;&numsp;&numsp;&lt;/style&gt;
+                <br>
+                &numsp;&numsp;&lt;/head&gt;
+                <br>
+                &numsp;&numsp;&lt;body&gt;
+                <br>
+
+
+                &numsp;&numsp;&numsp;&numsp;&lt;h2 class = "web2" &gt;Different Elements same Class&lt;/h2&gt;
+                <br>
+                &numsp;&numsp;&numsp;&numsp;&lt;p class = "web2" &gt;
+                &numsp; Even if the two elements do not have the same tag name, they can both point to the same class,
+                and get the same CSS styling:&lt;/p&gt;
+                <br><br>
+
+                &numsp;&numsp;&numsp;&numsp;&lt;h2 class = "web2" &gt;HTMl&lt;/h2&gt;
+                <br>
+                &numsp;&numsp;&numsp;&numsp;&numsp;&lt;p class = "web2" &gt;HTML is the code that is used to structure
+                web pages and its
+                content.&lt;/p&gt;
+                <br><br>
+
+                &numsp;&numsp;&numsp;&numsp;&lt;h2 class = "web2" &gt;CSS&lt;/h2&gt;
+                <br>
+                &numsp;&numsp;&numsp;&numsp;&numsp;&lt;p class = "web2" &gt;CSS is a launguge that is used to describe
+                the style of a
+                document.&lt;/p&gt;
+                <br><br>
+
+                &numsp;&numsp;&numsp;&numsp;&lt;h2 class = "web2" &gt;JavaScript&lt;/h2&gt;
+                <br>
+                &numsp;&numsp;&numsp;&numsp;&lt;p class = "web2" &gt;JavaScript is the programming language of the
+                Web..&lt;/p&gt;
+                <br>
+
+                &numsp;&numsp;&lt;/body&gt;
+                <br>
+                &numsp;&lt;/html&gt;
+                <br>
+                <br>
+                
+                <h1 class="web2">Multiple Classes</h1>
+                <p class="web2">Here, all three h2 and p elements belongs to the "webb" class. In addition, HTML also belongs to
+                    the "main" class, which text-decoration is underline.</p>
+
+                <h2 class="web2">HTML</h2>
+                <p class="web2">HTML is the code that is used to structure web pages and its content.</p>
+
+                <h2 class="web2">CSS</h2>
+                <p class="web2">CSS is a launguge that is used to describe the style of a document.</p>
+
+                <h2 class="web2">JavaScript</h2>
+                <p class="web2">JavaScript is the programming language of the Web..</p>
+            </p>
+    </div>
+
+
+
+    <div class="d2" style="background-color: rgb(225, 243, 233);">
+        <big><b>2. Multiple Classes</b></big>
+        <br>
+        &#8658; To define multiple classes, separate the class names with a space, e.g. <b>&lt;div class="webb
+            web1"&gt;</b>. The element will be styled according to all the classes specified.
+        <br>
+        &#8658; HTML elements can belong to more than one class..
+        <br>
+        &#8658; In the following example, both &lt;h2&gt; and &lt;p&gt; point to the "webb" class and will share the
+        same style:
+        <br><br>
+
+        <b>Example:</b>
+        <br>
+        <big>syntex:-</big>
+        <br><br>
+
+        &lt;!DOCTYPE html&gt;
+        <br>
+        &numsp;&lt;html&gt;
+        <br>
+        &numsp;&numsp;&lt;head&gt;
+        <br>
+        &numsp;&numsp;&numsp;&lt;style&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;.webb {
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;background-color: rgb(37, 176, 102);
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;color: white;
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;border: 2px solid black;
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;margin: 20px;
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;padding: 20px;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&numsp;&numsp;&numsp;}
+        <br>
+        &numsp;&numsp;&numsp;&numsp; .web1 {
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp; text-decoration: underline;
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp; text-align: center;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&numsp;&numsp;&numsp;}
+        <br>
+        &numsp;&numsp;&numsp;&lt;/style&gt;
+        <br>
+        &numsp;&numsp;&lt;/head&gt;
+        <br>
+        &numsp;&numsp;&lt;body&gt;
+        <br>
+
+        &numsp;&numsp;&numsp;&lt;div class="webb web1"&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&lt;h1 &gt;Multiple Classes&lt;/h1&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&lt;p&gt;
+        &numsp;Here, all three h2 and p elements belongs to the "webb" class. In addition, HTML also belongs to the
+        "web1" class, which text-decoration is underline.&lt;/p&gt;
+        <br>
+        &numsp;&numsp;&numsp;&lt;/div&gt;
+        <br><br>
+
+        &numsp;&numsp;&numsp;&lt;div class="web"&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&lt;h1&gt;Using CSS&lt;/h2&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&lt;h2&gt;HTMl&lt;/h2&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&numsp;&lt;p&gt;HTML is the code that is used to structure web pages and its
+        content.&lt;/p&gt;
+        <br>
+        &numsp;&numsp;&numsp;&lt;/div&gt;
+        <br><br>
+
+        &numsp;&numsp;&numsp;&lt;div class="web"&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&lt;h2&gt;CSS&lt;/h2&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&numsp;&lt;p&gt;CSS is a launguge that is used to describe the style of a
+        document.&lt;/p&gt;
+        <br>
+        &numsp;&numsp;&numsp;&lt;/div&gt;
+        <br>
+
+        <br>
+        &numsp;&numsp;&numsp;&lt;div class="web"&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&lt;h2&gt;JavaScript&lt;/h2&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&lt;p&gt;JavaScript is the programming language of the Web..&lt;/p&gt;
+        <br>
+        &numsp;&numsp;&numsp;&lt;/div&gt;
+        <br>
+        &numsp;&numsp;&lt;/body&gt;
+        <br>
+        &numsp;&lt;/html&gt;
+        <br>
+        <br>
+
+        <div class="webb web1">
+            <h1>Multiple Classes</h1>
+            <p>Here, all three h2 and p elements belongs to the "webb" class. In addition, HTML also belongs to
+                the "main" class, which text-decoration is underline.</p>
+        </div>
+
+        <div class="webb ">
+            <h2>HTML</h2>
+            <p>HTML is the code that is used to structure web pages and its content.</p>
+        </div>
+
+        <div class="webb">
+            <h2>CSS</h2>
+            <p>CSS is a launguge that is used to describe the style of a document.</p>
+        </div>
+
+        <div class="webb">
+            <h2>JavaScript</h2>
+            <p>JavaScript is the programming language of the Web..</p>
+        </div>
+        </p>
+    </div>
+
+
+    <div class="d3" style="background-color: rgb(216, 222, 224);">
+        <big><b>3.in CSS</b></big>
+        <br>
+        &#8658; The class attribute is often used to point to a class name in a style sheet.
+        <br>
+        &#8658; In the following example we have three &lt;div&gt; elements with a class attribute with the value of
+        "web". All of the three &lt;div&gt; elements will be styled equally according to the .web style in the head tag.
+        <br><br>
+        <b>Example :-</b>
+        <br><big>syntex:-</big>
+        <br><br>
+        &lt;!DOCTYPE html&gt;
+        <br>
+        &numsp;&lt;html&gt;
+        <br>
+        &numsp;&numsp;&lt;head&gt;
+        <br>
+        &numsp;&numsp;&numsp;&lt;style&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;.web {
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;background-color: tomato;
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;color: white;
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;border: 2px solid black;
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;margin: 20px;
+        <br>
+        &numsp;&numsp;&numsp;&numsp; &numsp; &numsp;padding: 20px;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&numsp;&numsp;&numsp;}
+        <br>
+        &numsp;&numsp;&numsp;&lt;/style&gt;
+        <br>
+        &numsp;&numsp;&lt;/head&gt;
+        <br>
+        &numsp;&numsp;&lt;body&gt;
+        <br>
+        &numsp;&numsp;&numsp;&lt;div class="web"&gt;
+        <br>
+
+        &numsp;&numsp;&numsp;&numsp;&lt;h1&gt;Using CSS&lt;/h2&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&lt;h2&gt;HTMl&lt;/h2&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&numsp;&lt;p&gt;HTML is the code that is used to structure web pages and its
+        content.&lt;/p&gt;
+        <br>
+        &numsp;&numsp;&numsp;&lt;/div&gt;
+        <br>
+
+        <br>
+        &numsp;&numsp;&numsp;&lt;div class="web"&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&lt;h2&gt;CSS&lt;/h2&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&numsp;&lt;p&gt;CSS is a launguge that is used to describe the style of a
+        document.&lt;/p&gt;
+        <br>
+        &numsp;&numsp;&numsp;&lt;/div&gt;
+        <br>
+
+        <br>
+        &numsp;&numsp;&numsp;&lt;div class="web"&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&lt;h2&gt;JavaScript&lt;/h2&gt;
+        <br>
+        &numsp;&numsp;&numsp;&numsp;&lt;p&gt;JavaScript is the programming language of the Web..&lt;/p&gt;
+        <br>
+        &numsp;&numsp;&numsp;&lt;/div&gt;
+        <br>
+        &numsp;&numsp;&lt;/body&gt;
+        <br>
+        &numsp;&lt;/html&gt;
+        <br>
+        <br>
+
+        <br><big>output:-</big>
+        <br>
+        <h1 style="text-align: center;">Using CSS</h1>
+        <div class="web">
+            <h2>HTML</h2>
+            <p>HTML is the code that is used to structure web pages and its content.</p>
+        </div>
+
+        <div class="web">
+            <h2>CSS</h2>
+            <p>CSS is a launguge that is used to describe the style of a document.</p>
+        </div>
+
+        <div class="web">
+            <h2>JavaScript</h2>
+            <p>JavaScript is the programming language of the Web..</p>
+        </div>
+        </p>
+
+    </div>
+
+</body>
+
+</html>
