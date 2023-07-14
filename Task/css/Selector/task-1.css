@@ -1,0 +1,30 @@
+h1{
+    background-color: rgb(35, 32, 10);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+div{
+    background-color:white ;
+    border: 2px solid rgb(4, 14, 32);
+    margin: auto;
+    margin-bottom: 2px;
+    padding: 10px;
+    width: 75%;
+    color: rgb(4, 4, 33);
+}
+
+.hover:hover{
+    background-image: url(https://th.bing.com/th/id/OIP.EFFgBM-u6QogSrCYn264CAHaEr?w=252&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size: cover;
+    color: rgb(44, 34, 11);
+    font-weight: 900;
+    border: none;
+}
+
+.active:active{
+    background-color: rgb(89, 59, 27);
+    color: white;
+    border-color: rgb(255, 255, 255);
+}
