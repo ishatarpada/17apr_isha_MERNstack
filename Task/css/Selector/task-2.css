@@ -1,0 +1,19 @@
+div {
+    height: 200px;
+    width: 250px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 75px;
+    background-color: rgb(17, 47, 47);
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+div:hover {
+    outline: 5px solid rgb(17, 47, 47);
+    outline-offset: 5px;
+    font-weight: 900;
+    font-size: 70px;
+}
