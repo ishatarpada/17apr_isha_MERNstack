@@ -1,0 +1,17 @@
+h1 , p{    
+    margin: auto;
+    width: 100%;
+    padding: 2px;
+    font-family: Georgia, serif;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(44, 8, 8);
+    color: white;
+}
+
+p{
+    margin-top: 20px;
+    color: rgb(44, 8, 8);
+}

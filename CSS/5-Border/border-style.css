@@ -1,0 +1,132 @@
+div {
+    border: 2px solid rgb(7, 42, 49);
+    height: 1200px;
+    width: 700px;
+    margin: auto;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: rgb(226, 244, 248);
+}
+
+h1 {
+    background-color: rgb(7, 42, 49);
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    color: rgb(7, 42, 49);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+li {
+    color: rgb(7, 42, 49);
+    font-weight: 600;
+}
+
+p.dotted {
+    border-width: 4px;
+    border-color: rgb(58, 98, 114);
+    padding: 5px;
+    font-weight: 500;
+    border-style: dotted;
+}
+
+p.dashed {
+    border-width: 4px;
+    border-color: rgb(58, 98, 114);
+    padding: 5px;
+    font-weight: 500;
+    border-style: dashed;
+}
+
+p.solid {
+
+    border-width: 4px;
+    border-color: rgb(58, 98, 114);
+    padding: 5px;
+    font-weight: 500;
+    border-style: solid;
+}
+
+p.double {
+
+    border-width: 4px;
+    border-color: rgb(58, 98, 114);
+    padding: 5px;
+    font-weight: 500;
+    border-style: double;
+}
+
+p.groove {
+
+    border-width: 4px;
+    border-color: rgb(58, 98, 114);
+    padding: 5px;
+    font-weight: 500;
+    border-style: groove;
+}
+
+p.ridge {
+
+    border-width: 4px;
+    border-color: rgb(58, 98, 114);
+    padding: 5px;
+    font-weight: 500;
+    border-style: ridge;
+}
+
+p.inset {
+
+    border-width: 4px;
+    border-color: rgb(58, 98, 114);
+    padding: 5px;
+    font-weight: 500;
+    border-style: inset;
+}
+
+p.outset {
+
+    border-width: 4px;
+    border-color: rgb(58, 98, 114);
+    padding: 5px;
+    font-weight: 500;
+    border-style: outset;
+}
+
+p.none {
+
+    border-width: 4px;
+    border-color: rgb(58, 98, 114);
+    padding: 5px;
+    font-weight: 500;
+    border-style: none;
+}
+
+p.hidden {
+
+    border-width: 4px;
+    border-color: rgb(58, 98, 114);
+    padding: 5px;
+    font-weight: 500;
+    border-style: hidden;
+}
+
+p::selection {
+    background-color: rgb(7, 42, 49);
+    color: white;
+}
+
+h1::selection {
+    background-color: rgb(7, 42, 49);
+    color: white;
+
+}
+
+li::selection {
+    color: white;
+    background-color: rgb(7, 42, 49);
+}

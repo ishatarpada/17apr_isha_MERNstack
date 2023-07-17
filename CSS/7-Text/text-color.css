@@ -1,0 +1,84 @@
+.color {
+    color: rgb(116, 8, 116);
+    height: 1000px;
+    border: 3px ridge rgb(116, 8, 116);
+}
+
+h1 {
+    margin: 5px;
+    background-color: rgb(116, 8, 116);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.div1 {
+    color: darkslategray;
+    height: 100px;
+    width: 200px;
+    margin:auto;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    background-color: rgb(178, 151, 178);
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div2 {
+    color: darkslategray;
+    height: 100px;
+    width: 200px;
+    margin:auto;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    background-color: rgb(178, 151, 178);
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div3 {
+    color: darkslategray;
+    height: 100px;
+    width: 200px;
+    margin:auto;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    background-color: rgb(178, 151, 178);
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div1:hover{
+    height: 120px;
+    width: 250px;
+    font-weight: 900;
+    color: white;
+    padding:50px;
+    border: 3px ridge rgb(239, 20, 239);
+}
+
+.div2:hover{
+    height: 120px;
+    width: 250px;
+    font-weight: 900;
+    color: white;
+    padding:50px;
+    border: 3px ridge rgb(239, 20, 239);
+}
+
+.div3:hover{
+    height: 120px;
+    width: 250px;
+    font-weight: 900;
+    color: white;
+    padding:50px;
+    border: 3px ridge rgb(239, 20, 239);
+}

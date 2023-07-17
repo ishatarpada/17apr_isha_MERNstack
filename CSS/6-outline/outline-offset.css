@@ -1,0 +1,40 @@
+.offset {
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    border: 5px outset rgb(252, 153, 4);
+}
+
+div {
+    margin: 5px;
+}
+
+h1 {
+    background-color: rgb(247, 152, 20);
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+p {
+    color: rgb(251, 117, 6);
+    padding: 2px;
+    margin: 5px;
+}
+
+.example {
+    margin: 30px;
+    border: 3px solid black;
+    outline: 3px solid red;
+    outline-offset: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+.example:hover {
+    height: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+}

@@ -1,0 +1,50 @@
+h1 {
+    background-color: rgb(49, 7, 34);
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.p1 {
+    color: rgb(73, 17, 44);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.p2{
+    color: rgb(73, 17, 44);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {
+    color: rgb(73, 17, 44);
+}
+
+div {
+    border: 2px solid rgb(73, 17, 44);
+    height: 900px;
+    width: 700px;
+    margin: auto;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: rgb(231, 225, 231);
+}
+
+p::selection {
+    background-color: rgb(73, 17, 44);
+    color: white;
+}
+
+h1::selection {
+    background-color: rgb(73, 17, 44);
+    color: white;
+
+}
+
+li::selection {
+    color: white;
+    background-color: rgb(73, 17, 44);
+}
