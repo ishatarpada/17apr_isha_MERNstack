@@ -1,0 +1,15 @@
+10. What is trigger and how to create a Trigger in SQL?
+
+=>a trigger is a database object that is associated with a table and automatically executed or fired in response to specific data manipulation events, such as INSERT, UPDATE, or DELETE operations on the table.
+=> create a trigger:-
+    DELIMITER $$
+	CREATE TRIGGER `mytrig` AFTER INSERT ON `course` FOR EACH ROW 
+    
+    BEGIN
+    
+    	INSERT into `course` SET id = new.sid ;
+    	
+    END$$
+    
+    INSERT INTO course (id , name )
+    VALUES ('1' , 'isha');

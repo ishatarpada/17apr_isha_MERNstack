@@ -1,0 +1,85 @@
+1.
+
+USE data;
+
+CREATE TABLE Employee
+(
+	Employee_id INT(5),
+    First_Name VARCHAR(50),
+    Last_Name VARCHAR(50),
+    Sallery INT(10),
+    Joining_Date TIMESTAMP(20),
+    Department VARCHAR(20)
+);
+
+INSERT INTO  Employee(Employee_id , First_Name , Last_Name , Sallery , Joining_Date , Department )
+VALUES('1', 'John' , 'Abraham' , '1000000' , '01-JAN-13 12.00.00 AM ' , 'Banking'),
+('2' , 'Michael' , 'Clarke' , '800000' , '01-JAN-13 12.00.00 AM' , 'Insurance'),
+('3' , 'Roy' , 'Thomas' , '700000' , '01-FEB-13 12.00.00 AM' , 'Banking'),
+('4' , 'Tom' , 'Jose' , '600000' , '01-FEB-13 12.00.00 AM' , 'Insurance'),
+('5' , 'Jerry' , 'Pinto' , '650000' , '01-FEB-13 12.00.00 AM' , 'Insurance'),
+('6' , 'Philip' , 'Mathew' , '750000' , '01-JAN-13 12.00.00 AM' , 'Services'),
+('7' , 'TestName1' , '123' , '650000' , '01-JAN-13 12.00.00 AM' , 'Services'),
+('8' , 'TestName2' , 'Lname%' , '600000' , '01-FEB-13 12.00.00 AM' , 'Insurance');
+
+SELECT *FROM Employee;
+
+2.
+
+
+USE data;
+
+CREATE TABLE Incentive
+( 
+ Employee_ref_id INT(5),
+ Incentive_date VARCHAR(10),
+ Incentive_amount INT(5)
+ );
+ 
+INSERT INTO Incentive (Employee_ref_id , Incentive_date , Incentive_amount)
+VALUES('1' , '01-FEB-13' , '5000'),
+('2' , '01-FEB-13' , '3000'),
+('3' , '01-FEB-13' , '4000'),
+('1' , '01-JAN-13' , '4500'),
+('2' , '01-JAN-13' , '3500');
+
+SELECT *FROM Incentive;
+
+
+
+QUESTION:
+
+a) Get First_Name from employee table using Tom name “Employee Name”. 
+=> SELECT First_Name FROM Employee;
+
+b) Get FIRST_NAME, Joining Date, and Salary from employee table.
+=> SELECT First_Name , Joining_Date , Sallery FROM Employee;
+
+c) Get all employee details from the employee table order by First_Name Ascending and Salary descending?
+=> SELECT * FROM employee ORDER BY First_Name ASC, Sallery DESC;
+
+d) Get employee details from employee table whose first name contains ‘J’.
+=> SELECT *FROM employee WHERE First_Name LIKE '%J%';
+
+e) Get department wise maximum salary from employee table order by salary ascending?
+=> SELECT MAX(Sallery) as Max_Salary FROM Employee GROUP BY Department ORDER BY Max_Salary ASC;
+
+f) Select first_name, incentive amount from employee and incentives table for those employees who have incentives and incentive amount greater than 3000
+=>  SELECT First_Name , Incentive_amount
+    FROM Employee 
+    INNER JOIN Incentive
+    ON Employee.First_Name = Incentive.Incentive_amount
+    WHERE Incentive_amount > 3000;
+
+g) Create After Insert trigger on Employee table which insert records in view table
+=> DELIMITER $$
+	CREATE TRIGGER `mytrig` AFTER INSERT ON `Employee` FOR EACH ROW 
+    
+    BEGIN
+    
+    	INSERT into `Employee` SET Employee_id = new.Employee_id ,First_Name = new.First_Name , Last_Name = new.Last_Name , Sallery = new.Sallery ,Joining_Date = new.Joining_Date , Department = new.Department ;
+    
+        INSERT INTO Employee (Employee_id, First_Name, Last_Name , Sallery , Joining_Date , Department)
+        VALUES ( NEW.Employee_id , NEW.First_Name , NEW.Last_Name , NEW.Sallery , NEW.Joining_Date , NEW.Department);
+
+	END$$
