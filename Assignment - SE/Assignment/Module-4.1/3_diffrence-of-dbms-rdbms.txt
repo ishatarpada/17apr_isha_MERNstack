@@ -1,9 +1,0 @@
-3.What is Difference between DBMS and RDBMS?
-
-                        DBMS                            |                                              
--> database mangement system                            |-> Relational Database mangement system.
--> in DBMS data are store as a file.                    |-> in RDBMS data are store in tabular form.
--> Normalization is not available in DBMS.              |-> Normalization is available in RDBMS.
--> It allows one user at a time.                        |-> It  allows more than one users at a time.
--> hireachical arrangment of data.                      |-> stores data in the form of rows and columns.
--> Data redundancy problem exist.                       |-> data redundancy problem does not exists.

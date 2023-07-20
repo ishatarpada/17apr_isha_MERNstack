@@ -1,6 +1,0 @@
-What do you understand By Database?
-
--> Database is collection of data .
--> so we can easily managed or accessed the data.
--> we can easily and quickly find acess the needed data.
--> The main purpose of the Database is to efficiency storing , retrieving and managing the data and large amount of information.
