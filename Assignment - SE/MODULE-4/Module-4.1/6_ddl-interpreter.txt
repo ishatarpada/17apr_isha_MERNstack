@@ -2,3 +2,87 @@
 
 => A DDL Data Definition Language interpreter is a component or module within a database management system (DBMS) that processes and executes DDL statements. 
 => DDL statements are used to define the structure and schema of a database, including creating, modifying, and deleting database objects such as tables, views, indexes, and constraints.
+
+=> DDL statements:-
+
+    CREATE database:- This command is used to create the database or its objects (like table, index, function, views, store procedure, and triggers).   
+            syntex:-
+                CREATE DATABASE database_name;
+            example:-
+                CREATE DATABASE temp;
+
+
+    use database:-
+	        syntex:-
+                USE database_name ;
+            example:-
+                USE temp ;
+
+    DROP: This command is used to delete objects from the database.
+        Drop Table:- To delete the table
+			syntex:-
+				DROP TABLE `TABLE_NAME`;
+            example:-
+                 DROP TABLE student ;  
+        Drop database:- To delete the database
+			syntex:-
+				DROP DATABASE `database_name`;
+            example:-
+                DROP DATABASE `temp`;
+
+
+    ALTER: This is used to alter the structure of the database.\
+    Add primary using ALTER:-
+					-> uniquely identifies each record in a table.
+                    -> Primary keys must contain UNIQUE values, and cannot contain NULL values.
+					syntex:-
+							ALTER TABLE TABLE_NAME ADD PRIMARY KEY (`COLUMN_name`);
+                    example:-
+                            ALTER TABLE student ADD PRIMARY KEY(sphone); 
+    Add unique key using ALTER:-
+		            -> all values in a column are different.
+		            syntex:-
+			            ALTER TABLE TABLE_NAME ADD UNIQUE KEY (`COLUMN_name`); 
+                    example:-
+                        ALTER TABLE student ADD UNIQUE KEY(sid);
+                    ALTER TABLE `student` CHANGE `sid` `sid` int ('5')  AUTO_INCREMENT;
+    ADD FOREIGN KEY using ALTER:-
+                    syntex:
+                    ALTER TABLE `salary` ADD FOREIGN KEY (`column_name`) REFERENCES `REFERENCE_table_name` (`column_name`);
+                    example:
+                    ALTER TABLE `course` ADD FOREIGN KEY (`sid`) REFERENCES `student` (`sid`);
+    Add AUTO_INCREMENT:-
+			    ->AUTO_INCREMENT column default value must be not_null 
+                synetx:- 
+					ALTER TABLE `table_name` CHANGE `old_column_name` `new_column_name` data_type (size)  AUTO_INCREMENT;
+                example:-
+                    ALTER TABLE `student` CHANGE `sid` `s_id` int (5)  AUTO_INCREMENT;
+
+    RENAME:This is used to rename an object existing in the database.
+    Rename table using ALTER:-
+                synetx:-
+                    ALTER TABLE table_name RENAME TO new_table_name;
+                example:-
+                    ALTER TABLE student RENAME TO student_info;
+    Rename column using ALTER:-
+                synetx:-
+                    ALTER TABLE table_name CHANGE COLUMN old_column_name new_column_name data_type (size);
+                example:-
+                    ALTER TABLE student CHANGE COLUMN sid s_id int (5);
+    Rename table and column using ALTER:-
+                synetx:-
+                    ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name;
+                example:-
+                    ALTER TABLE student_info RENAME COLUMN sid TO s_id;
+    Change Data Type using ALTER:-
+                synetx:-
+                    ALTER TABLE table_name MODIFY COLUMN old_column_name data_type (size);
+                example:-
+                    ALTER TABLE student_info MODIFY COLUMN sid int (5);
+
+
+    TRUNCATE: This is used to remove all records from a table, including all spaces allocated for the records are removed.
+                synetx:-
+                    TRUNCATE TABLE `TABLE_NAME`;
+                example:-
+                    TRUNCATE TABLE `student_info`;
