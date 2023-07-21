@@ -32,7 +32,7 @@ USE data;
 CREATE TABLE Incentive
 ( 
  Employee_ref_id INT(5),
- Incentive_date VARCHAR(10),
+ Incentive_date DATETIME(10),
  Incentive_amount INT(5)
  );
  
