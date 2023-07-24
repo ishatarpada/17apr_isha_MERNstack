@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-Image-Slice</title>
+    <link rel="stylesheet" href="slice.css">
+</head>
+
+<body>
+    <div class="slice">
+        <h1>border-image-slice</h1>
+        <p>
+            &#x21e5; &numsp;The border-image-slice property specifies how to slice the image specified by
+            border-image-source. The image is always sliced into nine sections: four corners, four edges and the middle.
+            <br>
+            &#x21e5; &numsp;The "middle" part is treated as fully transparent, unless the fill keyword is set.
+        </p>
+        <h3>&numsp;&numsp;Syntex:- border-image-slice: number|%|fill ;</h3>
+        <ul>
+            <li>number :- The number(s) represent pixels for raster images or coordinates for vector images</li>
+            <li>% :- Percentages are relative to the height or width of the image</li>
+            <li>fill :- Causes the middle part of the image to be displayed</li>
+        </ul>
+        <div id="b1" class="example">border-image-slice: 30;</div>
+        <br>
+        <div id="b2" class="example"> border-image-slice: 30 10;</div>
+        <br>
+        <div id="b3" class="example"> border-image-slice: 30%;</div>
+        <br>
+        <div id="b4" class="example">border-image-slice: 30% 50%;</div>
+        <br>
+        <div id="b5" class="example">border-image-slice: fill;</div>
+        <br>
+    </div>
+</body>
+
+</html>

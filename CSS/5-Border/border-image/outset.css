@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+.outset {
+    border: 2px solid black;
+    height: 2300px;
+    margin: auto;
+    background-color: rgb(201, 201, 242);
+}
+
+h1 {
+    background-color: rgb(20, 37, 50);
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.example {
+    height: 300px;
+    width: 600px;
+    color: white;
+    margin: auto;
+    background-color: rgb(48, 48, 92);
+    border: 15px solid transparent;
+    padding: 15px;
+    line-height: 300px;
+    text-align: center;
+    background-attachment: fixed;
+    border-image-source: url('../../../image/border-1.png');
+    border-image-repeat: round;
+    border-image-width: 1;
+    border-image-slice: 30;
+    margin-bottom: 30px;
+}
+
+#b1 {
+    border-image-outset: 5px;
+}
+
+#b2 {
+    border-image-outset: 10px;
+}
+
+#b3 {
+    border-image-outset: 10px 5px;
+}
+
+#b4 {
+    border-image-outset: 10px 5px 15px 5px;
+}
+
+#b5{
+    border-image-outset: 2;
+}
