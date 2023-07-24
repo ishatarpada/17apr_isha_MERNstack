@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repeating linear grediant</title>
+    <link rel="stylesheet" href="repeating-linear-grediant.css">
+</head>
+
+<body>
+    <div class="linear">
+        <h1>Background Image - linear-grediant</h1>
+        <p>
+            &#x21e5; &numsp;The repeating-linear-gradient() function is used to repeat linear gradients.
+        </p>
+
+        <div class="syntex">
+            &#x21e5; &numsp; <b>SYNTEX:-</b>
+            <br>
+            &numsp;&numsp;&numsp;&#10561; <big><b><u>background-image: repeating-linear-gradient(angle | to
+                        side-or-corner, color-stop1, color-stop2, ...);</u></b></big>
+            <br><br>
+            <div class="lg1"></div>
+            <ul>
+                <li><big><b>angle</b></big>
+                    <br>
+                    &#8692; Defines an angle of direction for the gradient. From 0deg to 360deg. Default is 180deg.
+                </li>
+                <li><big><b>side-or-corner</b></big>
+                    <br>
+                    &#8692; Defines the position of the starting-point of the gradient line. It consists of two
+                    keywords: the first one indicates the horizontal side, left or right, and the second one the
+                    vertical side, top or bottom. The order is not relevant and each of the keyword is optional.
+                </li>
+                <li><big><b>color-stop1, color-stop2,...</b></big>
+                    <br>
+                    &#8692; Color stops are the colors you want to render smooth transitions among. This value consists
+                    of a color value, followed by an optional stop position (a percentage between 0% and 100% or a
+                    length along the gradient axis).
+                </li>
+            </ul>
+            <hr>
+
+            &#x21e5; <b><u>example:-</u></b>
+            <p style="font-size: 25px;">
+                &#x21e5; A repeating gradient on 45deg axe starting red and finishing blue::
+            </p>
+            <p><big><b>
+                        &numsp; &numsp; &#x21e5;
+                        background-image: repeating-linear-gradient(45deg, indigo, blue 7%, aqua 10%);</b></big></p>
+            <div class="image1"></div>
+            <hr>
+
+            <p style="font-size: 25px;">&#x21e5; repeating gradient on 190deg axe starting red and finishing blue:
+            </p>
+            <p><big><b>
+                        &numsp; &numsp; &#x21e5;
+                        background-image: linear-gradient(to bottom right, red , blue);</b></big></p>
+            <div class="image2"></div>
+            <hr>
+
+            <p style="font-size: 25px;">&#x21e5; A repeating gradient on 90deg axe starting red and finishing blue::</p>
+            <p><big><b>
+                        &numsp; &numsp; &#x21e5;background-image: linear-gradient(0deg, red, blue);
+                    </b></big></p>
+            <div class="image3"></div>
+        </div>
+</body>
+
+</html>

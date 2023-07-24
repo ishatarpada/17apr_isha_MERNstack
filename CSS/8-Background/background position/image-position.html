@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-Position</title>
+    <link rel="stylesheet" href="iamge-position.css">
+</head>
+
+<body>
+    <div class="position">
+        <h1>Background Position</h1>
+        <p>
+            &#9763; &numsp; The background-position property sets the starting position of a background image.
+            <br>
+            &#9763; &numsp; By default, a background-image is placed at the top-left corner of an element, and repeated
+            both vertically and horizontally.
+        </p>
+
+        <p>
+            &#10022; &numsp; Syntex:-
+            <br>
+            &numsp; &numsp; &numsp; &#9763; background-position: value;
+        </p>
+
+        <ul>
+            <li>
+                If you only specify one keyword, the other value will be "center".
+                <ul>
+                    <li>left top</li>
+                    <li>left center</li>
+                    <li>left bottom</li>
+                    <li>right top</li>
+                    <li>right center</li>
+                    <li>right bottom</li>
+                    <li>center top</li>
+                    <li>center center</li>
+                    <li>center bottom</li>
+                </ul>
+            </li>
+            <br>
+            <li><big><b>x% y%</b></big>
+                <br>
+                &#8692; The first value is the horizontal position and the second value is the vertical. The top left
+                corner is 0% 0%. The right bottom corner is 100% 100%. If you only specify one value, the other value
+                will be 50%. Default value is: 0% 0%
+            </li>
+            <br>
+            <li><big><b>xpos ypos</b></big>
+                <br>
+                &#8692; The first value is the horizontal position and the second value is the vertical. The top left
+                corner is 0 0. Units can be pixels (0px 0px) or any other CSS units. If you only specify one value, the
+                other value will be 50%. You can mix % and positions
+            </li>
+            <br>
+        </ul>
+        <hr>
+
+        <p>
+            <big>&#x21e5; &numsp; the background image will be positioned top left or top right or top center .</big>
+            <br>
+            &numsp; &numsp;&numsp;&#9763;background-position: top left; / top right / top center
+        </p>
+        <div class="pos1">
+            <div class="img1">top left</div>
+            <div class="img2">top center</div>
+            <div class="img3">top right</div>
+        </div>
+        <hr>
+
+        <p>
+            <big>&#x21e5; &numsp; the background image will be positioned bottom right.</big>
+            <br>
+            &numsp; &numsp;&numsp;&#9763;background-position: bottom right;
+        </p>
+        <div class="pos2">
+            <div class="img4">bottom right</div>
+            <div class="img5">bottom center</div>
+            <div class="img6">bottom left</div>
+        </div>
+        <hr>
+
+        <p>
+            <big>&#x21e5; &numsp; the background image will be positioned in the center of the element, using
+                percent.</big>
+            <br>
+            &numsp; &numsp;&numsp;&#9763;background-position: 50% 50%;
+        </p>
+        <div class="pos3"></div>
+        <hr>
+
+        <p>
+            <big>&#x21e5; &numsp; the background image is positioned 50px from the left, and 150px down from the
+                top.</big>
+            <br>
+            &numsp; &numsp;&numsp;&#9763;  background-position: 15px 15px; 
+        </p>
+        <div class="pos4"></div>
+        <hr>
+
+        <p>
+            <big>&#x21e5; &numsp; the background image will be positioned center.</big>
+            <br>
+            &numsp; &numsp;&numsp;&#9763;background-position: center;
+        </p>
+        <div class="pos5">
+            <div class="img7">center left</div>
+            <div class="img8">center center</div>
+            <div class="img9">center right</div>
+        </div>
+    </div>
+</body>
+
+</html>

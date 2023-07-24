@@ -1,0 +1,154 @@
+div {
+    height: 850px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(214, 219, 234);
+}
+
+h1 {
+    margin: 5px;
+    background-color: rgb(10, 12, 52);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px;
+    text-shadow: 5px 5px 5px rgb(82, 86, 150);
+}
+
+p {
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-weight: 800;
+}
+
+.color {
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: rgb(10, 12, 52);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.color:hover {
+    border: 2px solid rgb(68, 80, 154);
+    height: 120px;
+    width: 90%;
+}
+
+.hex {
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: #000072;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.hex:hover {
+    border: 2px solid rgb(47, 54, 101);
+    height: 120px;
+    width: 80%;
+}
+
+.rgb {
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: rgb(47, 47, 166);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.rgb:hover {
+    border: 2px solid rgb(47, 54, 101);
+    height: 120px;
+    width: 90%;
+}
+
+.image{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+    background-image: url(../../image/nature-1.jpg);
+    background-size: cover;
+}
+
+.image:hover {
+    border: 2px solid rgb(47, 54, 101);
+    height: 120px;
+    width: 80%;
+}
+
+.rgba {
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(14, 30, 134, 0.532);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    border: none;
+}
+
+.rgba:hover {
+    height: 120px;
+    width: 100%;
+}
+
+.hsl {
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: hsl(240, 45%, 26%);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.hsl:hover {
+    border: 2px solid rgb(47, 54, 101);
+    height: 120px;
+    width: 90%;
+}
+.image{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+    background-image: url(../../image/nature-1.jpg);
+    background-size: cover;
+}
+
+.image:hover {
+    border: 2px solid rgb(47, 54, 101);
+    height: 120px;
+    width: 80%;
+}
+
+.hsla {
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    background-color: hsla(240, 45%, 26%,0.5);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    border: none;
+}
+
+.hsla:hover {
+    height: 120px;
+    width: 100%;
+}

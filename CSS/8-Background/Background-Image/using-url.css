@@ -1,0 +1,40 @@
+body{
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+h1{
+    background-color: rgba(6, 69, 83, 0.7);
+    color: white;
+    margin: 15px;
+    text-align: center;
+}
+
+p{
+    color:black;
+    margin: auto;
+    font-weight: 900;
+}
+
+.image{
+    background-image: url('../../../image/cartoon-1.webp');
+    height: 400px;
+    width: 750px;
+    margin: 25px auto;
+    background-size: cover;
+    border: 5px ridge teal;
+}
+
+.image:hover{
+    height: 500px;
+    width: 850px;
+}
+
+div{
+    border:5px solid teal;
+    margin:5px;
+    padding: 5px;
+}

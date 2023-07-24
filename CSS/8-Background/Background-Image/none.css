@@ -1,0 +1,32 @@
+.none{
+    height: 400px;
+    margin: auto;
+    border: 3px ridge black;
+    border-radius: 5px 5px;
+}
+
+h1{
+    background-color: rgb(10, 4, 44);
+    color: white;
+    text-align: center;
+    margin: 15px;
+    border: 2px solid rgb(10, 4, 44);
+    border-radius: 50px 5px;
+}
+
+p{
+    color: rgb(10, 4, 44);
+    font-size: 25px;
+}
+
+.example{
+    height: 150px;
+    width: 300px;
+    margin: auto;
+    border: 2px inset gray;
+}
+
+.example:hover{
+    height: 200px;
+    width: 400px;
+}
