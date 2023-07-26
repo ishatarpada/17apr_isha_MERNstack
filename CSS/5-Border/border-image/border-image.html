@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border image</title>
+    <link rel="stylesheet" href="border-image.css">
+</head>
+
+<body>
+    <div class="border">
+        <h1>Border-Image</h1>
+        <p>
+            &#x21e5; &numsp;The border-image property allows you to specify an image to be used as the border around an
+            element.
+        </p>
+        <h3>&numsp;&numsp;Syntex:- border-image: source slice width outset repeat ;</h3>
+        &#x21e5 &numsp; The border-image property is a shorthand property for:
+        <ul>
+            <li><a href="source.html" target="_blank">border-image-source</a> :- The path to the image to be used as a
+                border</li>
+            <li><a href="slice.html" target="_blank">border-image-slice </a> :- How to slice the border image</li>
+            <li><a href="width.html" target="_blank">border-image-width</a> :- The width of the border image</li>
+            <li> <a href="outset.html" target="_blank">border-image-outset</a> :- The amount by which the border image
+                area extends beyond the border box</li>
+            <li><a href="repeat.html" target="_blank">border-image-repeat</a> :- Whether the border image should be
+                repeated, rounded or stretched</li>
+        </ul>
+
+        <div id="b1" class="example">border-image: url('../../image/border-1.png') 30 round;</div>
+        <br>
+        <hr><br>
+        <div id="b2" class="example">border-image: url('../../image/border-1.png') 30% round</div>
+        <br>
+        <hr><br>
+        <div id="b3" class="example">border-image: url('../../image/border-1.png') 50% round</div>
+        <br>
+        <hr><br>
+        <div id="b4" class="example">
+            border-image-source:url('../../image/border-1.png');<br>
+            border-image-repeat: stretch;<br>
+            border-image-slice: 35;<br>
+            border-image-width: 20px;<br>
+            border-image-outset: 10px 5px 15px 5px;<br>
+        </div>
+        <br>
+        <hr><br>
+        <div id="b5" class="example">
+            border-image-source:url('../../image/border-1.png'); <br>
+            border-image-slice: 30; <br>
+            border-image-width: 10px; <br>
+            border-image-repeat: round;
+        </div>
+    </div>
+</body>
+
+</html>

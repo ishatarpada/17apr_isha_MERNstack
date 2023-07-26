@@ -1,0 +1,104 @@
+p.one {
+    border-style: solid;
+    border-color: red;
+}
+
+p.two {
+    border-style: solid;
+    border-color: green;
+}
+
+p.three {
+    border-style: dotted;
+    border-color: blue;
+}
+
+.border {
+    height: 2050px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(246, 241, 235);
+}
+
+h1 {
+    background-color: rgb(59, 45, 7);
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: rgb(59, 45, 7);
+}
+
+ul {
+    color: rgb(59, 45, 7);
+}
+
+.br {
+    margin: auto;
+    height: 130px;
+    width: 130px;
+    background-color: rgb(212, 164, 33);
+    text-align: center;
+    padding: 20px;
+    font-size: 100px;
+    font-weight: 500px;
+}
+
+.br:hover {
+    height: 150px;
+    width: 150px;
+    font-weight: 900;
+}
+
+.b1 {
+    height: 420px;
+    border: 2px solid rgb(59, 45, 7);
+    margin: 5px;
+}
+
+#br1 {
+    border-radius: 15px 50px 30px 5px;
+    border: 2px solid rgb(59, 45, 7);
+    border-width: thin medium thick 10px;
+    border-color: red blue green brown;
+}
+
+.b2 {
+    height: 420px;
+    border: 2px solid rgb(59, 45, 7);
+    margin: 5px;
+}
+
+#br2 {
+    border-radius: 15px 50px 30px;
+    border: 2px solid rgb(59, 45, 7);
+    border-width: thin medium thick;
+    border-color: red rgb(71, 55, 26) brown;
+}
+.b3 {
+    height: 420px;
+    border: 2px solid rgb(59, 45, 7);
+    margin: 5px;
+}
+
+#br3 {
+    border-radius: 25px 50px;
+    border: 2px solid rgb(59, 45, 7);
+    border-width: thin medium;
+    border-color: red blue;
+}
+
+.b4 {
+    height: 400px;
+    border: 2px solid rgb(59, 45, 7);
+    margin: 4px;
+}
+
+#br4 {
+    border-radius: 15px;
+    border-width: thin;
+    border-color: black;
+    border: 2px solid rgb(59, 45, 7);
+}
