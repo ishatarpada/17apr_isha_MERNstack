@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+.marker{
+    border: 2px solid black;
+    margin: auto;
+    height: 500px;
+}
+
+h1 {
+    margin: 5px;
+    background-color: rgb(36, 11, 22);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.list{
+    border: 5px ridge rgb(34, 9, 27);
+    width: 300px;
+    margin: auto ;
+    padding-left: 150px;
+    height: 150px;
+    padding-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+::marker{
+    color: rgb(73, 29, 52);
+}

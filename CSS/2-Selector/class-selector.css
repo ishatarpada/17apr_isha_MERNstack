@@ -1,0 +1,14 @@
+.selector {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    background-color: rgb(50, 7, 64);
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: rgb(50, 7, 64);
+    text-align: left;
+}
