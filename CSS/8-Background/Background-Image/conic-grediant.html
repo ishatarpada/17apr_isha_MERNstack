@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conic-Grediant</title>
+    <link rel="stylesheet" href="conic-grediant.css">
+</head>
+
+<body>
+    <div class="conic">
+        <h1>Background Image - conic-grediant</h1>
+        <p>&#8620; &numsp;The conic-gradient() function sets a conic gradient as the background image.
+            <br>
+            &#8620; &numsp;A conic gradient is a gradient with color transitions rotated around a center point.
+            <br>
+            &#8620; &numsp;To create a conic gradient you must define at least two color stops.
+        </p>
+
+        <div class="syntex">
+            &#x21e5; &numsp; <b>SYNTEX:-</b>
+            <br>
+            &numsp;&numsp;&numsp;&#10561; <big><b><u>background-image: repeating-conic-gradient([from angle] [at position,] color degree, color degree, ...);</u></b></big>
+            <br><br>
+            <div class="rg1"></div>
+            <ul>
+                <li><big><b>from angle</b></big>
+                    <br>
+                    &#8692; Optional. The entire conic gradient is rotated by this angle. Default value is 0deg
+                </li>
+                <br>
+                <li><big><b>color degree, ..., color degree	</b></big>
+                    <br>
+                    &#8692; Color stops are the colors you want to render smooth transitions among. This value consists
+                    of a color value, followed by an optional stop position (a percentage between 0% and 100% or a
+                    length along the gradient axis).
+                </li>
+                <br>
+                <li><big><b>at position</b></big>
+                    <br>
+                    &#8692; Defines the position of the gradient. Default is "center"Optional. Specifies the gradient center of the conic gradient. Default value is center
+                </li>
+            </ul>
+
+        &#x21e5; <b><u>example:-</u></b>
+        <p><big><b>
+                    &numsp; &numsp; &#x21e5; background-image: conic-gradient(teal, rgb(8, 57, 57), rgb(18, 57,
+                    57));
+                </b></big></p>
+        <div class="image"></div>
+
+        <hr>
+        &#x21e5; <b><u>A conic gradient with five colors:</u></b>
+        <p><big><b>
+                    &numsp; &numsp; &#x21e5; background-image: conic-gradient(red, yellow, green, blue, black);
+                </b></big></p>
+        <div class="image1"></div>
+
+        <hr>
+        &#x21e5; <b><u>A conic gradient with three colors and a degree for each color:</u></b>
+        <p><big><b>
+                    &numsp; &numsp; &#x21e5; background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg)
+                </b></big></p>
+        <div class="image2"></div>
+
+        <hr>
+        &#x21e5; <b><u>Make the conic gradient look like a pie by adding border-radius: 50%:</u></b>
+        <p><big><b>
+                    &numsp; &numsp; &#x21e5; background-image: conic-gradient(red, yellow, green, blue, black);
+                </b></big></p>
+        <div class="image3"></div>
+
+        <hr>
+        &#x21e5; <b><u>A conic gradient with a from angle:</u></b>
+        <p><big><b>
+                    &numsp; &numsp; &#x21e5; background-image: conic-gradient(from 90deg, red, yellow, green);
+                </b></big></p>
+        <div class="image4"></div>
+
+        <hr>
+        &#x21e5; <b><u>A conic gradient with an at position:</u></b>
+        <p><big><b>
+                    &numsp; &numsp; &#x21e5; background-image: conic-gradient(at 60% 45%, red, yellow, green);
+                </b></big>
+        </p>
+        <div class="image5"></div>
+
+        <hr>
+        &#x21e5; <b><u>A conic gradient with both from angle and at position:</u></b>
+        <p><big><b>
+                    &numsp; &numsp; &#x21e5; background-image: conic-gradient(from 90deg at 60% 45%, red, yellow,
+                    green);
+                </b></big></p>
+        <div class="image6"></div>
+
+        <hr>
+        &#x21e5; <b><u>Another pie chart:</u></b>
+        <p><big><b>
+                    &numsp; &numsp; &#x21e5; background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow
+                    180deg, green 180deg);
+                </b></big></p>
+        <div class="image7"></div>
+    </div>
+</body>
+
+</html>

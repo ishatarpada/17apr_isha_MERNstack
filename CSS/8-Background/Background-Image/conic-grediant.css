@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(8, 57, 57);
+}
+
+.conic {
+    border: 2px solid black;
+    height: 3050px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    background-color: rgb(8, 57, 57);
+    color: white;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+p {
+    color: rgb(8, 57, 57);
+    font-size: 18px;
+}
+
+u {
+    font-size: 25px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: conic-gradient(teal, rgb(8, 57, 57), rgb(18, 57, 57));
+}
+
+.image:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: conic-gradient(teal, rgb(8, 57, 57), rgb(18, 57, 57));
+}
+
+.image:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image1 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: conic-gradient(red, yellow, green, blue, black);
+    ;
+}
+
+.image1:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image2 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: conic-gradient(darkcyan 70deg, teal 90deg, darkturquoise 210deg);
+}
+
+.image2:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image3 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: conic-gradient(red, yellow, green, blue, black);
+}
+
+.image3:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image4 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+}
+
+.image4:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image5 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: conic-gradient(at 60% 45%, red, yellow, green);
+}
+
+.image5:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image6 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: conic-gradient(from 90deg at 60% 45%, red, yellow, green);
+}
+
+.image6:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image7 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: conic-gradient(teal 0deg, teal 90deg, aqua 90deg, aqua 180deg, darkcyan 180deg);
+}
+
+.image7:hover {
+    height: 250px;
+    width: 250px;
+}

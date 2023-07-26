@@ -1,0 +1,182 @@
+* {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.redial {
+    height: 2000px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(214, 219, 234);
+}
+
+h1 {
+    margin: 5px;
+    background-color: rgb(6, 35, 42);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px;
+    text-shadow: 5px 5px 5px rgb(18, 100, 120);
+}
+
+p {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.rg1 {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: radial-gradient(rgb(21, 115, 136), rgb(16, 97, 115), rgb(9, 62, 74), rgb(5, 40, 48));
+}
+
+.rg2 {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: radial-gradient(deeppink 5%, pink 15%, darkviolet 60%);
+}
+
+.rg3 {
+    height: 250px;
+    width: 450px;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+}
+
+
+#rg5 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image:radial-gradient(deeppink, darkslategrey);
+    text-align: center;
+    line-height: 200px;
+    color: white;
+}
+
+
+#rg6 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: radial-gradient(circle, deeppink, darkslategrey);
+    text-align: center;
+    line-height: 200px;
+    color: white;
+}
+
+
+.rg4 {
+    height: 250px;
+    width: 900px;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+}
+
+#rg1 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: radial-gradient(closest-side at 60% 55%,red,orange,yellow,black);
+    text-align: center;
+    line-height: 200px;
+    color: darkslategrey;
+}
+
+
+#rg2 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: radial-gradient(farthest-side at 60% 55%,red,orange,yellow,black);
+    text-align: center;
+    line-height: 200px;
+    color: darkslategrey;
+}
+
+
+
+#rg3 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: radial-gradient(closest-corner at 60% 55%,red,orange,yellow,black);
+    text-align: center;
+    line-height: 200px;
+    color: darkslategrey;
+}
+
+
+#rg4 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 200px;
+    color: darkslategrey;
+    background-image: radial-gradient(farthest-corner at 60% 55%,red,orange,yellow,black);
+}
+
+.rg5 {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: linear-gradient(90deg, aquamarine, darkslategrey);
+}
+
+
+.rg6 {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.rg6 {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, rgba(55, 23, 239, 0), rgb(7, 3, 68, 1));
+}
+
+.rg1:hover {
+    height: 250px;
+    width: 350px;
+}
+
+
+.rg2:hover {
+    height: 250px;
+    width: 350px;
+}
+
+
+.rg3:hover {
+    height: 300px;
+    width: 500px;
+}
+
+
+.rg4:hover {
+    height: 300px;
+    width: 930px;
+}

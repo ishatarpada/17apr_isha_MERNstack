@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.linear {
+    border: 2px solid black;
+    height: 2750px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(182, 182, 219);
+}
+
+h1 {
+    background-color: rgb(17, 9, 52);
+    color: white;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+p {
+    color: rgb(14, 6, 56);
+    font-size: 18px;
+}
+
+u {
+    font-size: 25px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: linear-gradient(blueviolet, blue , aqua);
+    border-radius: 5px 50px;
+}
+
+.image:hover {
+    height: 250px;
+    width: 250px;
+}
+
+.image1{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+}
+
+.left {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: linear-gradient(to left , red, yellow, orange);
+    line-height: 200px;
+    border-radius: 50px 5px;
+    text-align: center;
+}
+
+.left:hover {
+    height: 250px;
+    width: 250px;
+}
+
+.right {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: linear-gradient(to right , red, yellow, orange);
+    border-radius:5px 50px ;
+    text-align: center;
+    line-height: 200px;
+}
+
+.right:hover {
+    height: 250px;
+    width: 250px;
+}
+
+.image2{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    margin: auto ;
+}
+
+.bottom {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px 50px;
+    background-image: linear-gradient(to bottom right, blueviolet , deeppink);
+    text-align: center;
+    line-height: 200px;
+}
+
+.bottom:hover {
+    height: 250px;
+    width: 250px;
+}
+
+.top {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 50px 5px;
+    background-image: linear-gradient(to top right, blueviolet , deeppink);
+    text-align: center;
+    line-height: 200px;
+}
+
+.top:hover {
+    height: 250px;
+    width: 250px;
+}
+
+.angle{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+}
+.image3 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50px 5px;
+    margin: auto;
+    background-image: linear-gradient(0deg, blue, darkcyan , aqua);
+    line-height: 200px;
+}
+
+.image3:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image4 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px 50px;
+    margin: auto;
+    background-image: linear-gradient(90deg, blue, darkcyan , aqua);
+    line-height: 200px;
+}
+
+.image4:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image5 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50px 5px;
+    margin: auto;
+    background-image: linear-gradient(180deg, blue, darkcyan , aqua);
+    line-height: 200px;
+}
+
+.image5:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image6 {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px 50px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: linear-gradient(270deg, blue, darkcyan , aqua);
+    line-height: 200px;
+}
+
+.image6:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image7 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50px 5px;
+    margin: auto;
+    background-image: linear-gradient(360deg, blue, darkcyan , aqua);
+    line-height: 200px;
+}
+
+.image7:hover {
+    height: 250px;
+    width: 250px;
+}
+
+.image8 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: linear-gradient(to left , blueviolet, blue , aqua , green , yellow , orange ,
+    red);
+    border-radius: 5px 50px;
+}
+
+.image8:hover {
+    height: 250px;
+    width: 250px;
+}
+
+
+.image9 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(10, 61, 87));
+    border-radius: 5px 50px;
+}
+
+.image9:hover {
+    height: 250px;
+    width: 250px;
+}
