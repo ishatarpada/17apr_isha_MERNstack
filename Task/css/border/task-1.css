@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    margin: 5px;
+    background-color: rgb(213, 246, 247);
+    color: rgb(19, 44, 49);
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+.border {
+    border: 2px solid black;
+    height: 1800px;
+}
+
+/* .grediant {
+    text-align: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 50px;
+    border: 50px ridge;
+    background-color: rgb(224, 245, 245);
+    width: 700px;
+    height: 250px;
+    color:rgb(224, 245, 245);
+    line-height: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#b1{
+    border-image: url(../../../image/grediant.jpg) 20 round;
+}
+
+#b2{
+    border-image: url(../../../image/grediant-1.jpg) 20 round;
+}
+
+#b3{
+    border-image: url(../../../image/grediant-3.jpg) 20 round;
+}
+
+#b4{
+    border-image: url(../../../image/grediant-4.jpg) 20 round;
+}
+
+.grediant:hover{
+    height: 300px;
+    width: 800px;
+    color: rgb(19, 44, 49);
+} */
+
+.grediant {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border: 50px solid ;
+    width: 700px;
+    height: 250px;
+    line-height: 250px;
+    font-size: 40px;
+    background-color: #e5f0f0;
+    color: #e5f0f0;
+}
+
+#b1{
+    border-image: linear-gradient(to top , #8ac7c8 , #092e37 ) 20 round;
+}
+
+#b2{
+    border-image: linear-gradient(to bottom , #796373 , #3f0b2b ) 20 round;
+}
+
+#b3{
+    border-image: linear-gradient(to right , #b8c7e5 , #1f3876 ) 20 round;
+}
+
+#b4{
+    border-image: linear-gradient(to left , #d4a8c6 , #2c082f ) 20 round;
+}
+
+.grediant:hover{
+    height: 300px;
+    width: 800px;
+    color:#2c082f;
+    text-shadow: 5px 5px 5px #715f6d;
+    font-weight: 900;
+    font-size: 50px;
+
+}
