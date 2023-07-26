@@ -1,0 +1,52 @@
+div {
+    color: black;
+    height: 505x;
+    border: 3px ridge rgb(7, 105, 35);
+}
+
+h1 {
+    margin: 5px;
+    background-color: rgb(7, 105, 35);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    margin: 5px;
+    font-size: 20px;
+}
+
+li {
+    font-size: 30px;
+    padding: 5px;
+}
+
+big {
+    text-decoration: wavy;
+}
+
+.trans {
+    text-align: center;
+    border: 3px ridge rgb(7, 105, 35);
+    font-size: 20px;
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 45px;
+    font-weight: 500;
+    background-color: rgb(212, 239, 220);
+}
+
+#upper {
+    text-transform: uppercase;
+}
+
+#lower {
+    text-transform: lowercase;
+}
+
+#capitalize {
+    text-transform: capitalize;
+}

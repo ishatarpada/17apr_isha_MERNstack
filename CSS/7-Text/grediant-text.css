@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+.grediant {
+    border: 2px solid black;
+    margin: auto;
+    height: 200px;
+}
+
+h1 {
+    margin: 5px;
+    background-color: rgb(36, 11, 22);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+.text{
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    background-clip: text;
+    color: transparent; 
+    font-weight: 900; 
+}
+
+#one {
+    background: linear-gradient(rgb(36, 11, 22), rgb(60, 20, 37), rgb(87, 32, 56), rgb(105, 43, 70), rgb(172, 57, 107)); 
+    -webkit-background-clip: text;
+    -webkit-color: transparent;  
+}
+
+#two {
+    background: linear-gradient(rgb(11, 29, 36), rgb(21, 54, 67), rgb(47, 115, 142), rgb(71, 158, 190), rgb(83, 191, 234));
+    -webkit-background-clip: text;
+    -webkit-color: transparent;
+}

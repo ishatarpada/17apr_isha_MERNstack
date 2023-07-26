@@ -1,0 +1,49 @@
+.alignment {
+    color: black;
+    height: 505x;
+    border: 3px ridge rgb(14, 51, 24);
+}
+
+h1 {
+    margin: 5px;
+    background-color: rgb(12, 47, 21);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    margin: 5px;
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+    padding: 5px;
+    font-weight:900;
+}
+
+.ex{
+    border: 3px ridge rgb(13, 56, 25);
+    font-size: 20px;
+    padding: 2px;
+    margin-left:5px;
+    margin-right:5px;
+    font-weight:500;
+    background-color: rgb(231, 245, 235);
+    
+}
+
+#left{
+    text-align: left;
+}
+#right{
+    text-align: right;
+}
+#center{
+    text-align: center;
+}
+#justify{
+    text-align: justify;
+}
