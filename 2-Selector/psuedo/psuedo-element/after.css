@@ -1,0 +1,26 @@
+*{
+    font-family:  Georgia, serif;
+    font-weight: 500;
+}
+
+h1{
+    background-color: rgb(15, 30, 57);
+    color:white;
+    text-align: center;
+    margin: 10px;
+}
+
+p{
+    color: rgb(15, 30, 57);
+}
+
+div{
+    height: 700px;
+    width: 700px;
+    border: 2px solid rgb(15, 30, 57);
+    margin: auto;
+}
+
+p::after{
+    content: url(https://www.bing.com/th/id/OGC.71ecd5f8dce4cb480bf7cc45f188d9d2?pid=1.7&rurl=https%3a%2f%2fmedia1.tenor.com%2fimages%2f71ecd5f8dce4cb480bf7cc45f188d9d2%2ftenor.gif%3fitemid%3d14792252&ehk=a1YcQkKde5zpvbrB8s1p7RVJc5ekqGTp5Dnt5H00ibA%3d);
+}
