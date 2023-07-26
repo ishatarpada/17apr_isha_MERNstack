@@ -1,0 +1,56 @@
+.outline {
+    border: 2px solid rgb(7, 42, 49);
+    height: 550px;
+    margin: auto;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: rgb(226, 244, 248);
+}
+
+h1 {
+    background-color: rgb(7, 42, 49);
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    color: rgb(7, 42, 49);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+li {
+    color: rgb(7, 42, 49);
+    font-weight: 600;
+}
+
+.ex{
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: rgb(9, 50, 40);
+    outline-offset: 2px;
+    text-align:center;
+    margin-left: 6px;
+    margin-right: 6px;
+    height: 50px;
+    line-height: 50px;
+    outline-offset: 5px;
+}
+
+#ex1 {    
+    outline-width: thin;   
+}
+
+#ex2 {
+    outline-width: medium;
+}
+
+#ex3 {
+    outline-width: thick;
+}
+
+#ex4 {
+    outline-width: 4px;
+}
