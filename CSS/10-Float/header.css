@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+.header{
+    border:1px solid black;
+    height: 75px;
+    width: 100%;
+}
+
+.header .logo{
+    height: 75px;
+    width: 20%;
+    float: left;
+}
+
+img{
+    height: 75px;
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+.fe{
+    width: 20%;
+}
+
+.header .navigation{
+    height: 75px;
+    width: 80%;
+    float: right;
+}
+
+.header .navigation ul li{
+    float: left;
+    list-style: none;
+    margin: 20px 15px;
+}
+
+#log{
+    background-color: #056005;
+    color: white;
+    padding: 4px;
+    border-radius: 2px;
+}

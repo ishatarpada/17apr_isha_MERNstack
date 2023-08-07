@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    height: 3600px;
+    width: auto;
+    background: #f4dce4;
+    background-size: cover;
+    margin: 5px;
+}
+
+.clear h1 {
+    background-color: #a36da3;
+    box-shadow: 5px 5px 5px plum;
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
+
+.clear p {
+    font-size: 20px;
+}
+
+.clear ul {
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+}
+
+.clear .thar {
+    height: 250px;
+    width: 900px;
+    margin: 20px 70px;
+    border: 5px ridge plum;
+}
+
+.clear .thar .t{
+    height: 200px;
+    width: 200px;
+    margin: 20px 10px;
+    text-align: center;
+    border: 2px ridge purple;
+}
+
+.clear .thar img {
+    float: left;
+    margin: 5px 15px;
+}
+
+.clear .thar .t1 {
+    clear: left;
+    float: right;
+}
+
+.clear .thar .t2 {
+    float: right;
+    clear: left;
+}
+
+.clear .thar .t3 {
+    clear: left;
+    float: right;
+}
+
+.clear .thar .t4 {
+    float: right;
+    clear: left;
+}
+
+
+.clear .bmw {
+    height: 250px;
+    width: 900px;
+    margin: 20px 70px;
+    border: 5px ridge plum;
+}
+
+.clear .bmw .b{
+    height: 200px;
+    width: 200px;
+    margin: 20px 10px;
+    text-align: center;
+    border: 2px ridge purple;
+}
+
+.clear .bmw img {
+    float: left;
+    margin: 5px 15px;
+}
+
+.clear .bmw .b1 {
+    clear: right;
+    float: left;
+}
+
+.clear .bmw .b2{
+    clear: right;
+    float: left;
+}
+
+.clear .bmw .b3{
+    clear: right;
+    float: left;
+}
+
+.clear .bmw .b4{
+    clear: right;
+    float: left;
+}
+
+.clear .verna {
+    height: 1000px;
+    width: 900px;
+    margin: 20px 70px;
+    border: 5px ridge plum;
+}
+
+.clear .verna .v{
+    height: 200px;
+    width: 200px;
+    margin: 20px 10px;
+    text-align: center;
+    border: 2px ridge purple;
+}
+
+.clear .verna img {
+    float: left;
+    margin: 5px 15px;
+}
+
+.clear .verna .v1 {
+    clear: both;
+    float: right;
+}
+
+.clear .verna .v2{
+    clear: both;
+    float: left;
+}
+
+.clear .verna .v3{
+    clear: both;
+    float: right;
+}
+
+.clear .verna .v4{
+    clear: both;
+    float: left;
+}
+
+.clear .range-rover {
+    height: 250px;
+    width: 900px;
+    margin: 20px 70px;
+    border: 5px ridge plum;
+}
+
+.clear .range-rover .r{
+    height: 200px;
+    width: 200px;
+    margin: 20px 10px;
+    text-align: center;
+    border: 2px ridge purple;
+}
+
+.clear .range-rover img {
+    float: left;
+    margin: 5px 15px;
+}
+
+.clear .range-rover .r1 {
+    clear: none;
+    float: right;
+}
+
+.clear .range-rover .r2{
+    clear: none;
+    float: left;
+}
+
+.clear .range-rover .r3{
+    clear: none;
+    float: right;
+}
+
+.clear .range-rover .r4{
+    clear: none;
+    float: left;
+}
