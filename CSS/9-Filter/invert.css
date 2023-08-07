@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+}
+
+.invert {
+    border: 2px solid black;
+    background-image: url("../../image/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 3200px;
+    margin: 5px;
+}
+
+h1 {
+    border: 2px solid lightcyan;
+    text-align: center;
+    background: linear-gradient(to right , red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-shadow: 3px 3px 2px rgb(146, 109, 130);
+}
+
+.p {
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.example {
+    border: 2px ridge rgb(151, 101, 128);
+    height: 3000px;
+    margin: 5px;
+}
+
+.i {
+    border: 15px ridge;
+    border-radius: 5px;
+    border-color: red yellow blue green;
+    margin: 15px auto;
+    display: flex;
+    height: 450px;
+    width: 1100px;
+}
+
+.ex {
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    background-size: cover;
+    border: 4px ridge;
+    border-radius: 5px;
+}
+
+#ex1 {
+    filter: grayscale(0%);
+    background-image: url("../../image/filter-3.jpg");
+    border-color: red yellow blue green;
+}
+
+#ex2 {
+    filter: grayscale(0%);
+    background-image: url("../../image/filter-3.webp");
+    border-color: red yellow blue green;
+}
+
+#ex3 {
+    filter: grayscale(25%);
+    background-image: url("../../image/filter-3.jpg");
+    border-color: red yellow blue green;
+}
+
+#ex4 {
+    filter: grayscale(25%);
+    background-image: url("../../image/filter-3.webp");
+    border-color: red yellow blue green;
+}
+
+#ex5 {
+    filter: grayscale(50%);
+    background-image: url("../../image/filter-3.jpg");
+    border-color: red yellow blue green;
+}
+
+#ex6 {
+    filter: grayscale(50%);
+    background-image: url("../../image/filter-3.webp");
+    border-color: red yellow blue green;
+}
+
+#ex7 {
+    filter: grayscale(75%);
+    background-image: url("../../image/filter-3.jpg");
+    border-color: red yellow blue green;
+}
+
+#ex8 {
+    filter: grayscale(75%);
+    background-image: url("../../image/filter-3.webp");
+    border-color: red yellow blue green;
+}
+
+#ex9 {
+    filter: grayscale(100%);
+    background-image: url("../../image/filter-3.jpg");
+    border-color: red yellow blue green;
+}
+
+#ex10 {
+    filter: grayscale(100%);
+    background-image: url("../../image/filter-3.webp");
+    border-color: red yellow blue green;
+}
+
+.example p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(49, 15, 33);
+}
+
+.i:hover {
+    height: 500px;
+    width: 1200px;
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+}
+
+.opacity {
+    border: 2px solid black;
+    background-image: url("../../image/grediant-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 3000px;
+    margin: 5px;
+}
+
+h1 {
+    border: 2px solid lightcyan;
+    text-align: center;
+    background: linear-gradient(to right , rgb(87, 10, 51) , rgb(132, 95, 115));
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-shadow: 3px 3px 2px rgb(146, 109, 130);
+}
+
+.p {
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.example {
+    border: 5px ridge rgb(151, 101, 128);
+    height: 2800px;
+    margin: 5px;
+}
+
+.ex {
+    height: 400px;
+    width: 700px;
+    border: 10px ridge rgb(151, 101, 128);
+    margin: 15px auto;
+    background-image: url("../../image/nature-7.jpg");
+    background-size:cover;
+}
+
+#ex1{
+    filter: opacity(0%);
+}
+
+
+#ex2{
+    filter: opacity(25%);
+}
+
+
+#ex3{
+    filter: opacity(50%);
+}
+
+
+#ex4{
+    filter: opacity(75%);
+}
+
+#ex5{
+    filter: opacity(100%);
+}
+
+.example p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    padding: 10px;
+    margin: 10px ;
+    color: rgb(49, 15, 33);
+}
+
+.ex:hover{
+    height: 450px;
+    width: 800px;
+}
