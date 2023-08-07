@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.static{
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+}
+
+.static .div-1{
+    width: 500px;
+    height: 500px;
+    font-size: 90px;
+    position: static;
+    color: #4f0c31;
+    line-height: 500px;
+    text-align: center;
+    margin: 20px auto;
+    background : linear-gradient(to right , lightpink , deeppink);
+    border: 10px ridge deeppink;
+}
+
+.static .div-2{
+    width: 500px;
+    height: 500px;
+    font-size: 90px;
+    color: #4f0c31;
+    line-height: 500px;
+    text-align: center;
+    margin: 20px auto;
+    background : linear-gradient(to left , lightpink , deeppink);
+    border: 10px ridge deeppink;
+    position: static;
+}

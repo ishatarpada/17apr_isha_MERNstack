@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.postion{
+    height: 1200px;
+    width: auto;
+    margin: 10px;
+    border: 5px ridge #07074f;
+}
+
+.postion .pos{
+    height: 200px;
+    width: auto;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.postion .pos h1{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-color: #0f0f2f;
+}
+
+.postion .pos p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.postion .pos a{
+    font-size: 25px;
+    color: lightblue;
+    border-radius: 10px;
+    margin: 50px 100px;
+    background-color: #07074f;
+    text-decoration: none;
+    padding: 10px 20px;
+}

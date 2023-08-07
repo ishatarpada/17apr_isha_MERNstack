@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sticky {
+    width: auto;
+    height: auto;
+    background-color: #d4f9f9;
+    /* border: 1px solid black; */
+}
+
+.sticky .div {
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    color: #062826;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(to left, #4bafaf, teal);
+    border: 10px ridge #062826;
+}
+
+.sticky .div-1{    
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.sticky .box .img {
+    width: 500px;
+    height: 500px;
+    margin: 10px auto;
+    background-size: cover;
+    border: 1px solid navy;
+}
+
+.sticky .box .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.sticky .box p {
+    width: 1200px;
+    height: auto;
+    color: #062826;
+    margin: 30px auto;
+    font-size: 20px;
+}
