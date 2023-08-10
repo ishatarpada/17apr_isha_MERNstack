@@ -1,0 +1,36 @@
+INSERT query: insert the data in table
+		syntex:-
+                INSERT INTO table_name (column1, column2, column3, ...)
+                VALUES (value1, value2, value3, ...),
+                    (value1, value2, value3, ...),
+                    (value1, value2, value3, ...),
+                    (value1, value2, value3, ...);
+        example:-
+                INSERT INTO student (sid , sname , sphone ,  smail)
+                VALUES ( '1' , 'isha' , '6354324255' , 'isha@gmail.com'),
+                ( '2' , 'disha' , '6351299108' , 'disha@gmail.com'),
+                ( '3' , 'manshi' , '7359380902' , 'manshi@gmail.com');
+
+UPDATE query:- modify the existing records in a table.
+		syntex:
+				UPDATE table_name
+				SET column1 = value1, column2 = value2, ...
+				WHERE condition;
+         example:-                   
+	            UPDATE student SET sname = 'Isha'  WHERE sid = 1; 	
+
+DELETE query: It is used to delete records from a database table.
+        synetx:-
+                DELETE FROM `table_name`; 
+        example:-
+                DELETE FROM `student`; 
+        Delete specific record 
+        synetx:-
+            DELETE FROM `table_name` WHERE condition
+        example:-
+            DELETE FROM `student` WHERE sid = 101
+        Delete column
+        synetx:-
+            DELETE column `column_name` where = condition;
+        example:-
+            DELETE column `sid` where sid = 101;

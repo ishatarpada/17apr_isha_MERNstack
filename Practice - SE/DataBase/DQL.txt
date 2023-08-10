@@ -1,0 +1,72 @@
+SELECT
+
+SELECT query :- show the database 
+		    -> all columns are show.
+			    syntex:-
+                    SELECT * FROM table_name ;
+                example:-
+                     SELECT * FROM student;
+			-> specific column is show .
+                synetx:-
+					SELECT sid FROM table_name ;
+                example:-
+                    SELECT sid FROM student;
+            ->Fetch unique data:-
+                syntex:-
+                    SELECT DISTINCT * FROM `table_name`;
+                example:-
+                    SELECT DISTINCT * FROM `student`;
+            ->Specific Data:-
+                syntex:-
+                    SELECT `column_name` FROM `table_name` where id = 101;
+                example:-
+                    SELECT `sid` FROM `student` where id = 101;    
+
+
+COUNT :-number of rows count.
+		syntex:- 
+			SELECT COUNT(column_name)
+			FROM table_name 
+        example:-
+            SELECT COUNT(sid) FROM student;
+ 
+AVG :-number of rows count.
+		syntex:- 
+			SELECT AVG(column_name)
+			FROM table_name
+        example:-
+            SELECT AVG(sid) FROM student;
+ 
+MIN :-minimum number of rows .
+		syntex:- 
+			SELECT AVG(column_name)
+			FROM table_name 
+        example:-
+            SELECT MIN(sid) FROM student;
+ 
+MAX :-maximum number of rows .
+		syntex:- 
+			SELECT MAX(column_name)
+			FROM table_name 
+        example:-
+            SELECT MAX(sid) FROM student;
+ 
+ASC|DESC :-Arrange the column in descending or ascending:-
+        syntex:-
+            SELECT * FROM `table_name` ORDER BY `id` ASC|DESC;
+        example:-
+            SELECT * FROM `student` ORDER BY `sid` ASC|DESC;
+
+LIKE clause:-
+        syntex:-
+            SELECT * FROM `table_name` WHERE `column_name` LIKE 'value%';
+        example:-
+            SELECT * FROM `student` WHERE `sname` LIKE 'a%';
+
+WHERE clause:-
+        syntex:-
+            SELECT * FROM `table_name` WHERE `column_name` = 'value';
+        example:-
+            SELECT * FROM `student` WHERE `sname` = 'a';
+
+
