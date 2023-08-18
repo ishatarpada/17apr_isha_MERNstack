@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serifs;
+    box-sizing: border-box;
+}
+
+.puma {
+    height: auto;
+    width: auto;
+    text-transform: capitalize;
+}
+
+.puma .header {
+    height: auto;
+    width: auto;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-1 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    /* border: 1px solid white; */
+}
+
+.puma .header .header-1 .list {
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid white; */
+}
+
+.puma .header .header-1 .list ul {
+    height: 50px;
+    width: 85%;
+    margin: auto;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.puma .header .header-1 .list ul li {
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    margin: auto 10px;
+    padding: 0px 10px;
+    display: inline;
+    line-height: 50px;
+    text-align: center;
+    list-style: none;
+    /* border: 1px solid white; */
+}
+
+.puma .header .header-1 .list .parent {
+    position: relative;
+}
+
+.puma .header .header-1 .list .parent .child {
+    height: auto;
+    width: 2000px;
+    color: gray;
+    margin: 0px auto;
+    background-color: white;
+    text-align: left;
+    position: absolute;
+    top: 35px;
+    left: -230px;
+    display: none;
+    z-index: 1;
+    transition: 10s;
+    box-shadow: 2px 2px 5px gray;
+    /* border: 2px solid black; */
+}
+
+.puma .header .header-1 .list .parent .child .child-1 {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px 20px;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-1 .list .parent .child .child-1 li {
+    font-size: 15px;
+    height: 30px;
+    color: gray;
+    text-align: left;
+    display: block;
+    line-height: 30px;
+    list-style: none;
+    margin: auto;
+    padding: 0px 5px;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-1 .list .parent:hover .child {
+    display: flex;
+}
+
+.puma .header .header-1 .list .parent:hover {
+    text-decoration: underline;
+    text-decoration-color: tan;
+}
+
+.puma .header .header-1 .list .list-parent {
+    position: relative;
+}
+
+.puma .header .header-1 .list .list-parent .list-child {
+    height: auto;
+    width: 2000px;
+    color: gray;
+    margin: 0px auto;
+    background-color: white;
+    text-align: left;
+    position: absolute;
+    top: 35px;
+    left: -420px;
+    display: none;
+    z-index: 1;
+    transition: 10s;
+    box-shadow: 2px 2px 5px gray;
+    /* border: 2px solid black; */
+}
+
+.puma .header .header-1 .list .list-parent .list-child .list-child-1 {
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    margin: 10px 20px;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-1 .list .list-parent .list-child .list-child-1 li {
+    font-size: 15px;
+    height: 30px;
+    color: gray;
+    text-align: left;
+    display: block;
+    line-height: 30px;
+    list-style: none;
+    margin: auto;
+    padding: 0px 5px;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-1 .list .list-parent .list-child .list-child-2 {
+    width: 250px;
+    height: auto;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px;
+    margin: 30px 20px;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-1 .list .list-parent .list-child .list-child-2 li {
+    font-size: 20px;
+    height: auto;
+    color: gray;
+    text-align: left;
+    display: block;
+    line-height: 30px;
+    list-style: none;
+    margin: auto;
+    padding: 10px 5px;
+    /* border: 1px solid black;s */
+}
+
+.puma .header .header-1 .list .list-parent .list-child .list-child-1 li:hover{
+    color: black;
+}
+
+.puma .header .header-1 .list .list-parent .list-child .list-child-2 li:hover{
+    color: tan;
+}
+
+.puma .header .header-1 .list .list-parent .list-child .list-child-1 .title{
+    font-size: 20px;
+    color: black;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-1 .list .list-parent .list-child .list-child-1 span{
+    color: black;
+    font-size: 22px;
+}
+
+.puma .header .header-1 .list .list-parent:hover .list-child {
+    display: flex;
+}
+
+.puma .header .header-1 .list .list-parent:hover {
+    text-decoration: underline;
+    text-decoration-color: tan;
+}
+
+.puma .header .header-1 .list .list-parent .listchild{
+    position: absolute;
+    top: 35px;
+    left: -535px;
+}
+
+.puma .header .header-1 .list .list-parent .listchild1{
+    position: absolute;
+    top: 35px;
+    left: -630px;
+}
+
+.puma .header .header-1 .list .parent .child1{
+    position: absolute;
+    top: 35px;
+    left: -800px;
+}
+
+.puma .header .header-1 .list .list-parent .listchild2{
+    position: absolute;
+    top: 35px;
+    left: -925px;
+    padding: auto 50px;
+}
+
+.puma .header .header-1 .list .list-parent .listchild3{
+    position: absolute;
+    top: 35px;
+    left: -1075px;
+}
+
+.puma .header .header-1 .list .list-parent .listchild4{
+    position: absolute;
+    top: 35px;
+    left: -1200px;
+}
+
+
+/* .puma .header .header-1 .list ul li::after{
+     content: "|";
+     font-size: 70px;
+     width: 5px;
+     margin-left: 20px;
+} */
+
+.puma .header .header-2 {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-2 .left {
+    height: 80px;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-2 .left h1 {
+    height: 75px;
+    width: 90%;
+    font-size: 30px;
+    text-align: left;
+    line-height: 75px;
+    letter-spacing: 4px;
+    margin: auto 0px;
+    color: #fd5950;
+    text-transform: uppercase;
+    /* border: 1px solid black; */
+}
+
+
+.puma .header .header-2 .left img {
+    height: 50px;
+    width: 20%;
+    padding: 0px;
+    margin: auto 10px;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-2 .left h1 span {
+    color: white;
+    padding: 5px 17px;
+    font-size: 50px;
+    border-radius: 50%;
+    background-color: #fd5950;
+}
+
+.puma .header .header-2 .right {
+    height: 80px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-2 .right .search {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    margin: 10px;
+    background-color: black;
+    /* border: 1px solid red; */
+}
+
+.puma .header .header-2 .right .search input {
+    height: 45px;
+    width: 100px;
+    margin: auto;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-2 .right .search i {
+    height: 45px;
+    width: 50px;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    /* border: 1px solid black; */
+
+}
+
+.puma .header .header-2 .right .icon {
+    height: 65px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.puma .header .header-2 .right .icon .icon-1 {
+    height: 50px;
+    width: 55px;
+    border-radius: 50%;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* background-color: black; */
+}
+
+.puma .header .header-2 .right .icon .icon-1 i {
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+}
+
+.puma .header .header-2 .right .icon .icon-1:hover {
+    background-color: lightslategray;
+}
+
+.puma .header .header-3 {
+    height: 25px;
+    width: 100%;
+    line-height: 25px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+    background-color: tan;
+}
