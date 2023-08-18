@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 800px;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.container .parent{
+    height: 500px;
+    width: 30%;
+    margin: 50px auto;
+    position: relative;
+    background-size: 100% 100%;
+    /* border: 1px solid black; */
+}
+
+.container .box1{
+    background-image: url("https://i.ytimg.com/vi/iSpwj2iIhp0/maxresdefault.jpg");
+}
+
+.container .box2{
+    background-image: url("https://www.passionateinmarketing.com/wp-content/uploads/2023/02/the-incredible-and-inspirational-story-of-vikas-khanna-1400x653-1521115740.jpg");
+}
+
+.container .box3{
+    background-image: url("https://ngs-space1.sgp1.digitaloceanspaces.com/am/uploads/mediaGallery/image/1652597275542.jpg-org");
+}
+
+.container .parent .child-box{
+    height: auto;
+    width: 90%;
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    background: linear-gradient(to right , #cac7c780 , #77889980);
+    color: white;
+    margin:  auto;
+    border-radius: 10px;
+    /* border: 2px solid lightslategray; */
+}
+
+.container .parent .child-box h1{
+    font-size: 50px;
+    padding: 5px 15px;
+    text-align: center;
+    color: transparent; 
+    background: linear-gradient(#240b16, #3c1425, #572038, rgb(105, 43, 70), #ac396b); 
+    -webkit-background-clip: text;
+    -webkit-color: transparent;  
+}
+
+.container .parent .child-box h4{
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-top: 5px;
+    display: none;
+    color: black;
+    /* text-align: center; */
+}
+
+.container .parent .child-box p{
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-top: 5px;
+    color: #530b37;
+    display: none;
+}
+
+.container .parent .child-box:hover h4 {
+    display: block;
+}
+
+.container .parent .child-box:hover p {
+    display: block;
+}

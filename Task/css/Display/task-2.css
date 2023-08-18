@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.container .parent {
+    height: auto;
+    width: 25%;
+    margin: 50px auto;
+    background-size: 100% 100%;
+    /* border: 1px solid black; */
+}
+
+.container .parent .child-box-img {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    background-size: 100% 100%;
+    border-radius: 10px 10px 0px 0px;
+    /* border: 1px solid black; */
+}
+
+.container .parent .img1 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png/220px-191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png");
+}
+
+.container .parent .img2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg/800px-Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg");
+}
+
+.container .parent .img3 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Eminem_-_Concert_for_Valor_in_Washington%2C_D.C._Nov._11%2C_2014_%282%29_%28Cropped%29.jpg/220px-Eminem_-_Concert_for_Valor_in_Washington%2C_D.C._Nov._11%2C_2014_%282%29_%28Cropped%29.jpg");
+}
+
+.container .parent .child-box-info {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 3px  gray;
+    background: linear-gradient(to right , #cac7c780 , #77889980);
+}
+
+.container .parent .child-box-info h1{
+    font-size: 50px;
+    padding: 5px 15px;
+    text-align: center;
+    color: transparent; 
+    background: linear-gradient(#240b16, #3c1425, #572038, rgb(105, 43, 70), #ac396b); 
+    -webkit-background-clip: text;
+    -webkit-color: transparent;  
+}
+
+.container .parent .child-box-info h4{
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+}
+
+.container .parent .child-box-info p{
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-top: 5px;
+    color: #530b37;
+    text-align: center;
+    display: none;
+}
+
+.container .parent .child-box-info:hover p{
+    display: block;
+}
