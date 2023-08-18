@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div{
+    height: auto;
+    width: 100%;
+    background-color: #f5e3f5;
+    border: 10px ridge thistle;
+}
+
+.div h1{
+    text-align: center;
+    margin: 5px;
+    color: #4e404e;
+    background-image: linear-gradient(#655465 , #f5e3f5) ;
+}
+
+.div .content{
+    height: 500px;
+    width: auto;
+    margin: 20px;
+    font-size: 25px;
+    border: 5px ridge thistle;
+}
+
+span.b {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border: 1px solid thistle;    
+    background-color: #4e404e; 
+  }
