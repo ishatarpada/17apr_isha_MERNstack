@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.offer {
+    height: auto;
+    width: auto;
+    display: grid;
+    gap: 5px 5px;
+    grid-template-rows: 450px;
+    grid-template-columns: repeat(2, 950px);
+    position: relative;
+}
+
+.offer .offers {
+    height: 600px;
+    width: 950px;
+    background-size: 100% 100%;
+    /* border: 2px solid black; */
+}
+
+.offer #offer1 {
+    grid-area: 1 / 1 / 2 / 2;
+    overflow: hidden;
+    position: relative;
+    background-image: url("https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_1.jpg");
+}
+
+.offer #offer2 {
+    grid-area: 1 / 2 / 2 / 3;
+    overflow: hidden;
+    position: relative;
+    background-image: url("https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_2.jpg");
+}
+ 
+.offer .offers .box h4{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    line-height: 600px;
+    letter-spacing: 15px;
+}
+
+.offer .offers .box-1 {
+    height: 600px;
+    width: 950px;
+    transition: 5s;
+    position: absolute;
+    top: 610px;
+    left: -950px;
+    background-color: #00000059;
+}
+
+.offer .offers .box-2 {
+    height: 600px;
+    width: 950px;
+    transition: 5s;
+    position: absolute;
+    top: -600px;
+    left: 950px;
+    background-color: #00000059;
+}
+
+.offer .offers:hover .box-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.offer .offers:hover .box-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.offer .offers .boxs h4{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    line-height: 600px;
+    letter-spacing: 15px;
+}
+
+.offer .offers .box-3 {
+    height: 600px;
+    width: 950px;
+    transition: 5s;
+    position: absolute;
+    top: 610px;
+    left: 950px;
+    background-color: #00000059;
+}
+
+.offer .offers .box-4 {
+    height: 600px;
+    width: 950px;
+    transition: 5s;
+    position: absolute;
+    top: -600px;
+    left: -950px;
+    background-color: #00000059;
+}
+
+.offer .offers:hover .box-3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.offer .offers:hover .box-4 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+}

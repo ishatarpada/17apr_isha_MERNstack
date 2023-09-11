@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div {
+    height: 500px;
+    width: 500px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+
+.div .div-container {
+    height: 550px;
+    width: 500px;
+    position: relative;
+}
+
+.div .div-container .box-1 .div-view{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+   line-height: 40px;
+    position: absolute;
+    top: -50px;
+    overflow: hidden;
+}
+
+.div .div-container .box-1:hover .div-view{
+    position: absolute;
+    top: 300px;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.div .div-container .box-1 .div-sale{
+    background-color: #d76b6b;
+    color: white;
+    height: 50px;
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+    left: 430px;
+    text-align: center;
+    padding: 10px;
+    width: 70px;
+
+}
+
+.div .div-container .box-1 .div-img{
+    height: 350px;
+    width: 350px;
+    margin:  auto 70px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg");
+}
+
+/* .div .div-container .div-img1{
+    height: 350px;
+    width: 350px;
+    margin:  auto 70px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg");
+} */
+
+.div .div-container .box-1:hover .div-img{
+    transform: rotate(360deg);
+    transition: 0.2s;
+}
+
+.div .div-container .div-info{
+    height: 100px;
+    width: 500px;
+}
+
+.div .div-container .div-info h4{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: #d76b6b;
+}
+
+.div .div-container .div-info h5{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.div .div-container .div-info button{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin: auto 170px;
+    border: none;
+    background-color: turquoise;
+}
+
+.div .div-container .div-info button:hover{
+    outline: 2px solid turquoise;
+    transition: 2s;
+    outline-offset: 2px;
+}

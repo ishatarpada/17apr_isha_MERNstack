@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(12, 70px);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container .box {
+    height: auto;
+    width: auto;
+    color: white;
+    font-size: 30px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.container .box-1 {
+    grid-area: 1/ 1/ 2/ 2;
+    background-color: #0f1528;
+}
+
+.container .box-2 {
+    grid-area: 1/ 2/ 2/ span 3;
+    background-color: #ef3c4e;
+}
+
+.container .box-3 {
+    grid-area: 2/ 1/ span 6/ span 4;
+    background-color: #4c86c6;
+}
+
+.container .box-4 {
+    grid-area: 8/ 1/ span 4/ span 2;
+    background-color: #24344b;
+}
+
+.container .box-5 {
+    grid-area: 8/ 4/ 10/ 5;
+    background-color: #c1e4e6;
+}
+
+.container .box-6 {
+    grid-area: 10/ 4/ 12/ 5;
+    background-color: #4dbd97;
+}
+
+.container .box-7 {
+    grid-area: 12/ 1/ 13/ 5;
+    background-color: #ffd068;
+}
+
+@media (max-width: 1300px) {
+    .container .box-1 {
+        grid-area: 1/ 1/ 2/ span 4;
+    }
+
+    .container .box-2 {
+        grid-area: 6/ 1/ span 7/ 2;
+    }
+
+    .container .box-3 {
+        grid-area: 2/ 1/ span 4/ span 4;
+    }
+
+    .container .box-4 {
+        grid-area: 6/ 2/ span 4/ span 3;
+    }
+
+    .container .box-5 {
+        grid-area: 12/ 4/ 13/ 5;
+    }
+
+    .container .box-6 {
+        grid-area: 12/ 2/ 13/ 4;
+    }
+
+    .container .box-7 {
+        grid-area: 10/ 2/ 12/ 5;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-rows: repeat(8, 150px);
+    }
+
+    .container .box-1 {
+        grid-area: 1/ 1/ 2/ 5;
+    }
+
+    .container .box-2 {
+        grid-area: 2/ 1/ 3/ 5;
+    }
+
+    .container .box-3 {
+        grid-area: 3/ 1/ 4/ 5;
+    }
+
+    .container .box-4 {
+        grid-area: 4/ 1/ 5/ 5;
+    }
+
+    .container .box-5 {
+        grid-area: 5/ 1/ 6/ 5;
+    }
+
+    .container .box-6 {
+        grid-area: 6/ 1/ 7/ 5;
+    }
+
+    .container .box-7 {
+        grid-area: 7/ 1/ 8/ 5;
+    }
+}
