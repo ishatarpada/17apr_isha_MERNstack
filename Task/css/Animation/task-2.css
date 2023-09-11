@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.loader {
+    height: 800px;
+    width: 80%;
+    margin: 200px auto;
+    position: relative;
+}
+
+.loader .circle-1 {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: absolute;
+    left: 500px;
+    border-top: 5px solid crimson;
+    animation: animation 1s infinite;
+    animation-timing-function:linear;
+}
+
+.loader .circle-1 .circle-2 {
+    height: 300px;
+    width: 300px;
+    margin: 40px auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    border-bottom: 5px solid #47ff2f;
+    animation: animation 1s infinite;
+    animation-timing-function:linear;
+}
+
+.loader .circle-1 .circle-2 .circle-3 {
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    border-right: 5px solid aqua;
+    animation: animation 1s infinite;
+    animation-timing-function:linear;
+}
+
+.loader .circle-1 .circle-2 .circle-3 .circle-4 {
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    border-left: 5px solid purple;
+    animation: animation 1s infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes animation{
+    from{
+      transform:rotate(0deg);
+      transition: 1s;
+    }
+    to{
+      transform:rotate(360deg);
+      transition: 1s;
+    }
+  } 
