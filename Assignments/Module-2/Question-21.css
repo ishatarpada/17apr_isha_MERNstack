@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 900px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.banner .banner-img {
+    height: 900px;
+    width: 100%;
+    background: url("../../image/ballons.jpg");
+    background-size: cover;
+    filter: brightness(40%);
+    position: absolute;
+    top: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 75%, 100% 75%, 50% 100%, 0% 75%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 75%, 100% 75%, 50% 100%, 0% 75%);
+}
+
+.banner .header {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+}
+
+.banner .header .header-title {
+    height: 100px;
+    width: 30%;
+}
+
+.banner .header .header-title h1 {
+    line-height: 100px;
+    color: crimson;
+    text-align: right;
+}
+
+.banner .header .header-list {
+    height: 100px;
+    width: 70%;
+}
+
+.banner .header .header-list .list {
+    height: 100px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: white;
+    line-height: 100px;
+    justify-content: center;
+}
+
+.banner .header .header-list .list li {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 2px;
+}
+
+.banner .header .header-list .list li:hover {
+    color: crimson;
+}
+
+.banner .banner-text {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 300px;
+}
+
+.banner .banner-text .text {
+    height: 100px;
+    width: 70%;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.banner .banner-text .text h3 {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.banner .banner-text .text h1 {
+    font-size: 50px;
+    padding: 5px;
+}
+
+.banner .banner-text .circle {
+    height: 8px;
+    width: 8px;
+    margin: 20px auto 10px auto;
+    background-color: crimson;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.banner .banner-text .circle::before {
+    content: "";
+    position: absolute;
+    right: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.banner .banner-text .circle::after {
+    position: absolute;
+    left: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.banner .banner-text p {
+    height: 100px;
+    width: 40%;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.banner .banner-text .button {
+    height: auto;
+    width: 30%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner .banner-text .btn {
+    height: 100px;
+    width: 45%;
+    padding: 20px;
+    margin:auto;
+}
+
+.banner .banner-text .btn a {
+    text-decoration: none;
+    height: 60px;
+    width: 250px;
+    padding: 25px;
+    margin: auto;
+    line-height: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.banner .banner-text .btn-1 a {
+    background-color: crimson;
+    color: white;
+}
+
+.banner .banner-text .btn-2 a {
+    background-color: white;
+    color: crimson;
+}
+
+.banner .icon{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 880px;
+    left: 49%;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 3px lightgray;
+}
+
+.banner .icon .fa{
+    color: crimson;
+    padding: 13px;
+}

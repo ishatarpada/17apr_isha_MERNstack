@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-17</title>
+    <link rel="stylesheet" href="Question-17.css">
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Question-17 What is the meaning of the CSS selector?</h1>
+
+        <div class="content">
+            <h2>&#9763; Selectors</h2>
+            <p>
+                &#x21d2;CSS selectors are used to select the HTML elements you want to style.
+                <br>
+                &#x21d2;There are many selector available in CSS , like id selector , class selector , pseudo-class
+                selector ,
+                pseudo-element selector.
+            </p>
+            <ul class="name">
+                <li>&#10022; Universal Selector</li>
+                <li>&#10022; id-selector</li>
+                <li>&#10022; class Selector</li>
+                <li>&#10022; Group Selector</li>
+                <li>&#10022; child Selector</li>
+                <li>&#10022; general-sibling Selector</li>
+                <li>&#10022; adjust-sibling Selector</li>
+                <li>&#10022; element Selector</li>
+                <li>&#10022; pseudo-class Selector
+                    <ul class="sub-name">
+                        <li>&#10095; active </li>
+                        <li>&#10095; focus </li>
+                        <li>&#10095; hover </li>
+                        <li>&#10095; nth-child </li>
+                    </ul>
+                </li>
+                <li>&#10022; pseudo-element Selector
+                    <ul class="sub-name">
+                        <li>&#10095; after </li>
+                        <li>&#10095; before </li>
+                        <li>&#10095; first-latter </li>
+                        <li>&#10095; first-line </li>
+                        <li>&#10095; marker </li>
+                        <li>&#10095; placeholder </li>
+                        <li>&#10095; selection </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="selector">
+                <h3>&#10070; Universal Selector</h3>
+                <p>
+                    &#x21d2; The universal selector (*) selects all HTML elements on the page.
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        *{
+                            font-family:  Georgia, serif;
+                            font-weight: 500;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; id Selector</h3>
+                <p>
+                    &#x21d2; The id selector uses the id attribute of an HTML element to select a specific element.
+                    <br>
+                    &#x21d2; To select an element with a specific id, write a hash (#) character, followed by the id of
+                    the element.
+                    <br>
+                    &#x21d2; &numsp; here in this example , id name is syntax.
+
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        #syntax{
+                            color: #510651;
+                            font-family : Georgia, serif;
+                            font-weight: 600;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; class Selector</h3>
+                <p>
+                    &#x21d2; &numsp; The class selector selects HTML elements with a specific class attribute.
+                    <br>
+                    &#x21d2; &numsp; To select elements with a specific class, write a period (.) character, followed by
+                    the class name.
+                    <br>
+                    &#x21d2; &numsp; here in this example , class name is selector.
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        .selector {
+                            font-family: Georgia, serif;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; group Selector</h3>
+                <p>
+                    &#x21d2; &numsp; The grouping selector selects all the HTML elements with the same style.
+                    <br>
+                    &#x21d2; &numsp; This reduces the code and extra effort to declare common styles for each element.
+                    <br>
+                    &#x21d2; &numsp; To group selectors, each selector is separated by a space( ) or comma ",".
+                    <br>
+                    &#x21d2; &numsp; here in this example , h1 and p are select using group selector.
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        h1 , p{    
+                            margin: auto;
+                            width: 100%;
+                            padding: 2px;
+                            font-family: Georgia, serif;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; child Selector</h3>
+                <p>
+                    &#x21d2; &numsp; The child combinator (>) is placed between two CSS selectors.
+                    <br>
+                    &#x21d2; &numsp; The child selector selects all elements that are the children of a specified
+                    element.
+                    <br>
+                    &#x21d2; &numsp; if &lt;div&gt; is the parent tag and child tag is &lt;h1&gt; , than &lt;h1&gt;
+                    select <b>&lt;div&gt; &numsp; >&numsp; &lt;h1&gt;</b>
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        div > p{
+                            height: 100px;
+                            width: 75%;
+                            margin: auto;
+                            color: rgb(70, 7, 41);
+                            font-size: 25px;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; adjust-sibling Selector</h3>
+                <p>
+                    &#x21d2; &numsp; The adjacent sibling selector is used to select an element that is directly after
+                    another specific element.
+                    <br>
+                    &#x21d2; &numsp; The following example selects the first &lt;p&gt; element that are placed
+                    immediately after &lt;div&gt; elements:
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        div + p {
+                            padding: 5px;
+                            margin : 5px;
+                            width: fit-content;
+                           font-size: 25px;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+
+            <h2>&#10059; pseudo-class</h2>
+            <p style="font-size: 20px; text-align:center">The Pseudo-class is selected : this sign.</p>
+
+            <div class="selector">
+                <h3>&#10070; active Selector</h3>
+                <p>
+                    &#x21d2; &numsp; The :active selector is used to select and style the active link.
+                    <br>
+                    &#x21d2; &numsp; A link becomes active when you click on it.
+                    <br>
+                    &#x21d2; &numsp; in this example , div is selected by the active selector
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        div:active{
+                            height: 300px;
+                            font-size: 20px;
+                            font-weight: 900;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; hover Selector</h3>
+                <p>
+                    &#x21d2; &numsp; The :hover selector is used to select elements when you mouse over them.
+                    <br>
+                    &#x21d2; &numsp; in this example , div is select when mouse over them using the hover selector
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        div:hover{
+                            height: 300px;
+                            font-size: 20px;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; focus Selector</h3>
+                <p>
+                    &#x21d2; &numsp; The :focus selector is used to select the element that has focus.
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        input:focus{
+                            outline: none; 
+                            background-color: #305653;
+                            color: white;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; nth-child Selector</h3>
+                <p>
+                    &#x21d2; &numsp; The :nth-child(n) selector matches every element that is the nth child of its
+                    parent.
+                    <br>
+                    &#x21d2; &numsp; n can be a number, a keyword (odd or even), or a formula (like an + b).
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        .child :nth-child(even){
+                            background-color: #396565;
+                            margin: 2px;
+                        }
+                        
+                        .child :nth-child(odd){
+                            background-color: #79a294;
+                            margin: 2px;
+                        
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+            <h2>&#10059; pseudo-element</h2>
+            <p style="font-size: 20px; text-align:center">The Pseudo-element is selected :: this sign.</p>
+
+            <div class="selector">
+                <h3>&#10070; after Selector</h3>
+                <p>
+                    &#x21d2; &numsp;The ::after selector inserts something after the content of each selected
+                    element(s).
+                    <br>
+                    &#x21d2; &numsp;Use the content property to specify the content to insert.
+                    <br>
+                    &#x21d2; &numsp; in this example , content insert after p tag using after selector(p::after).
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        p::after{
+                            content: url("helloo...");
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; before Selector</h3>
+                <p>
+                    &#x21d2; &numsp;The ::before pseudo-element can be used to insert some content before the content of
+                    an element.
+                    <br>
+                    &#x21d2; &numsp;Use the content property to specify the content to insert.
+                    <br>
+                    &#x21d2; &numsp; in this example , content insert before p tag using before selector(p::before).
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        p::before{
+                            content: url("hellooo...");
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; first-latter Selector</h3>
+                <p>&#x21d2; The ::first-line pseudo-element is used to add a special style to the first line of a text.
+                    <br>
+                    &#x21d2; The ::first-line pseudo-element can only be applied to block-level elements.
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        p::first-letter{
+                            color: #881168;
+                            font-weight: 900;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; first-line Selector</h3>
+                <p>
+                    &#x21d2; The ::first-line pseudo-element is used to add a special style to the first line of a text.
+                    <br>
+                    &#x21d2; The ::first-line pseudo-element can only be applied to block-level elements.
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        p::First-Line{
+                            color: #12093a;
+                            font-weight: 900;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>marker Selector</h3>
+                <p>
+                    &#x21d2; The ::marker selector selects the marker of a list item.
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        ::marker{
+                            color: #491d34;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; placeholder Selector</h3>
+                <p>
+                    &#x21d2; The ::placeholder selector selects form elements with placeholder text, and let you style
+                    the
+                    placeholder text.
+                    <br>
+                    &#x21d2;The placeholder text is set with the placeholder attribute, which specifies a hint that
+                    describes
+                    the expected value of an input field.
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                    input:focus{
+                        outline: none;
+                        background-color: transparent;
+                        border: none;
+                        border-bottom: 2px solid lightblue;
+                        color: rgb(15, 30, 57);
+                    }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="selector">
+                <h3>&#10070; section Selector</h3>
+                <p>
+                    &#x21d2;The ::selection pseudo-element matches the portion of an element that is selected by a user.
+                    <br>
+                    &#x21d2;The following CSS properties can be applied to ::selection: color, background, cursor, and
+                    outline.
+                    <br>
+                    &#x21d2;The following example makes the selected text darkpink on a lightpink background:
+
+                </p>
+                <span class="span">Syntax</span>
+                <div class="syntax">
+                    <pre>
+                        p::selection{
+                            color: #ead5e4;
+                            background-color: #2e0a1d;
+                            font-weight: 900;
+                        }
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

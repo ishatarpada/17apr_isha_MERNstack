@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.team-container {
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.team-container .team-img {
+    height: 720px;
+    width: 100%;
+    position: absolute;
+    background-image: url("../../image/teambg.jpg");
+    background-size: cover;
+}
+
+.team-container .team-content .heading {
+    height: 200px;
+    width: 1200px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    margin: auto;
+}
+
+.team-container .team-content .heading h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.team-container .team-content .heading p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.team-container .team-content .heading .circle {
+    height: 8px;
+    width: 8px;
+    margin: 20px auto 10px auto;
+    background-color: crimson;
+    border-radius: 50%;
+    position: relative;
+}
+
+.team-container .team-content .heading .circle::before {
+    content: "";
+    position: absolute;
+    right: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.team-container .team-content .heading .circle::after {
+    position: absolute;
+    left: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.team-container svg {
+    position: absolute;
+    top: 308px;
+}
+
+.team-container .member {
+    height: 180px;
+    width: 180px;
+    margin: auto;
+}
+
+.team-container .member-1 {
+    position: absolute;
+    top: 480px;
+    left: 200px;
+}
+
+.team-container .member-2 {
+    position: absolute;
+    top: 440px;
+    left: 480px;
+}
+
+
+.team-container .member-3 {
+    position: absolute;
+    top: 480px;
+    left: 760px;
+}
+
+
+.team-container .member-4 {
+    position: absolute;
+    top: 540px;
+    left: 1050px;
+}
+
+
+.team-container .member-5 {
+    position: absolute;
+    top: 510px;
+    left: 1350px;
+}
+
+
+.team-container .member .img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: auto;
+    background-size: cover;
+    border: 1px solid crimson;
+}
+
+.team-container .member-1 .img {
+    background: url("../../image/team1.jpg");
+}
+
+.team-container .member-2 .img {
+    background: url("../../image/team2.jpg");
+}
+
+.team-container .member-3 .img {
+    background: url("../../image/team3.jpg");
+}
+
+.team-container .member-4 .img {
+    background: url("../../image/team4.jpg");
+}
+
+.team-container .member-5 .img {
+    background: url("https://themewagon.github.io/bino/assets/images/test2.jpg");
+}
+
+.team-container .member .member-info {
+    width: 180px;
+    height: 90px;
+    margin: 20px 5px;
+    display: none;
+}
+
+.team-container .member .member-info h4 {
+    color: crimson;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.team-container .member .member-info p {
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+.team-container .member:hover .member-info {
+    display: block;
+}

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.service-container {
+    height: auto;
+    width: auto;
+}
+
+.service-container .service-box {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-container .service-box .box-1 {
+    height: 700px;
+    width: 50%;
+    position: relative;
+    background-color: #202020;
+}
+
+.service-container .service-box .box-1 .heading {
+    height: 100px;
+    width: 80%;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-container .service-box .box-1 .heading h2 {
+    height: 100px;
+    width: 90%;
+    padding: 5px;
+    text-align: right;
+    line-height: 100px;
+    font-size: 35px;
+    color: white;
+}
+
+.service-container .service-box .box-1 .heading .line {
+    height: 50px;
+    width: 5px;
+    margin: 30px;
+    background-color: crimson;
+}
+
+.service-container .service-box .box-1 .service {
+    height: 100px;
+    width: 750px;
+    text-align: right;
+    padding: 5px 0px;
+    margin: 20px auto;
+}
+
+.service-container .service-box .box-1 .service p {
+    height: 60px;
+    width: 700px;
+    padding: 5px 0px;
+    color: white;
+}
+
+.service-container .service-box .box-1 .service h3 {
+    height: 30px;
+    width: 700px;
+    padding: 5px 0px;
+    color: crimson;
+}
+
+.service-container .service-box .box-1 .icon {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 815px;
+    border: 2px solid gainsboro;
+}
+
+.service-container .service-box .box-1 .icon-1{
+    top: 180px;
+}
+
+.service-container .service-box .box-1 .icon-2{
+    top: 310px;
+}
+
+.service-container .service-box .box-1 .icon-3{
+    top: 440px;
+}
+
+.service-container .service-box .box-1 .icon .fa-heart{
+    color: crimson;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.service-container .service-box .box-2 {
+    height: 780px;
+    width: 50%;
+    background: url(https://themewagon.github.io/bino/assets/images/servicerightimg.jpg);
+    background-size: cover;
+}

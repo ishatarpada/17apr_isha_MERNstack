@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+.header .header-container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .header-container .header-title {
+    height: 60px;
+    width: 25%;
+    margin: auto;
+}
+
+.header .header-container .header-title h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.header .header-container .header-menu {
+    height: 60px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .header-container .header-menu .menu {
+    height: 60px;
+    width: 50%;
+    margin: auto;
+}
+
+.header .header-container .header-menu .menu .list {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 60px;
+}
+
+.header .header-container .header-menu .menu .list li {
+    height: 60px;
+    margin: auto;
+    width: auto;
+    font-size: 16px;
+    color: gray;
+}
+
+.header .header-container .header-menu .button {
+    height: 60px;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.header .header-container .header-menu .button .btn {
+    height: 50px;
+    width: 48%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.header .header-container .header-menu .button .btn-1 a {
+    color: gray;
+}
+
+.header .header-container .header-menu .button .btn-2 a {
+    color: #794CFF;
+}
+
+.header .header-container .header-menu .button .btn-2 {
+    background-color: #ECE5FF;
+}
+
+/* banner */
+.banner {
+    height: auto;
+    width: auto;
+    margin: 50px auto;
+}
+
+.banner .banner-container {
+    height: auto;
+    width: 100%;
+}
+
+.banner .banner-container .save-upto {
+    height: 50px;
+    width: 15%;
+    margin: auto;
+    display: flex;
+}
+
+.banner .banner-container .save-upto .get {
+    width: 300px;
+    height: 32px;
+    border-radius: 0px, 100px, 100px, 0px;
+    line-height: 32px;
+    text-align: right;
+    font-size: 16px;
+    padding-right: 5px;
+    border-radius: 100px;
+    position: relative;
+    background-color: #F2F9EB;
+    margin: auto;
+}
+
+.banner .banner-container .save-upto .get .save {
+    width: 125px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    border-radius: 100px;
+    position: absolute;
+    left: -50px;
+    background-color: #81C43B;
+}
+
+.banner .banner-container .banner-content {
+    height: 300px;
+    width: 90%;
+    margin: auto;
+}
+
+.banner .banner-container .banner-content h1 {
+    width: 760px;
+    height: 200px;
+    font-size: 64px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.banner .banner-container .banner-content h4 {
+    width: 505px;
+    height: 48px;
+    margin: 5px auto;
+    font-size: 16px;
+    color: #4E5A65;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner .banner-container .input-container {
+    height: 50px;
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner .banner-container .input-container .box-1 {
+    height: 50px;
+    width: 60%;
+    margin: auto;
+    border-radius: 4px, 0px, 0px, 4px;
+    border: 1px solid #F0EBFA;
+}
+
+.banner .banner-container .input-container .box-1 input {
+    font-size: 16px;
+    line-height: 50px;
+    padding-left: 10px;
+    border: none;
+}
+
+.banner .banner-container .input-container .box-2 {
+    height: 50px;
+    width: 40%;
+    margin: auto;
+    background-color: #794CFF;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 0px, 4px, 4px, 0px;
+}
+
+.overview {
+    height: auto;
+    width: auto;
+    margin: 50px auto;
+}
+
+.overview .overview-container {
+    height: 700px;
+    width: 80%;
+    margin: auto;
+}
