@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 .service-container {
@@ -10,30 +11,28 @@
 }
 
 .service-container .service-box {
-    height: 700px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .service-container .service-box .box-1 {
-    height: 700px;
+    height: auto;
     width: 50%;
+    padding: 80px;
     position: relative;
     background-color: #202020;
 }
 
-.service-container .service-box .box-1 .heading {
-    height: 100px;
-    width: 80%;
-    margin: 50px;
-    display: flex;
-    flex-wrap: wrap;
+.service-container .service-box .box-1 .services {
+    text-align: right;
+    padding: 10px 5px;
 }
 
-.service-container .service-box .box-1 .heading h2 {
-    height: 100px;
-    width: 90%;
+.service-container .service-box .box-1 .services h2 {
+    height: auto;
+    width: auto;
     padding: 5px;
     text-align: right;
     line-height: 100px;
@@ -41,34 +40,30 @@
     color: white;
 }
 
-.service-container .service-box .box-1 .heading .line {
-    height: 50px;
-    width: 5px;
+.service-container .service-box .box-1 .services h2:after {
+    content: "";
     margin: 30px;
-    background-color: crimson;
+    border: 3px solid crimson;
 }
 
-.service-container .service-box .box-1 .service {
-    height: 100px;
-    width: 750px;
-    text-align: right;
+.service-container .service-box .box-1 .services .service {
     padding: 5px 0px;
     margin: 20px auto;
+    text-align: right;
 }
 
-.service-container .service-box .box-1 .service p {
-    height: 60px;
-    width: 700px;
+.service-container .service-box .box-1 .services .service p {
     padding: 5px 0px;
     color: white;
+    text-align: right;
 }
 
-.service-container .service-box .box-1 .service h3 {
-    height: 30px;
-    width: 700px;
+.service-container .service-box .box-1 .services .service h3 {
     padding: 5px 0px;
+    text-align: right;
     color: crimson;
 }
+
 
 .service-container .service-box .box-1 .icon {
     height: 70px;
@@ -76,31 +71,186 @@
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    left: 815px;
+    right: -4%;
     border: 2px solid gainsboro;
 }
 
-.service-container .service-box .box-1 .icon-1{
-    top: 180px;
+.service-container .service-box .box-1 .icon-1 {
+    top: 220px;
 }
 
-.service-container .service-box .box-1 .icon-2{
-    top: 310px;
+.service-container .service-box .box-1 .icon-2 {
+    top: 340px;
 }
 
-.service-container .service-box .box-1 .icon-3{
-    top: 440px;
+.service-container .service-box .box-1 .icon-3 {
+    top: 470px;
 }
 
-.service-container .service-box .box-1 .icon .fa-heart{
+.service-container .service-box .box-1 .icon .fa-solid {
     color: crimson;
     padding: 20px;
     font-size: 25px;
 }
 
 .service-container .service-box .box-2 {
-    height: 780px;
+    height: auto;
     width: 50%;
-    background: url(https://themewagon.github.io/bino/assets/images/servicerightimg.jpg);
+    background: url("https://themewagon.github.io/bino/assets/images/servicerightimg.jpg");
     background-size: cover;
 }
+
+@media (max-width:1000px) {
+    
+    .service-container .service-box {
+        display: block;
+    }
+
+    .service-container .service-box .box-1 {
+        height: auto;
+        width: 100%;
+    }
+
+    .service-container .service-box .box-1 .icon {
+        position: absolute;
+        right: 0%;
+    }
+
+    .service-container .service-box .box-1 .icon-1 {
+        top: 210px;
+    }
+
+    .service-container .service-box .box-1 .icon-2 {
+        top: 330px;
+    }
+
+    .service-container .service-box .box-1 .icon-3 {
+        top: 450px;
+    }
+
+    .service-container .service-box .box-2 {
+        height: 600px;
+        width: 100%;
+        background: url("https://themewagon.github.io/bino/assets/images/servicerightimg.jpg");
+        background-size: cover;
+    }
+
+}
+
+
+@media (max-width:700px) {
+
+    .service-container .service-box {
+        display: block;
+    }
+
+    .service-container .service-box .box-1 {
+        height: auto;
+        width: 100%;
+    }
+
+    .service-container .service-box .box-1 .icon {
+        position: absolute;
+        right: 0%;
+    }
+
+    .service-container .service-box .box-1 .icon-1 {
+        top: 220px;
+    }
+
+    .service-container .service-box .box-1 .icon-2 {
+        top: 350px;
+    }
+
+    .service-container .service-box .box-1 .icon-3 {
+        top: 475px;
+    }
+
+    .service-container .service-box .box-2 {
+        height: 600px;
+        width: 100%;
+        background: url("https://themewagon.github.io/bino/assets/images/servicerightimg.jpg");
+        background-size: cover;
+    }
+}
+
+@media (max-width:500px) {
+    .service-container .service-box {
+        display: block;
+    }
+
+    .service-container .service-box .box-1 {
+        height: auto;
+        width: 100%;
+    }
+
+    .service-container .service-box .box-1 .services h2 {
+        font-size: 25px;
+    }
+
+    .service-container .service-box .box-1 .icon {
+        position: absolute;
+        right: 0%;
+    }
+
+    .service-container .service-box .box-1 .icon-1 {
+        top: 225px;
+    }
+
+    .service-container .service-box .box-1 .icon-2 {
+        top: 370px;
+    }
+
+    .service-container .service-box .box-1 .icon-3 {
+        top: 510px;
+    }
+
+    .service-container .service-box .box-2 {
+        height: 600px;
+        width: 100%;
+        background: url("https://themewagon.github.io/bino/assets/images/servicerightimg.jpg");
+        background-size: cover;
+    }
+    
+}
+
+@media (max-width:450px) {
+    .service-container .service-box {
+        display: block;
+    }
+
+    .service-container .service-box .box-1 {
+        height: auto;
+        width: 100%;
+    }
+
+    .service-container .service-box .box-1 .services h2 {
+        font-size: 25px;
+    }
+
+    .service-container .service-box .box-1 .icon {
+        position: absolute;
+        right: 0%;
+    }
+
+    .service-container .service-box .box-1 .icon-1 {
+        top: 225px;
+    }
+
+    .service-container .service-box .box-1 .icon-2 {
+        top: 400px;
+    }
+
+    .service-container .service-box .box-1 .icon-3 {
+        top: 580px;
+    }
+
+    .service-container .service-box .box-2 {
+        height: 600px;
+        width: 100%;
+        background: url("https://themewagon.github.io/bino/assets/images/servicerightimg.jpg");
+        background-size: cover;
+    }
+    
+}  
+
