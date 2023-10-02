@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+h1 {
+    height: auto;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: #31062b;
+}
+
+.container {
+    height: auto;
+    margin: 10px auto;
+    width: 95%;
+}
+
+.container p {
+    padding: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.container .set {
+    height: auto;
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.container .set h2 {
+    height: auto;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 150px 80px;
+    background-color: #261624;
+
+}
+
+.container .set ul{
+    height: auto;
+    width: 30%;
+    margin: 5px;
+    padding: 10px 50px;
+    box-shadow: 0px 0px 3px #3f0725;
+}
+
+.container .set ul h5{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.container .set .selector {
+    height: auto;
+    width: auto;
+    padding: 5px;
+}
+
+.container .set .selector h3 {
+    height: auto;
+    width: auto;
+    color: #510830;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.container .set .selector p {
+    height: auto;
+    color: #510830;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.container .set .selector .syntax {
+    height: auto;
+    padding: 10px 5px;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    color: #2f0a1e;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 3px #3a1e3a;
+    border: 1px solid #3a1e3a;
+}
+
+.container .set .selector.span {
+    height: auto;
+    color: #2f0a1e;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.container .set  .syntax {
+    height: auto;
+    padding: 10px 5px;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    color: #2f0a1e;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 3px #3a1e3a;
+    border: 1px solid #3a1e3a;
+}

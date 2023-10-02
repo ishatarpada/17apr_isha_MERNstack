@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 800px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.banner .banner-img {
+    height: 800px;
+    width: 100%;
+    background: url("../../image/ballons.jpg");
+    background-size: cover;
+    filter: brightness(40%);
+    position: absolute;
+    top: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 75%, 100% 75%, 50% 100%, 0% 75%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 75%, 100% 75%, 50% 100%, 0% 75%);
+}
+
+.banner .header {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+}
+
+.banner .header .header-title {
+    height: 100px;
+    width: 30%;
+    margin: auto;
+}
+
+.banner .header .header-title h1 {
+    width: 22%;
+    height: 38px;
+    color: white;
+    margin: 30px auto;
+    /* border: 1px solid white; */
+}
+
+.banner .header .header-title h1 span {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000000a0;
+}
+
+.banner .header .header-list {
+    height: 100px;
+    width: 70%;
+}
+
+.banner .header .header-list .list {
+    height: 100px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: white;
+    line-height: 100px;
+    justify-content: center;
+}
+
+.banner .header .header-list .list li {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    display: inline;
+    margin: 4px;
+    position: relative;
+}
+
+.banner .header .header-list .list li:hover {
+    color: crimson;
+}
+
+.banner .header .header-list .list li::after {
+    content: " ";
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    bottom: 20px;
+    left: 0px;
+    transition: 1s;
+    border-bottom: 3px solid crimson;
+}
+
+.banner .header .header-list .list li:hover:after {
+    height: 100%;
+    width: 100%;
+}
+
+.banner .header .menu-list {
+    display: none;
+}
+
+.banner .banner-text {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+}
+
+.banner .banner-text .text {
+    height: auto;
+    width: 70%;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.banner .banner-text .text h3 {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.banner .banner-text .text h1 {
+    font-size: 50px;
+    padding: 5px;
+}
+
+.banner .banner-text .circle {
+    height: 8px;
+    width: 8px;
+    margin: 20px auto 10px auto;
+    background-color: crimson;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.banner .banner-text .circle::before {
+    content: "";
+    position: absolute;
+    right: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.banner .banner-text .circle::after {
+    position: absolute;
+    left: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.banner .banner-text p {
+    height: auto;
+    width: 40%;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.banner .banner-text .button {
+    height: auto;
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.banner .banner-text .btn {
+    height: 100px;
+    width: 45%;
+    padding: 20px;
+    margin: auto;
+}
+
+.banner .banner-text .btn a {
+    text-decoration: none;
+    height: 60px;
+    width: 250px;
+    padding: 25px;
+    margin: auto;
+    line-height: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.banner .banner-text .btn-1 a {
+    background-color: crimson;
+    color: white;
+}
+
+.banner .banner-text .btn-2 a {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.banner .banner-text .btn-2 a:hover {
+    background-color: white;
+    color: crimson;
+}
+
+.banner .icon {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: -20px;
+    left: 49%;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 3px lightgray;
+}
+
+.banner .icon .fa {
+    color: crimson;
+    padding: 14px;
+}
+
+.banner .icon-1 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    font-size: 20px;
+    background-color: #80808082;
+}
+
+.banner .icon-1:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.banner .icon-2 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    font-size: 20px;
+    background-color: #80808082;
+}
+
+.banner .icon-2:hover{
+    background-color: crimson;
+    color: white;
+}
+
+@media (max-width : 1300px) {
+
+    .banner {
+        height: 1300px;
+    }
+
+    .banner .banner-img {
+        height: 1300px;
+    }
+
+    .banner .header {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        background: transparent;
+    }
+
+    .banner .header .header-title {
+        height: 100px;
+        width: 30%;
+        margin: auto;
+    }
+
+    .banner .header .header-list {
+        display: none;
+    }
+
+    .banner .header .menu-list {
+        height: auto;
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+    .banner .header .menu-list .menu-icon {
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    .banner .header .menu-list .menu-icon .fa-bars {
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+        padding: 4px;
+        color: white;
+        position: absolute;
+        top: -15px;
+        left: 90%;
+    }
+
+    .banner .header .menu-list .menu-icon .list {
+        height: auto;
+        width: 40%;
+        display: none;
+        padding: 5px;
+        position: absolute;
+        top: 20px;
+        right: -15%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .banner .header .menu-list .menu-icon .list li {
+        list-style: none;
+        text-transform: uppercase;
+        padding: 5px;
+        margin: 4px;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .banner .header .menu-list .menu-icon:hover .list {
+        display: block;
+    }
+
+    .banner .header .menu-list .menu-icon .list li:hover {
+        color: crimson;
+    }
+}
+
+@media (max-width : 1500px) {
+    .banner .banner-text .button {
+        height: auto;
+        width: 50%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .banner .banner-text .btn {
+        height: 100px;
+        width: 40%;
+        padding: 20px;
+        margin: auto 20%;
+    }
+}
+
+@media (max-width : 700px) {
+
+    .banner {
+        height: 1600px;
+    }
+
+    .banner .banner-img {
+        height: 1600px;
+    }
+
+
+    .banner .banner-text .button {
+        height: auto;
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+        padding: 0px;
+    }
+
+    .banner .banner-text .btn {
+        height: 100px;
+        width: 20%;
+        padding: 20px;
+        margin: auto 25%;
+    }
+
+    .banner .icon {
+        left: 45%;
+    }
+}

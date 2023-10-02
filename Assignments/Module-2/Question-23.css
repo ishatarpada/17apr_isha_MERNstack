@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.team-container {
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.team-container .team-img {
+    height: 720px;
+    width: 100%;
+    position: absolute;
+    background-image: url("../../image/teambg.jpg");
+    background-size: cover;
+}
+
+.team-container .heading {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 80px;
+    left: 25%;
+    right: 25%;
+    margin: auto;
+}
+
+.team-container .heading h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.team-container .heading p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.team-container .heading .circle {
+    height: 8px;
+    width: 8px;
+    margin: 20px auto 10px auto;
+    background-color: crimson;
+    border-radius: 50%;
+    position: relative;
+}
+
+.team-container .heading .circle::before {
+    content: "";
+    position: absolute;
+    right: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.team-container .heading .circle::after {
+    position: absolute;
+    left: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.team-container svg {
+    position: absolute;
+    top: 305px;
+}
+
+.team-container .main-team {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+}
+
+.team-container .main-team .team {
+    height: 200px;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.team-container .main-team li {
+    height: 280px;
+    width: 280px;
+    text-align: center;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.team-container .main-team .img-1 {
+    position: absolute;
+    left: 1%;
+    top: 50%;
+}
+
+.team-container .main-team .img-2 {
+    position: absolute;
+    left: 19%;
+    top: 20%;
+}
+
+.team-container .main-team .img-3 {
+    position: absolute;
+    left: 37%;
+    top: 25%;
+}
+
+.team-container .main-team .img-4 {
+    position: absolute;
+    left: 55%;
+    top: 65%;
+}
+
+.team-container .main-team .img-5 {
+    position: absolute;
+    left: 73%;
+    top: 40%;
+}
+
+.team-container .main-team .team li .team-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: auto 100px;
+    box-shadow: 0px 0px 0px 3px crimson;
+}
+
+
+.team-container .main-team .img-1 .team-img {
+    background: url("https://themewagon.github.io/bino/assets/images/team1.jpg");
+    background-size: 100% 100%;
+}
+
+.team-container .main-team .img-2 .team-img {
+    background: url("https://themewagon.github.io/bino/assets/images/team2.jpg");
+    background-size: 100% 100%;
+}
+
+.team-container .main-team .img-3 .team-img {
+    background: url("https://themewagon.github.io/bino/assets/images/team3.jpg");
+    background-size: 100% 100%;
+}
+
+.team-container .main-team .img-4 .team-img {
+    background: url("https://themewagon.github.io/bino/assets/images/team4.jpg");
+    background-size: 100% 100%;
+}
+
+.team-container .main-team .img-5 .team-img {
+    background: url("https://themewagon.github.io/bino/assets/images/test2.jpg");
+    background-size: 100% 100%;
+} 
+
+.team-container .main-team .team li .team-text {
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    display: none;
+    margin: 100px auto;
+}
+
+.team-container .main-team .team li .team-text h4{
+    height: 30px;
+    width: 100%;
+    color: crimson;
+    margin: 0;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.team-container .main-team .team li .team-text p{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.team-container .main-team .team li:hover .team-text{
+    display: block;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-18</title>
+    <link rel="stylesheet" href="Question-18.css">
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <h1>What are the media types allowed by CSS?</h1>
+    <div class="container">
+            <p>
+                => there are some media types allowed by CSS. <br>
+                    &numsp; &numsp; 1.all <br>
+                    &numsp; &numsp; 2.screen <br>
+                    &numsp; &numsp; 3.speech <br>
+                    &numsp; &numsp; 4.print <br>
+            </p>
+
+            <div class="example">
+                <div class=" type all">
+                    <h3>all</h3>
+                    <p>This is the default media type, and it applies to all devices.</p>
+                    <h6>example:-</h6> 
+                    <pre>
+                    @media all {
+                        /* CSS rules specific to the media type */
+                        body{
+                            font-size: 16px;
+                            background-color: lightgreen;
+                        }
+                    }
+                    </pre>
+                </div>
+
+                <div class=" type screan">
+                    <h3>screen</h3>
+                    <p>The default media type for styles intended for computer screens, tablets, and similar devices. 
+                    <br>
+                    This is the most commonly used media type for web design.</p>
+                    <h6>example:-</h6> 
+                    <pre>
+                    @media screen and (min-width: 480px) {
+                       /* CSS rules specific to the media type */
+                        body {
+                          background-color: lightgreen;
+                        }
+                      }
+                    </pre>
+                </div>
+
+                <div class=" type specch">
+                    <h3>specch</h3>
+                    <p>Used for screen readers and other speech synthesis devices. </p>
+                    <h6>example:-</h6> 
+                    <pre>
+                    @media speech and (min-width: 480px) {
+                        /* CSS rules specific to the media type */
+                        body {
+                            background-color: lightgreen;
+                          }
+                      }
+                    </pre>
+                </div>
+
+                <div class=" type print">
+                    <h3>print</h3>
+                    <p>Used for styles intended for print media. Styles defined for this media type will be applied when the user prints the web page.</p>
+                    <h6>example:-</h6> 
+                    <pre>
+                    @media print and (min-width: 480px) {
+                        /* CSS rules specific to the media type */
+                        body {
+                          background-color: lightgreen;
+                        }
+                      }
+                    </pre>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>
