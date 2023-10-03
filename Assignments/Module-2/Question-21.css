@@ -483,7 +483,7 @@
     }
 }
 
-@media (max-width : 700px) and (min-width:300px){
+@media (max-width : 700px) and (min-width:100px){
 
     .banner {
         height: 1600px;
@@ -493,6 +493,79 @@
         height: 1600px;
     }
 
+    .banner .header {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        background: transparent;
+    }
+
+    .banner .header .header-title {
+        height: 100px;
+        width: 30%;
+        margin: auto;
+    }
+
+    .banner .header .header-list {
+        display: none;
+    }
+
+    .banner .header .menu-list {
+        height: auto;
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+    .banner .header .menu-list .menu-icon {
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    .banner .header .menu-list .menu-icon .fa-bars {
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+        padding: 4px;
+        color: white;
+        position: absolute;
+        top: -15px;
+        left: 90%;
+    }
+
+    .banner .header .menu-list .menu-icon .list {
+        height: auto;
+        width: 40%;
+        display: none;
+        padding: 5px;
+        position: absolute;
+        top: 20px;
+        right: -15%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .banner .header .menu-list .menu-icon .list li {
+        list-style: none;
+        text-transform: uppercase;
+        padding: 5px;
+        margin: 4px;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .banner .header .menu-list .menu-icon:hover .list {
+        display: block;
+    }
+
+    .banner .header .menu-list .menu-icon .list li:hover {
+        color: crimson;
+    }
 
     .banner .banner-text .button {
         height: auto;
