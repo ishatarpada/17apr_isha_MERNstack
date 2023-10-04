@@ -414,6 +414,16 @@
     margin: 50px auto;
 }
 
+.work-container .benefits{
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #ECE5FF;
+   color: #796EFF;
+    display: none;
+}
+
 .work-container h1 {
     width: 100%;
     height: auto;
