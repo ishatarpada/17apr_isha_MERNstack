@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../image/form.jpg" type="image/x-icon">
+    <title>Registration Form</title>
+    <style>
+        .form-container {
+            height: auto;
+            width: 95%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .form-container .form {
+            height: auto;
+            width: 95%;
+            margin: auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="form">
+            <form action="" method="post">
+                <legend style="font-size: 30px;">Student Registration-Form</legend>
+                <br><br>
+
+                <label for="fnm">First Name : </label><br>
+                <input type="text" name="fnm" placeholder="Enter your First Name......." id="" required minlength="3" maxlength="6">
+                <br><br>
+
+                <label for="lnm">Last Name : </label><br>
+                <input type="text" name="lnm" placeholder="Enter your Last Name......." id="" required minlength="3" maxlength="6">
+                <br><br>
+
+                <label for="mail">E-mail : </label><br>
+                <input type="email" name="mail" placeholder="it should contain @......." id="" required>
+                <br><br>
+
+                <label for="phno">Mobile : </label><br>
+                <input type="tel" name="phno" placeholder="only 10 digits allowed......." id="" required minlength="10"
+                    maxlength="10" pattern="[0-9]{10}">
+                <br><br>
+
+                <label for="phno">Gender : </label><br>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <br><br>
+
+                <label for="dob">Date Of Birth : </label><br>
+                <input type="date" name="dob" placeholder="Enter your Date Of Birth......." id="" required>
+                <br><br>
+
+                <label for="add">Address : </label><br>
+                <textarea name="add" id="" rows="10" cols="30" required>
+                </textarea>
+                <br><br>
+
+                <label for="city">City : </label><br>
+                <input type="text" name="city" id="" required>
+                <br><br>
+
+                <label for="pin">AreaPin : </label><br>
+                <input type="text" name="pin" id="" required>
+                <br><br>
+
+                <label for="state">State : </label><br>
+                <input type="text" name="state" id="" required>
+                <br><br>
+
+                <label for="qualified">Qualification : </label><br>
+                <select name="qualified" id="qualified" required>
+                    <option value="">Select Qualification</option>
+                    <option value="ba">B.A.</option>
+                    <option value="be">B.E.</option>
+                    <option value="bca">B.C.A.</option>
+                    <option value="mba">M.B.A.</option>
+                    <option value="bba">B.B.A.</option>
+                    <option value="b-tech">B.Tech</option>
+                    <option value="m-tech">M.Tech</option>
+                    <option value="be">M.E.</option>
+                </select>
+
+                <br><br>
+
+                <label for="special">Specialization : </label><br>
+
+                <input type="checkbox" name="special" id="">
+                <label for="special">Computer Science </label>
+                <br>
+
+                <input type="checkbox" name="special" id="">
+                <label for="special">Information Technology </label>
+                <br>
+
+                <input type="checkbox" name="special" id="">
+                <label for="special">Computer Architecture </label>
+                <br>
+
+                <input type="checkbox" name="special" id="">
+                <label for="special">Tele Communication </label>
+                <br><br>
+
+                <label for="pswd">Password : </label><br>
+                <input type="password" id="pswd" required><br><br>
+
+                <input type="submit" value="Registered">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

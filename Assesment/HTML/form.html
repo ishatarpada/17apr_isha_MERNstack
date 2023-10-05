@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="shortcut icon" href="../../image/form.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="form">
+            <h3>Student Registration-Form</h3>
+            <form action="" method="post">
+
+                <div class="fnm box">
+                    <div class="label"><label for="fnm">First Name : </label></div>
+                    <div class="input">
+                        <input type="text" name="fnm" placeholder="Enter your First Name......." id="" required
+                            minlength="3" maxlength="6">
+                    </div>
+                </div>
+
+                <div class="lnm box">
+                    <div class="label"><label for="lnm">Last Name : </label></div>
+                    <div class="input">
+                        <input type="text" name="lnm" placeholder="Enter your Last Name......." id="" required
+                            minlength="3" maxlength="6">
+                    </div>
+                </div>
+
+                <div class="mail box">
+                    <div class="label"><label for="mail">E-mail : </label></div>
+                    <div class="input">
+                        <input type="email" name="mail" placeholder="it should contain @......." id="" required>
+                    </div>
+                </div>
+
+                <div class="phn box">
+                    <div class="label"><label for="phno">Mobile : </label></div>
+                    <div class="input">
+                        <input type="tel" name="phno" placeholder="only 10 digits allowed......." id="" required
+                            minlength="10" maxlength="10" pattern="[0-9]{10}">
+                    </div>
+                </div>
+
+                <div class="gender box">
+                    <div class="label"><label for="phno">Gender : </label></div>
+                    <div class="input">
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </div>
+                </div>
+
+                <div class="birth box">
+                    <div class="label"><label for="dob">Date Of Birth : </label></div>
+                    <div class="input">
+                        <input type="date" name="dob" placeholder="Enter your Date Of Birth......." id="" required>
+                    </div>
+                </div>
+
+                <div class="add box">
+                    <div class="label"><label for="add">Address : </label></div>
+                    <div class="input">
+                        <textarea name="add" id=""  required>
+                    </textarea>
+                    </div>
+                </div>
+
+                <div class="city box">
+                    <div class="label"><label for="city">City : </label></div>
+                    <div class="input">
+                        <input type="text" name="city" id="" required>
+                    </div>
+                </div>
+
+                <div class="pincode box">
+                    <div class="label"><label for="pin">AreaPin : </label></div>
+                    <div class="input">
+                        <input type="text" name="pin" id="" required>
+                    </div>
+                </div>
+
+                <div class="state box">
+                    <div class="label"><label for="state">State : </label></div>
+                    <div class="input">
+                        <input type="text" name="state" id="" required>
+                    </div>
+                </div>
+
+                <div class="qulification box">
+                    <div class="label"><label for="qualified">Qualification : </label></div>
+                    <div class="input">
+                        <select name="qualified" id="qualified" required>
+                            <option value="">Select Qualification</option>
+                            <option value="ba">B.A.</option>
+                            <option value="be">B.E.</option>
+                            <option value="bca">B.C.A.</option>
+                            <option value="mba">M.B.A.</option>
+                            <option value="bba">B.B.A.</option>
+                            <option value="b-tech">B.Tech</option>
+                            <option value="m-tech">M.Tech</option>
+                            <option value="be">M.E.</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="specialization box">
+                    <div class="label"><label for="special">Specialization : </label></div>
+                    <div class="input">
+                        <input type="checkbox" name="special" id="">
+                        <label for="special">Computer Science </label>
+                        <br>
+
+                        <input type="checkbox" name="special" id="">
+                        <label for="special">Information Technology </label>
+                        <br>
+
+                        <input type="checkbox" name="special" id="">
+                        <label for="special">Computer Architecture </label>
+                        <br>
+
+                        <input type="checkbox" name="special" id="">
+                        <label for="special">Tele Communication </label>
+                    </div>
+                </div>
+
+                <div class="pswd box">
+                    <div class="label"><label for="pswd">Password : </label></div>
+                    <div class="input">
+                        <input type="password" id="pswd" required>
+                    </div>
+                </div>
+
+                <div class="register box">
+                    <input type="submit" value="Registered">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
