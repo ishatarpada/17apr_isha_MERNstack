@@ -6,110 +6,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../../image/form.jpg" type="image/x-icon">
     <title>Registration Form</title>
-    <style>
-        .form-container {
-            height: auto;
-            width: 95%;
-            margin: auto;
-            padding: 20px;
-        }
-
-        .form-container .form {
-            height: auto;
-            width: 95%;
-            margin: auto;
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="../HTML/css/style.css">
 </head>
 
 <body>
     <div class="form-container">
         <div class="form">
+            <h3>Student Registration Form</h3>
             <form action="" method="post">
-                <legend style="font-size: 30px;">Student Registration-Form</legend>
-                <br><br>
 
-                <label for="fnm">First Name : </label><br>
-                <input type="text" name="fnm" placeholder="Enter your First Name......." id="" required minlength="3" maxlength="6">
-                <br><br>
-
-                <label for="lnm">Last Name : </label><br>
-                <input type="text" name="lnm" placeholder="Enter your Last Name......." id="" required minlength="3" maxlength="6">
-                <br><br>
-
-                <label for="mail">E-mail : </label><br>
-                <input type="email" name="mail" placeholder="it should contain @......." id="" required>
-                <br><br>
-
-                <label for="phno">Mobile : </label><br>
-                <input type="tel" name="phno" placeholder="only 10 digits allowed......." id="" required minlength="10"
-                    maxlength="10" pattern="[0-9]{10}">
-                <br><br>
-
-                <label for="phno">Gender : </label><br>
-                <input type="radio" name="gender">Male
-                <input type="radio" name="gender">Female
-                <br><br>
-
-                <label for="dob">Date Of Birth : </label><br>
-                <input type="date" name="dob" placeholder="Enter your Date Of Birth......." id="" required>
-                <br><br>
-
-                <label for="add">Address : </label><br>
-                <textarea name="add" id="" rows="10" cols="30" required>
-                </textarea>
-                <br><br>
-
-                <label for="city">City : </label><br>
-                <input type="text" name="city" id="" required>
-                <br><br>
-
-                <label for="pin">AreaPin : </label><br>
-                <input type="text" name="pin" id="" required>
-                <br><br>
-
-                <label for="state">State : </label><br>
-                <input type="text" name="state" id="" required>
-                <br><br>
-
-                <label for="qualified">Qualification : </label><br>
-                <select name="qualified" id="qualified" required>
-                    <option value="">Select Qualification</option>
-                    <option value="ba">B.A.</option>
-                    <option value="be">B.E.</option>
-                    <option value="bca">B.C.A.</option>
-                    <option value="mba">M.B.A.</option>
-                    <option value="bba">B.B.A.</option>
-                    <option value="b-tech">B.Tech</option>
-                    <option value="m-tech">M.Tech</option>
-                    <option value="be">M.E.</option>
-                </select>
-
-                <br><br>
-
-                <label for="special">Specialization : </label><br>
-
-                <input type="checkbox" name="special" id="">
-                <label for="special">Computer Science </label>
+                <div class="fnm box">
+                    <div class="label"><label for="fnm">First Name : </label></div>
+                    <div class="input">
+                        <input type="text" name="fnm" placeholder="Enter your First Name......." id="fnm" required
+                            minlength="3" maxlength="6" pattern="[A-Za-z]{3,6}">
+                    </div>
+                </div>
                 <br>
-
-                <input type="checkbox" name="special" id="">
-                <label for="special">Information Technology </label>
+                <div class="lnm box">
+                    <div class="label"><label for="lnm">Last Name : </label></div>
+                    <div class="input">
+                        <input type="text" name="lnm" placeholder="Enter your Last Name......." id="lnm" required
+                            minlength="3" maxlength="6" pattern="[A-Za-z]{3,6}">
+                    </div>
+                </div>
                 <br>
-
-                <input type="checkbox" name="special" id="">
-                <label for="special">Computer Architecture </label>
+                <div class="mail box">
+                    <div class="label"><label for="mail">E-mail : </label></div>
+                    <div class="input">
+                        <input type="email" name="mail" placeholder="it should contain @......." id="mail" required>
+                    </div>
+                </div>
                 <br>
+                <div class="phn box">
+                    <div class="label"><label for="phno">Mobile : </label></div>
+                    <div class="input">
+                        <input type="tel" name="phno" placeholder="only 10 digits allowed......." id="phno" required
+                            minlength="10" maxlength="10" pattern="[0-9]{10}">
+                    </div>
+                </div>
+                <br>
+                <div class="gender box">
+                    <div class="label"><label for="gender">Gender : </label></div>
+                    <div class="input">
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </div>
+                </div>
+                <br>
+                <div class="birth box">
+                    <div class="label"><label for="dob">Date Of Birth : </label></div>
+                    <div class="input">
+                        <input type="date" name="dob" placeholder="Enter your Date Of Birth......." id="dob" required>
+                    </div>
+                </div>
+                <br>
+                <div class="add box">
+                    <div class="label"><label for="add">Address : </label></div>
+                    <div class="input">
+                        <textarea name="add" id="add" required></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="city box">
+                    <div class="label"><label for="city">City : </label></div>
+                    <div class="input">
+                        <input type="text" name="city" id="city" required>
+                    </div>
+                </div>
+                <br>
+                <div class="pincode box">
+                    <div class="label"><label for="pin">Area Pin : </label></div>
+                    <div class="input">
+                        <input type="text" name="pin" id="pin" required>
+                    </div>
+                </div>
+                <br>
+                <div class="state box">
+                    <div class="label"><label for="state">State : </label></div>
+                    <div class="input">
+                        <input type="text" name="state" id="state" required>
+                    </div>
+                </div>
+                <br>
+                <div class="qualification box">
+                    <div class="label"><label for="qualified">Qualification : </label></div>
+                    <div class="input">
+                        <select name="qualified" id="qualified" required>
+                            <option value="">Select Qualification</option>
+                            <option value="ba">B.A.</option>
+                            <option value="be">B.E.</option>
+                            <option value="bca">B.C.A.</option>
+                            <option value="mba">M.B.A.</option>
+                            <option value="bba">B.B.A.</option>
+                            <option value="b-tech">B.Tech</option>
+                            <option value="m-tech">M.Tech</option>
+                            <option value="me">M.E.</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="specialization box">
+                    <div class="label"><label for="special">Specialization : </label></div>
+                    <div class="input">
+                        <input type="checkbox" name="special" id="specialCS">
+                        <label for="specialCS">Computer Science</label>
+                        <br>
 
-                <input type="checkbox" name="special" id="">
-                <label for="special">Tele Communication </label>
-                <br><br>
+                        <input type="checkbox" name="special" id="specialIT">
+                        <label for="specialIT">Information Technology</label>
+                        <br>
 
-                <label for="pswd">Password : </label><br>
-                <input type="password" id="pswd" required><br><br>
+                        <input type="checkbox" name="special" id="specialCA">
+                        <label for="specialCA">Computer Architecture</label>
+                        <br>
 
-                <input type="submit" value="Registered">
+                        <input type="checkbox" name="special" id="specialTC">
+                        <label for="specialTC">Telecommunication</label>
+                    </div>
+                </div>
+                <br>
+                <div class="pswd box">
+                    <div class="label"><label for="pswd">Password : </label></div>
+                    <div class="input">
+                        <input type="password" id="pswd" name="pswd" required>
+                    </div>
+                </div>
+                <br>
+                <div class="register box">
+                    <input type="submit" value="Register">
+                </div>
             </form>
         </div>
     </div>
