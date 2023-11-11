@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.form-container {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    /* padding: 10px; */
+}
+
+.form-container .form {
+    height: auto;
+    width: 95%;
+    margin: auto;
+}
+
+.form-container .form h3 {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+    color: red;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.form-container .form form {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    background-color: gainsboro;
+}
+
+.form-container .form form .box {
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.form-container .form form .box .label {
+    height: auto;
+    width: 20%;
+    padding: 10px;
+    margin: auto;
+}
+
+.form-container .form form .box .input {
+    height: auto;
+    width: 75%;
+    padding: 5px;
+    margin: auto;
+}
+
+.form-container .form form .box .input input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password] {
+    height: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.form-container .form form .box input[type=submit] {
+    height: auto;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border: none;
+}
+
+.form-container .form form .box .input select {
+    padding: 5px;
+}
+
+@media (max-width:700px) and (min-width:300px) {
+
+    .form-container .form form .box {
+        padding: 0px;
+        font-size: 14px;
+    }
+
+    .form-container .form form .box .label {
+        width: 45%;
+    }
+
+    .form-container .form form .box .input {
+        width: 55%;
+    }
+
+    /* .form-container .form form .box input[type=textarea] {
+        rows: 40;
+        cols: 10;
+    }*/
+
+    .form-container .form form .specialization .input label{
+        font-size: 10px;
+    }
+
+    .form-container .form form .box input[type=submit] {
+       width: 50%;
+    }
+
+} 
