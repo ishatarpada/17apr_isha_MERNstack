@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+}
+
+.container h1{
+    height: 50px;
+    width: 100%;
+    margin: 5px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    background-color: #0e4745;
+}
+
+.container .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container .boxes .box{
+    width: 15%;
+    margin: 5px auto;
+    font-size: 20px;
+    background-color: #ebefef;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px  #134e4c;
+}
+
+.container .boxes .box h3{
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border-radius: 10px;
+    background-color: #134e4c;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container .boxes .box ul{
+    padding: 5px;
+}
+
+.container .boxes .box ul li{
+    font-size: 25px;
+    padding: 10px;
+    list-style: none;
+}
+
+.container .boxes .box .parent{
+    padding: 5px 10px;
+}
+
+.container .boxes .box .parent .child {
+    padding: 5px 20px;
+}

@@ -1,0 +1,32 @@
+.div {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    background-color: rgb(137, 181, 181);
+    width: 75%;
+    font-weight: 900;
+}
+
+h2 {
+    background-color: rgb(23, 81, 94);
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.div h1 {
+    background-color: rgb(20, 56, 65);
+    color: white;
+    padding: 0px 25px;
+    font-size: 40px;
+    margin: auto 5px;
+    text-align: left;
+}
+
+.div ul li{
+    text-align: left;
+    list-style: none;
+    font-weight: 500;
+}

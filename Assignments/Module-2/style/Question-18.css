@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    height: auto;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: #060631;
+}
+
+.container {
+    height: auto;
+    margin: 10px auto;
+    width: 80%;
+    box-shadow: 0px 0px 2px #060631;
+}
+
+.container  p{
+    padding: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.container  .example{
+    height: auto;
+    width: auto;
+}
+
+.container  .example .type{
+    height: auto;
+    width: 70%;
+    padding: 10px;
+    margin: 20px auto;
+    box-shadow: 1px 1px  3px #060631;
+}
+
+.container  .example .type h3{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    color: white;
+    background-color: #05051f;
+}
+
+.container  .example .type p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 5px;
+    color: #05051f;
+}
+
+.container  .example .type pre{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.container  .example .type h6{
+    font-size: 20px;
+    padding: 10px;
+}
