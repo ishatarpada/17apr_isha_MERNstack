@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.container h1 {
+    height: auto;
+    width: 80%;
+    padding: 5px;
+    margin: 5px auto;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    background-color: #0c4646;
+}
+
+.container .answer {
+    height: auto;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.container .answer pre {
+    color: #0c4646;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-family: cursive;
+    letter-spacing: 1.5px;
+}
+
+.container .answer .tags {
+    height: auto;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.container .answer .tags h6{
+    height: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 30px;
+    margin: 5px auto;
+    text-align: center;
+}
+.container .answer .tags table {
+    height: auto;
+    width: 100%;
+    /* border: none; */
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+.container .answer .tags table th{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #193131;
+}
+
+.container .answer .tags  table td{
+    border: none;
+    font-size: 15px;
+    padding: 20px;
+    /* text-align: center; */
+}
+
+.container .answer .tags table .odd{
+    background-color: #07515177;
+}
+
+.container .answer .tags table .even{
+    background-color: #e4fafa;
+}
