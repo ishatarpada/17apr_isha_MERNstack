@@ -2,17 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
 }
 
 .team-container {
-    height: auto;
-    width: auto;
     position: relative;
 }
 
 .team-container .team-img {
-    height: 720px;
+    height: 80vh;
     width: 100%;
     position: absolute;
     background-image: url("../Image/teambg.jpg");
@@ -20,26 +17,17 @@
 }
 
 .team-container .heading {
-    height: auto;
-    width: auto;
     position: absolute;
-    top: 80px;
+    top: 50px;
     left: 25%;
     right: 25%;
     margin: auto;
 }
 
-.team-container .heading h2 {
-    text-align: center;
-    color: white;
-    font-size: 50px;
-    padding: 5px;
-}
-
+.team-container .heading h2,
 .team-container .heading p {
     text-align: center;
     color: white;
-    font-size: 25px;
     padding: 5px;
 }
 
@@ -52,33 +40,30 @@
     position: relative;
 }
 
-.team-container .heading .circle::after {
+.team-container .heading .circle::after,
+.team-container .heading .circle::before {
     position: absolute;
-    left: 5%;
     bottom: 4px;
     height: 1px;
-    width: 80px;
     background: #eee;
     content: "";
     display: inline-block;
+    width: 80px;
+}
+
+.team-container .heading .circle::after {
+    left: 5%;
     margin-left: 20px;
 }
 
 .team-container .heading .circle::before {
-    content: "";
-    position: absolute;
     right: 5%;
-    bottom: 4px;
-    height: 1px;
-    width: 80px;
-    background: #eee;
-    display: inline-block;
     margin-right: 20px;
 }
 
-.team-container svg {
+.team-container .svg {
     position: absolute;
-    top: 295px;
+    top: 94px;
 }
 
 .team-container .main-team {
@@ -114,25 +99,25 @@
 .team-container .main-team .img-2 {
     position: absolute;
     left: 19%;
-    top: 20%;
+    top: 6%;
 }
 
 .team-container .main-team .img-3 {
     position: absolute;
     left: 37%;
-    top: 25%;
+    top: -10%;
 }
 
 .team-container .main-team .img-4 {
     position: absolute;
     left: 55%;
-    top: 65%;
+    top: 5%;
 }
 
 .team-container .main-team .img-5 {
     position: absolute;
     left: 73%;
-    top: 40%;
+    top: -16%;
 }
 
 .team-container .main-team .team li .team-img {
