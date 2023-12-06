@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-17</title>
+    <link rel="stylesheet" href="style/Question-17.css">
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Math Operation</h1>
+
+        <div class="number">
+            <div class="label">
+                <label for="num1">Enter 1st Number</label>
+            </div>
+            <div class="input">
+                <input type="text" id="num1">
+            </div>
+        </div>
+
+        <div class="number">
+            <div class="label">
+                <label for="num2">Enter 2nd Number</label>
+            </div>
+            <div class="input">
+                <input type="text" id="num2">
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="buttons">
+                <div class="btn">
+                    <input type="button" id="btn1" onclick="addition()" value=" +">
+                </div>
+
+                <div class="btn">
+                    <input type="button" id="btn2" onclick="substraction()" value=" - ">
+                </div>
+
+                <div class="btn">
+                    <input type="button" id="btn3" onclick="multiplication()" value=" * ">
+                </div>
+
+                <div class="btn">
+                    <input type="button" id="btn4" onclick="division()" value=" / ">
+                </div>
+
+                <div class="btn">
+                    <input type="button" id="btn5" onclick="modulo()" value="%">
+                </div>
+            </div>
+
+            <div class="label">
+                <p id="ans">Answers is : <span style="color: #5b0e3c" id="totalColor">--</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="button">
+        <button type="button"><a href="Question-18.html" style="color: #3c0932;">Next!....</a></button>
+    </div>
+
+    <script src="script/Question-17.js"></script>
+</body>
+
+</html>

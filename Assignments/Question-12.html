@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-12</title>
+    <link rel="stylesheet" href="style/Question-12.css">
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <section class="heading">
+        <header>
+            <h1>What are all the types of Pop up boxes available in JavaScript?</h1>
+        </header>
+    </section>
+
+    <section class="answer">
+        &numsp; &#10139; there are three types of pop box.
+        <br>
+        &numsp;&numsp;&numsp; 1. alert-box
+        <br>
+        &numsp;&numsp;&numsp; 2. confirm-box
+        <br>
+        &numsp;&numsp;&numsp; 3. prompt-box
+    </section>
+
+
+    <section class="answer">
+        
+        <h3>&#9763; alert-box</h3>
+        &#10139; The "alert box" is used to display a message to the user.
+        <br>
+        &#10139; It has a single "OK" button for the user to acknowledge the message.
+    </section>
+    
+    <section class="example">
+        <h5>Syntax:-</h5>
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-12&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-12.css"&gt;
+
+            &lt;/head&gt;
+            &lt;body&gt;
+
+                &lt;button onclick="showAlert()"&gt;alert box&lt;/button&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+        <span class="span">JavaScript file</span>
+        <pre>
+            function showAlert() {
+                alert("hello , Good Morning");
+            }
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <button id="btn" onclick="showAlert()">alert box</button>
+    </section>
+
+    <section class="answer">
+        
+        <h3>&#9763; confirm-box</h3>
+        &#10139; The confirm box is used to ask the user for confirmation with a message and provides "OK" and "Cancel" buttons.
+        <br>
+        &#10139; It returns true if the user clicks "OK" and false if the user clicks "Cancel."
+    </section>
+    
+    <section class="example">
+        <h5>Syntax:-</h5>
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-12&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-12.css"&gt;
+
+            &lt;/head&gt;
+            &lt;body&gt;
+
+                &lt;button onclick="showConfirmation()"&gt;confirm box&lt;/button&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+        <span class="span">JavaScript file</span>
+        <pre>
+            function showConfirmation(){
+                const result = confirm("Do you want to continue?");
+                if (result === true) {
+                    alert("You clicked OK!");
+                } else {
+                    alert("You clicked Cancel!");
+                }
+            }
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <button id="btn" onclick="showConfirmation()">confirm box</button>
+    </section>
+
+    <section class="answer">
+        
+        <h3>&#9763; prompt-box</h3>
+        &#10139; The prompt box is used to prompt the user for input with a message and an input field.
+        <br>
+        &#10139; It returns the user's input as a string or null if the user clicks "Cancel."
+    </section>
+    
+    <section class="example">
+        <h5>Syntax:-</h5>
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-12&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-12.css"&gt;
+
+            &lt;/head&gt;
+            &lt;body&gt;
+
+                &lt;button onclick="showPrompt()"&gt;prompt box&lt;/button&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+        <span class="span">JavaScript file</span>
+        <pre>
+            function showPrompt() {
+                const userInput = prompt("Please enter your name:", "Isha Patel");
+                if (userInput !== null) {
+                    alert("You entered: " + userInput);
+                } else {
+                    alert("You canceled the prompt.");
+                }
+            }
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <button id="btn" onclick="showPrompt()">prompt box</button>
+    </section>
+
+    <div class="button">
+        <button type="button"><a href="Question-13.html" style="color: #3c0932;">Next!....</a></button>
+    </div>
+
+    <script src="script/Question-12.js"></script>
+</body>
+
+</html>

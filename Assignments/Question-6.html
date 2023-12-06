@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-6</title>
+    <link rel="stylesheet" href="style/Question-6.css">
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <section class="heading">
+        <header>
+            <h1>Write the code for adding new elements dynamically?</h1>
+        </header>
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-6&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-6.css"&gt;
+
+            &lt;/head&gt;
+            &lt;body&gt;
+
+                &lt;div id="container"&gt;
+                    <!-- Existing content in the container -->
+                    &lt;p&gt;Existing Content&lt;/p&gt;
+                &lt;/div&gt;
+                
+                &lt;button onclick="addNewElement()"&gt;Add New Element&lt;/button&gt;
+
+                //path give the js file
+                &lt;script src="script/Question-6.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+        <span class="span">JavaScript file</span>
+        <pre>
+            function addNewElement() {
+                var newParagraph = document.createElement('p');
+                newParagraph.textContent = 'Newly Added Content';
+                var container = document.getElementById('container');
+                container.appendChild(newParagraph);
+            }
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <span class="span">output</span>
+        <div id="container">
+            <p>Existing Content</p>
+        </div>
+        
+        <button onclick="addNewElement()">Add New Element</button>
+        <script src="script/Question-6.js"></script>
+    </div>
+
+    <div class="button">
+        <button type="button"><a href="Question-7.html" style="color: #3c0932;">Next!....</a></button>
+    </div>
+</body>
+
+</html>

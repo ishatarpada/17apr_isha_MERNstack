@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-14</title>
+    <link rel="stylesheet" href="style/Question-14.css">
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <section class="heading">
+        <header>
+            <h1>How can a page be forced to load another page in JavaScript?</h1>
+        </header>
+    </section>
+
+    <section class="answer">
+        &#10139; We can use window.location property inside the script tag to forcefully load another page in Javascript.
+        <br>
+        &#10139;  It is a reference to a Location object that is it represents the current location of the document.
+        <br>
+        &#10139;We can change the URL of a window by accessing it.
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-14&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-14.css"&gt;
+
+            &lt;/head&gt;
+            &lt;body&gt;
+
+                
+                &lt;button id="btn" &gt;load the page&lt;/button&gt;
+
+                //path give the js file
+                &lt;script src="script/Question-14.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+        <span class="span">JavaScript file</span>
+        <pre>
+            let btn = document.getElementById("btn");
+
+            btn.addEventListener("click" , function(){
+                window.location = "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            });
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <span class="span">Output</span>
+        <button id="btn" >load the page</button>
+    </div>
+    
+    <div class="button">
+        <button type="button"><a href="Question-15.html" style="color: #3c0932;">Next!....</a></button>
+    </div>
+    <script src="script/Question-14.js"></script>
+</body>
+
+</html>

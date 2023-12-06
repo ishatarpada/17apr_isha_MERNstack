@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-9</title>
+    <link rel="stylesheet" href="style/Question-9.css">
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <h1>What are all the looping structures in JavaScript?</h1>
+
+    <div class="table">
+        <center>
+            <table border="1px solid block">
+                <thead>
+                    <td>no</td>
+                    <td>name</td>
+                    <td>description</td>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>for Loop</td>
+                        <td>loops through a block of code a number of times</td>
+                    </tr>
+
+                    <tr>
+                        <td>2.</td>
+                        <td>For/in loop</td>
+                        <td>loops through the properties of an object</td>
+                    </tr>
+
+                    <tr>
+                        <td>3.</td>
+                        <td>for/of loop</td>
+                        <td>loops through the values of an iterable object</td>
+                    </tr>
+
+                    <tr>
+                        <td>4.</td>
+                        <td>while</td>
+                        <td> loops through a block of code while a specified condition is true</td>
+                    </tr>
+
+                    <tr>
+                        <td>5.</td>
+                        <td>do/while</td>
+                        <td>also loops through a block of code while a specified condition is true</td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </div>
+
+   <div class="example">
+        <h2>While loop</h2>
+        <h5>Syntax:-</h5>
+
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-9&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-9.css"&gt;
+      
+            &lt;/head&gt;
+            &lt;body&gt;
+      
+                &lt;label for="no"&gt;Number :- &lt;/label&gt;
+                &lt;input type="text" id="num"&gt;
+                &lt;input type="button" value="even" id="btn" onclick="printEven()"&gt;
+                &lt;p id="result"&gt;  &lt;/p&gt;
+                //path give the js file
+                &lt;script src="script/Question-9.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+        <span class="span">JavaScript file</span>
+        <pre>
+            function printFibonacci() {
+                let n = parseInt(document.getElementById("num").value);
+                let result = document.getElementById("result");
+            
+                let a = 0;
+                let b = 1;
+                let i = 0;
+            
+                while (i < n) {
+                    result.innerHTML += a + "  ";
+                    let sum = a + b;
+            
+                    a = b;
+                    b = sum;
+                    i++;
+                }
+            }
+      </script>
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <span class="span">output</span>
+        <br>
+        <label for="no">Number :- </label>
+        <input type="text" id="num">
+        <input type="button" value="Fibonacci" id="btn" onclick="printFibonacci()">
+        <p id="result"></p>
+
+    </div>
+
+    <div class="example">
+        <h2>for loop</h2>
+        <h5>Syntax:-</h5>
+
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-9&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-9.css"&gt;
+      
+            &lt;/head&gt;
+            &lt;body&gt;
+      
+                &lt;label for="no"&gt;Number :- &lt;/label&gt;
+                &lt;input type="text" id="num"&gt;
+                &lt;input type="button" value="even" id="btn" onclick="printEven()"&gt;
+                &lt;p id="result"&gt;  &lt;/p&gt;
+                //path give the js file
+                &lt;script src="script/Question-9.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+        <span class="span">JavaScript file</span>
+        <pre>
+            function printEven(){
+                for(let i = 0 ; i < 20 ; i++){
+                    if(i % 2 == 0){
+                        document.write(i + " &lt;br&gt;");
+                    }
+                }
+            }
+      </script>
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <span class="span">output</span>
+        <br>
+        <label for="no">Number :- </label>
+        <input type="text" id="num">
+        <input type="button" value="Even" id="btn" onclick="printEven()">
+        <p id="result1"></p>
+    </div>
+
+    <div class="example">
+        <h2>do while loop</h2>
+        <h5>Syntax:-</h5>
+
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-9&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-9.css"&gt;
+      
+            &lt;/head&gt;
+            &lt;body&gt;
+      
+                &lt;label for="no"&gt;Number :- &lt;/label&gt;
+                &lt;input type="text" id="num"&gt;
+                &lt;input type="button" value="Reverse" id="btn" onclick="printReverse()"&gt;
+                &lt;p id="result"&gt;&lt;/p&gt;
+                //path give the js file
+                &lt;script src="script/Question-9.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+        <span class="span">JavaScript file</span>
+        <pre>
+          function printReverse() {
+            let n = parseInt(document.getElementById("num").value);
+            let result = document.getElementById("result");
+      
+            let i = n;
+            let reversedNumbers = "";  
+      
+            do {
+                reversedNumbers += i + " &lt;br&gt; ";
+                i--;
+            } while (i > 0);
+      
+            result.innerHTML = reversedNumbers; 
+        }
+      </script>
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <span class="span">output</span>
+        <br>
+        <label for="no">Number :- </label>
+        <input type="text" id="num">
+        <input type="button" value="Reverse" id="btn" onclick="printReverse()">
+        <p id="result2"></p>
+    </div>
+
+     <div class="example">
+        <h2>for in loop</h2>
+        <h5>Syntax:-</h5>
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-9&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-9.css"&gt;
+      
+            &lt;/head&gt;
+            &lt;body&gt;
+      
+                &lt;input type="button" value="information" id="btn" onclick="printInfo()"&gt;
+                &lt;p id="result"&gt;&lt;/p&gt;
+                //path give the js file
+                &lt;script src="script/Question-9.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+
+        <span class="span">JavaScript file</span>
+        <pre>
+            function printInfo(){
+                let result = document.getElementById("result");
+                    let info = "";
+            
+                    const person = {
+                    firstName: "John",
+                    lastName: "Doe",
+                    age: 30,
+                    email: "john@example.com"
+                    };
+            
+                    for (let key in person) {
+                        info += key + ": " + person[key] + "   ";
+                    }
+            
+                    result.innerHTML = info;
+            }
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <span class="span">output</span>
+        <br>
+        <input type="button" value="information" id="btn" onclick="printInfo()">
+        <p id="result3"></p>
+    </div>
+
+    <div class="example">
+        <h2>for of loop</h2>
+        <h5>Syntax:-</h5>
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-9&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-9.css"&gt;
+      
+            &lt;/head&gt;
+            &lt;body&gt;
+      
+                &lt;input type="button" value="information" id="btn" onclick="printInfo()"&gt;
+                &lt;p id="result"&gt;&lt;/p&gt;
+                //path give the js file
+                &lt;script src="script/Question-9.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+
+        <span class="span">JavaScript file</span>
+        <pre>
+            function printList(){
+                let result = document.getElementById("result");
+                let info = "";
+            
+                let array = [56, 'janki', "89", 'hello', 8];
+            
+                for (i of array) {
+                    info += i + "   ";
+                }
+            
+                result.innerHTML = info;
+            }
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <span class="span">output</span>
+        <br>
+        <input type="button" value="List" id="btn" onclick="printList()">
+        <p id="result4"></p>
+    </div>
+
+
+    <div class="button">
+        <button type="button"><a href="Question-10.html" style="color: #3c0932;">Next!....</a></button>
+    </div>
+
+    <script src="script/Question-9.js"></script>
+
+</body>
+
+</html>
