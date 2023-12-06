@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-10</title>
+    <link rel="stylesheet" href="style/Question-10.css">
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <section class="heading">
+        <header>
+            <h1> How can you convert the string of any base to an integer in JavaScript?</h1>
+        </header>
+    </section>
+
+    <section class="answer">
+        &#10139; in JavaScript , convert the string of any base to an integer use the parseInt() function.
+        <br>
+        &#10139; parseInt() function takes an integer value and converts the string into an integer value.
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-10&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-10.css"&gt;
+
+            &lt;/head&gt;
+            &lt;body&gt;
+
+                &lt;div id="content"&gt;  Hello ishaaaaa &lt;/div&gt;
+                
+                &lt;button onclick="changeColor()"&gt;change color&lt;/button&gt;
+
+                //path give the js file
+                &lt;script src="script/Question-8.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+        <span class="span">JavaScript file</span>
+        <pre>
+            function convertStringToInteger() {
+                let ans = document.getElementById("ans");
+                let stringValue = "0x8975";
+                ans.innerHTML = "Initial Type: " + typeof stringValue + " ";
+
+                // Specify the base (16 for hexadecimal) explicitly
+                let integerValue = parseInt(stringValue, 16);
+
+                ans.innerHTML += "Final Type: " + typeof integerValue + " ";
+                ans.innerHTML += integerValue;
+                }
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <span class="span">output</span>
+        <button id="btn" onclick="convertStringToInteger()">integer value</button>
+        <br>
+        <p id="ans" style="color: #3c0932;"></p>
+        <script src="script/Question-10.js"></script>
+    </div>
+
+    <div class="button">
+        <button type="button"><a href="Question-11.html" style="color: #3c0932;">Next!....</a></button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    padding: 10px;
+    color: white;
+    margin: 5px;
+    background-color: #3c0932;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 40px;
+}
+
+.answer {
+    padding: 10px;
+    font-size: 35px;
+}
+
+.example{
+    height: auto;
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 3px gray;
+}
+
+.example .output {
+    padding: 20px;
+}
+
+.example .output h3{
+    padding: 10px;
+    color: #3c0932;
+}
+
+.button {
+    width: 10%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.button button {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #d9ced7;
+    color: #3c0932;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}

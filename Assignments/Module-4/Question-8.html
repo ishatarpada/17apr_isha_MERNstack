@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-8</title>
+    <link rel="stylesheet" href="style/Question-8.css">
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <section class="heading">
+        <header>
+            <h1>How can the style/class of an element be changed?</h1>
+        </header>
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-8&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-8.css"&gt;
+
+            &lt;/head&gt;
+            &lt;body&gt;
+
+                &lt;div id="content"&gt;  Hello ishaaaaa &lt;/div&gt;
+                
+                &lt;button onclick="changeColor()"&gt;change color&lt;/button&gt;
+
+                //path give the js file
+                &lt;script src="script/Question-8.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+        <span class="span">JavaScript file</span>
+        <pre>
+            function changeColor() {
+
+                var content = document.getElementById("content");
+                content.style.color = '#3c0932';
+                content.style.fontSize = '40px';
+            }
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <span class="span">output</span>
+        <div id="content">Hello ishaaaaa</div>
+        <button onclick="changeColor()">change color</button>
+        <script src="script/Question-8.js"></script>
+    </div>
+
+    <div class="button">
+        <button type="button"><a href="Question-9.html" style="color: #3c0932;">Next!....</a></button>
+    </div>
+</body>
+
+</html>

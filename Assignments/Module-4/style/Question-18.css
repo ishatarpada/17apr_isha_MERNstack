@@ -1,0 +1,83 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+    background-color: #3e0b26;
+}
+
+.container{
+    height: auto;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.container h1{
+    text-align: center;
+    padding: 5px;
+    color: #3e0b26;
+}
+
+.container h2{
+    text-align: center;
+    padding: 5px;
+    color: #3e0b26;
+}
+
+.container .marks{
+    height: auto;
+    width: 90%;
+    padding: 10px;
+    margin: 5px auto;
+    display: flex;
+    border: 1px solid whitesmoke;
+}
+
+.container .marks .label{
+    height: auto;
+    width: 40%;
+}
+
+.container .marks .input{
+    height: auto;
+    width: 50%;
+}
+
+.container .marks .input input{
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    background-color: #d1d1d1;
+    border: none;
+}
+
+.container .marks .input #ans{
+    width: 50%;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: #a8a3a3;
+}
+
+.button {
+    width: 10%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.button button {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #d9ced7;
+    color: #3c0932;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-13</title>
+    <link rel="stylesheet" href="style/Question-13.css">
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <section class="heading">
+        <header>
+            <h1>What is the use of Void (0)?</h1>
+        </header>
+    </section>
+
+    <section class="answer">
+        &#10139; void(0) is often used to prevent the browser from navigating to a new page when clicking on a link or
+        button.
+        <br>
+        &#10139; void(0) return undefined as a primitive value..
+        <br>
+        &#10139;It's typically used as the value of the href attribute in an anchor (<a>) tag or as the parameter to the
+            href attribute of a link.
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+
+        <span class="span">HTML file</span>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Question-13&lt;/title&gt;
+                &lt;link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon"&gt;
+                &lt;link rel="stylesheet" href="Question-13.css"&gt;
+
+            &lt;/head&gt;
+            &lt;body&gt;
+
+                &lt;div id="content"&gt;  JavaScript - void(0) &lt;/div&gt;
+                
+                &lt;button id="btn" &gt;&lt;a href="javascript:void(0);" onclick="myFunction()"&gt;Click me&lt;/a&gt;&lt;/button&gt;
+
+                //path give the js file
+                &lt;script src="script/Question-13.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+        </pre>
+        <br>
+        <hr>
+        <br>
+        <span class="span">JavaScript file</span>
+        <pre>
+            function myFunction() {
+
+                alert("JavaScript void(0) function")
+            }
+        </pre>
+
+        <br>
+        <hr>
+        <br>
+        <span class="span">Output</span>
+        <div id="content">javascript - void(0)</div>
+        <button id="btn" ><a href="javascript:void(0)" onclick="myFunction()" style="color: #3c0932;">Click me!</a></button>
+        <script src="script/Question-13.js"></script>
+    </div>
+    
+    <div class="button">
+        <button type="button"><a href="Question-14.html" style="color: #3c0932;">Next!....</a></button>
+    </div>
+</body>
+
+</html>
