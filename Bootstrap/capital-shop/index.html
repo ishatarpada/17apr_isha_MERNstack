@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Capital Shop</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <style>
+            h1{
+                color: bisque;
+            }
+        </style> -->
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-2 p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="media/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Capital Shop
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-end mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Baby Collection</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                            <li><a class="dropdown-item" href="#">Cart</a></li>
+                            <li><a class="dropdown-item" href="#">Product Details</a></li>
+                            <li><a class="dropdown-item" href="#">Product CheckOut</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blogs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Element</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="media/h1_hero1.jpg.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-1 text-start text-danger fw-bold">Fashion Sale</h5>
+                    <p class="display-6 text-start text-dark fw-medium">Minimal Menz Style</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-outline-danger">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="media/h1_hero2.jpg.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-1 text-end text-danger fw-bold">Fashion Sale</h5>
+                    <p class="display-6 text-end text-dark fw-medium">Minimal Menz Style.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" class="btn btn-outline-danger">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- section -->
+    <div class="container text-center mt-5">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+            <div class="col">
+                <img src="media/i1.png" class="d-block w-75 h-75 " alt="...">
+                <p class="text-center mt-2 w-75">IndianWear</p>
+            </div>
+            <div class="col">
+                <img src="media/i2.png" class="d-block w-75 h-75 " alt="...">
+                <p class="text-cente mt-2 w-75">FootWear</p>
+            </div>
+            <div class="col">
+                <img src="media/i3.jpg" class="d-block w-75 h-75 " alt="...">
+                <p class="text-cente mt-2 w-75">WinterWear</p>
+            </div>
+            <div class="col">
+                <img src="media/i4.png" class="d-block w-75 h-75 " alt="...">
+                <p class="text-cente mt-2 w-75">Bags</p>
+            </div>
+            <div class="col">
+                <img src="media/i5.jpg" class="d-block w-75 h-75 " alt="...">
+                <p class="text-cente mt-2 w-75">Hidden Gems</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- cart -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-auto p-2">
+        <div class="col">
+            <div class="card text-bg-dark">
+                <img src="media/item-1.png" class="card-img" alt="...">
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-bg-dark">
+                <img src="media/item-2.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-bg-dark">
+                <img src="media/item-3.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-md">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner bg-body-secondary m-5 p-3">
+                <div class="carousel-item active">
+                    <h2 class="display-6 fw-bold text-center">Customer Testimonial</h2>
+                    <p class="fw-medium text-wrap fs-5 lh-base px-3 text-center ">
+                        Everybody is different, which is why we offer styles for every body. Laborum fuga incidunt
+                        laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.
+                    </p>
+
+                    <div class="testimonial-founder d-flex align-items-center justify-content-center ">
+                        <div class="founder-img p-3">
+                            <img src="media/founder-img.png.webp" alt="">
+                        </div>
+                        <div class="founder-text px-3">
+                            <span class="fw-medium">Petey Cruiser</span>
+                            <p>Designer at Colorlib</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="display-6 fw-bold text-center">Customer Testimonial</h2>
+                    <p class="fw-medium text-wrap fs-5 lh-base px-3 text-center ">
+                        Everybody is different, which is why we offer styles for every body. Laborum fuga
+                        inciduntlaboriosam
+                        voluptas iure, delectus dignissimos facilis neque nulla earum.</p>
+                    <div class="testimonial-founder d-flex align-items-center justify-content-center ">
+                        <div class="founder-img p-3">
+                            <img src="media/founder-img.png.webp" alt="">
+                        </div>
+                        <div class="founder-text px-3">
+                            <span class="fw-medium">Petey Cruiser</span>
+                            <p>Designer at Colorlib</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon icon-danger" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon icon-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- latest news -->
+    <div class="container-md my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="media/blog1.jpg.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fashion tips</h5>
+                        <h6 class="card-text">What Curling Irons Are The Best Ones</h6>
+                        <p>Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus..</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary text-decoration-underline text-dark">Read More</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="media/blog2.jpg.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fashion tips</h5>
+                        <h6 class="card-text">Vogue's Ultimate Guide To Autumn/
+                            Winter 2019 Shoes</h6>
+                        <p>Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus..</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary text-decoration-underline text-dark">Read More</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="media/blog3.jpg.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fashion tips</h5>
+                        <h6 class="card-text">What Curling Irons Are The Best Ones</h6>
+                        <p>Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus..</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary text-decoration-underline text-dark">Read More</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
