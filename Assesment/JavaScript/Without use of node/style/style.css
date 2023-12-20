@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid white;
+    /* background-color: black; */
+}
+
+.table h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    color:  black;
+    font-weight: 500;
+}
+
+.table .table-container {
+    height: 95%;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #d5d5d5;
+    box-shadow: 0px 0px 5px lightgray;
+}
+
+.table .table-container .table-content {
+    height: 500px;
+    width: 30%;
+    margin: auto;
+    position: relative;
+}
+
+.table .table-container .table-content .table-details {
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    transition: 0.5s;
+}
+
+.table .table-container .table-content:hover .table-details {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.table .table-container .table-content .table-details h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.table .table-container .table-content .table-book {
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    display: none;
+}
+
+.table .table-container .table-content:hover .table-book {
+    display: block;
+}
+
+.table .table-container .table-content .table-book {
+    color: #fff;
+    font-size: 30px;
+    border-bottom: 2px solid #77b120;
+}
+
+.table .table-container .table-img-1 {
+    background-image: url("../../media/r1.jpg");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+}
+
+.table .table-container .table-form {
+    height: 100%;
+    width: 35%;
+    padding: 10px;
+}
+
+.table .table-container .table-form form {
+    height: auto;
+    width: auto;
+}
+
+.table .table-container .table-form form .name-text {
+    height: auto;
+    width: 90%;
+    margin: 10px 5px 5px;
+    padding: 5px;
+}
+
+.table .table-container .table-form form .name-text label {
+    color: #212121;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.table .table-container .table-form form .name-text .name-info {
+    height: 45px;
+    width: 95%;
+    margin: 4px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: white;
+}
+
+.table .table-container .table-form form .name-text .name-info:hover {
+    border-bottom: 2px solid #160c34;
+    height: 50px;
+    transition: ease 0.5s;
+}
+
+.table .table-container .table-form form .name-text .name-info .fa-solid {
+    font-size: 15px;
+    line-height: 25px;
+    color: greenyellow;
+    padding: 5px 10px;
+}
+
+.table .table-container .table-form form .name-text .name-info .input {
+    width: 80%;
+    border: none;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.table .table-container .table-form form .name-text .name-info input:focus {
+    border-color: none;
+}
+
+
+.table .table-container .table-form form .name-text .name-info select {
+    height: 35px;
+    width: 80%;
+    border: none;
+}
+
+.table .table-container .table-form form button {
+    background-color: greenyellow;
+    height: 50px;
+    width: 200px;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    border: none;
+}
+
+.table .table-container .table-form form button:hover {
+    border: 1px solid greenyellow;
+    background-color: white;
+    color: greenyellow;
+}
+
+.table .table-container .table-img-2 {
+    background-image: url("../../media/r2.jpg");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+}
+
+@media (max-width:1500px) and (min-width : 1000px) {
+    .table .table-container {
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:1000px) and (min-width : 800px) {
+    .table .table-container {
+        height: auto;
+        width: 100%;
+    }
+
+    .table .table-container .table-content {
+        width: 25%;
+    }
+
+    .table .table-container .table-form {
+        width: 45%;
+    }
+}
+
+
+@media (max-width:850px) and (min-width : 250px) {
+    .table .table-container {
+        height: auto;
+        width: 100%;
+    }
+
+    .table .table-container .table-content {
+        width: 90%;
+    }
+}
