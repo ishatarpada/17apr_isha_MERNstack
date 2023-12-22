@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Javascript</title>
+    <link rel="stylesheet" href="internal.css">
+</head>
+
+<body>
+    <h1>Internal Javascript</h1>
+
+    <div class="container">
+        &#x279C; &numsp; There are two method to embedded Javascript in webpage.
+        <ul>
+            <li>1. &numsp; in head tag</li>
+            <li>2. &numsp; in body tag</li>
+        </ul>
+
+        <div class="internal">
+            <h4>&#10023; in head tag</h4>
+            &#x279C; &numsp; JavaScript function is placed in the &lt;head&gt; section of an HTML page.
+
+            <div class="syntax">
+                <p>&#10526;Syntax</p>
+
+                <pre>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                        &lt;head&gt;
+                            <b>//internal JavaScript</b>
+                            &lt;script&gt;  &lt;/script&gt;
+                        &lt;/head&gt;
+
+                        &lt;body&gt;                   
+                        <b>//write the code</b>
+
+                        &lt;/body&gt;
+                    &lt;/html&gt;
+                </pre>
+            </div>
+
+
+            <div class="example">
+                <p>&#10526;Example</p>
+                <pre>
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html&gt;
+                        &lt;head&gt;
+    
+                        <b>//internal JavaScript</b>
+                        &lt;script&gt;
+                            function myFunction() {
+                                document.getElementById("demo").innerHTML = "Paragraph changed.";
+                            }
+                        &lt;/script&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                        &lt;h2>Demo JavaScript in Head&lt;/h2&gt;
+    
+                        &lt;p id="demo">A Paragraph&lt;/p&gt;
+                        &lt;button type="button" onclick="myFunction()">Try it&lt;/button&gt;
+    
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </pre>
+
+                <br>
+                <hr width="80%" style="margin: auto;">
+                <br>
+
+                <div class="output">
+                    <h6>&#10526;Output</h6>
+
+                    <!DOCTYPE html>
+                    <html>
+
+                    <head>
+                        <script>
+                            function myFunction() {
+                                document.getElementById("demo").innerHTML = "Paragraph changed.";
+                            }
+                        </script>
+                    </head>
+
+                    <body>
+
+                        <center>
+                            <p id="demo">A Paragraph.</p>
+                            <br>
+                            <button type="button" onclick="myFunction()"
+                                style="width: 50%; padding: 5px; margin: auto;">Try it</button>
+
+                        </center>
+                    </body>
+
+                    </html>
+                </div>
+            </div>
+        </div>
+
+        <hr width="80%" style="margin: auto;">
+
+        <div class="internal">
+            <h4>&#10023 in body tag</h4>
+            &#x279C; &numsp; JavaScript function is placed in the &lt;body&gt; section of an HTML page.
+
+            <div class="syntax">
+                <p>&#10526;Syntax</p>
+
+                <pre>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+
+                    <b>//internal JavaScript</b>
+                    &lt;script&gt;
+                        
+                    &lt;/script&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                   
+                    <b>//write the code</b>
+
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </pre>
+
+            </div>
+
+            <div class="example">
+                <p>&#10526;Example</p>
+
+                <pre>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    &lt;h2>Demo JavaScript in Head&lt;/h2&gt;
+
+                    &lt;p id="demo">A Paragraph&lt;/p&gt;
+                    &lt;button type="button" onclick="myFunction()">Try it&lt;/button&gt;
+
+                    <b>//internal JavaScript</b>
+                    &lt;script&gt;
+                        function myFunction() {
+                            document.getElementById("demo").innerHTML = "Paragraph changed.";
+                        }
+                    &lt;/script&gt;
+
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </pre>
+
+                <br>
+                <hr width="80%" style="margin: auto;">
+                <br>
+
+                <div class="output">
+                    <h6>&#10023; Output</h6>
+
+                    <!DOCTYPE html>
+                    <html>
+
+                    <body>
+
+                        <center>
+                            <p id="demo">A Paragraph.</p>
+                            <br>
+                            <button type="button" onclick="myFunction()"
+                                style="width: 50%; padding: 5px; margin: auto;">Try it</button>
+
+                            <script>
+                                function myFunction() {
+                                    document.getElementById("demo").innerHTML = "Paragraph changed.";
+                                }
+                            </script>
+                        </center>
+
+                    </body>
+
+                    </html>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

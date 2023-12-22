@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square</title>
+</head>
+
+<body>
+    <script>
+        // for a given array of numbers print the square of each value using the for each loop.
+        let n = parseInt(prompt("Enter the number of values: "));
+        let numbers = [];
+
+        for (let i = 0; i < n; i++) {
+            numbers[i] = prompt("Enter the mark for subject " + (i + 1));
+            // Convert input to a number
+            numbers[i] = parseInt(numbers[i]);
+        }
+
+        // using for each loop
+        function squareNumbers(arr) {
+            let squaredArray = [];
+            arr.forEach((number) => {
+                squaredArray.push(number * number);
+            });
+            return squaredArray;
+        }
+
+        // normally for loop
+        function squareNumbers(arr) {
+            let squaredArray = [];
+            for (let i = 0; i < arr.length; i++) {
+                squaredArray[i] = arr[i] * arr[i];
+            }
+            return squaredArray;
+        }
+
+        let squaredValues = squareNumbers(numbers);
+        document.write("Squared values: " + squaredValues);
+
+    </script>
+</body>
+
+</html>

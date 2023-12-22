@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arithmetic</title>
+    <link rel="stylesheet" href="arithmatic.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Math Operation</h1>
+        <label for="fno">1st  Number :- </label>
+        <input type="text" id="fno">
+        <br><br>
+        <label for="sno">2nd Number :- </label>
+        <input type="text" id="sno">
+        <br><br>
+
+        <input type="button" value="+" onclick="addition()" class="btn">
+        <input type="button" value="-" onclick="substraction()" class="btn">
+        <input type="button" value="*" onclick="multiplication()" class="btn">
+        <input type="button" value="/" onclick="division()" class="btn">
+        <input type="button" value="%" onclick="modulo()" class="btn">
+
+        <p id="ans">answer is :- </p>
+    </div>
+    <!-- <script>
+        let a = parseInt(document.getElementById("fno").value);
+        let b = parseInt(document.getElementById("sno").value);
+        function substraction(a, b) {
+            let c = document.getElementById("ans")
+
+            let result = a - b;
+            c.innerHTML = "answer is " + result;
+        }
+    </script> -->
+    <script src="arithmatic.js"></script>
+</body>
+
+</html>

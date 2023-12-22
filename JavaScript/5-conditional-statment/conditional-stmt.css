@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #3d0a23;
+}
+
+.table{
+    height: 500px;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+
+.table table{
+    width: 80%;
+}
+
+.table table thead{
+    font-weight: 700;
+}
+
+.table tr , td{
+    padding: 10px;
+}

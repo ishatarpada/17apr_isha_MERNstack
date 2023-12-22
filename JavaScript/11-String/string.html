@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+    <link rel="stylesheet" href="string.css">
+    <link rel="shortcut icon" href="../../image/favikon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <h1>String</h1>
+
+    <section class="answer">
+        &#10139; A JavaScript string is zero or more characters written inside quotes.
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+        <pre>
+            let str = prompt("enter the string");
+            result.innerHTML = str;
+        </pre>
+        <br>
+        <input type="button" value="string" class="btn" id="btn">
+        <p id="result"></p>
+    </div>
+
+    <h2>String-Length</h2>
+    <section class="answer">
+        &#10139;To find the length of a string, use the built-in length property
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+        <pre>
+            let str = prompt("enter the string");
+            let length = str.length
+            result1.innerHTML = length;
+        </pre>
+        <br>
+        <input type="button" value="string-length" class="btn" id="btn_1">
+        <p id="result1"></p>
+    </div>
+
+
+    <h2>String Indices</h2>
+    <section class="answer">
+        &#10139;Extracts a section of a string and returns a new string.
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+        <pre>
+            let str = prompt("enter the string");
+            let n = prompt("enter the 1st index of slice")
+            let m = prompt("enter the 2nd index of slice")
+            let slice = str.slice(n , m);
+            result2.innerHTML = slice;
+        </pre>
+        <br>
+        <input type="button" value="string-slice" class="btn" id="btn_2">
+        <p id="result2"></p>
+    </div>
+
+    <h2>String at()</h2>
+    <section class="answer">
+        &#10139;at() method will give the given index position character .
+        <br>
+        &#10139;The charAt() method returns the character at the specified index in a string.
+        <br>
+        &#10139; The charCodeAt() method is used to return the Unicode value of the character at the specified index in
+        a string.
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+        <pre>
+            let str = prompt("enter the string");
+            let n = prompt("enter the index of number")
+
+            //at()
+            let character = str.at(n)
+
+            //charAt()
+            let character = str.charAt(n)
+
+            //charCodeAt()
+            let character = str.charAt(n)
+            result3.innerHTML = character;
+        </pre>
+        <br>
+        <input type="button" value="string.at()" class="btn" id="btn_3">
+        <input type="button" value="string.charAt()" class="btn" id="btn_4">
+        <input type="button" value="string.chatCodeAt()" class="btn" id="btn_5">
+        <p id="result3"></p>
+    </div>
+
+    <h2>String lower/upper case</h2>
+    <section class="answer">
+        &#10139;The toUpperCase() method is used to convert all the characters in a string to uppercase.
+        <br>
+        &#10139;The toLowerCase() method is used to convert all the characters in a string to lowercase.
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+        <pre>
+            let str = prompt("enter the string");
+            let n = prompt("enter the index of number")
+
+            //toUppercase()
+            let upper = str.toUpperCase();
+
+
+            //charAt()
+            let lower = str.toLowerCase()
+
+            result3.innerHTML = character;
+        </pre>
+        <br>
+        <input type="button" value="string.toUpperCase()" class="btn" id="btn_6">
+        <input type="button" value="string.toLowerCase()" class="btn" id="btn_7">
+        <p id="result4"></p>
+    </div>
+
+    <h2>String replace character</h2>
+    <section class="answer">
+        &#10139;The replace() method is used to replace the first occurrence of a specified substring or pattern with another substring.
+        <br>
+        &#10139;The replaceAll() method is similar to replace(), but it replaces all occurrences of the specified substring or pattern with another substring.
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+        <pre>
+            let str = prompt("enter the string");
+            let word_1 = prompt("enter the 1st word");
+            let word_2 = prompt("enter the 2nd word");
+
+            //.replace()
+            let replace = str.replace(word_1 , word_2)
+
+            //.replaceAll()
+            let replace = str.replaceAll(word_1 , word_2)
+
+            result5.innerHTML = replace;
+        </pre>
+        <br>
+        <input type="button" value="string.replace()" class="btn" id="btn_8">
+        <input type="button" value="string.replaceAll()" class="btn" id="btn_9">
+        <p id="result5"></p>
+    </div>
+
+    <h2>String substring and substr()</h2>
+    <section class="answer">
+        &#10139;The substring() method extracts characters from a string between two specified indices.
+        <br>
+        &#10139;The substr() method is similar to substring(), but the second parameter represents the length of the substring, not the end index.
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+        <pre>
+            let str = prompt("enter the string");
+            let word_1 = prompt("enter the 1st word");
+            let word_2 = prompt("enter the 2nd word");
+
+            //.replace()
+            let substring = str.substring(n , m);
+            result6.innerHTML = substring;
+
+            //.replaceAll()
+            let substr = str.substr(n , m);
+            result6.innerHTML = substr;
+
+        </pre>
+        <br>
+        <input type="button" value="string.substring()" class="btn" id="btn_10">
+        <input type="button" value="string.substr()" class="btn" id="btn_11">
+        <p id="result6"></p>
+    </div>
+
+    <h2>String concat</h2>
+    <section class="answer">
+        &#10139;The concat() method is used to concatenate two or more strings.
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+        <pre>
+            let str = prompt("enter the 1st string");
+            let str1 = prompt("enter the 2nd string");
+            let string = str.concat(str , str1)
+            result7.innerHTML = string;
+        </pre>
+        <br>
+        <input type="button" value="string.concat()" class="btn" id="btn_12">
+        <p id="result7"></p>
+    </div>
+
+    <h2>String trim</h2>
+    <section class="answer">
+        &#10139;The trim() method removes whitespace from both ends of a string.
+        <br>
+        &#10139;trimStart() removes whitespace from the beginning of a string.
+        <br>
+        &#10139;trimEnd() removes whitespace from the end of a string.
+    </section>
+
+    <div class="example">
+        <h5>Syntax:-</h5>
+        <pre>
+            let str = prompt("enter the string");
+
+            //.trim()
+            let str1 = prompt("enter the 2nd string");
+            result8.innerHTML = substring;
+
+            //.trimStart()
+            let string = str.trimStart();
+            result8.innerHTML = substr;
+
+            //.trimEnd()
+            let string = str.trimEnd();
+            result8.innerHTML = substr;
+
+
+        </pre>
+        <br>
+        <input type="button" value="string.trim()" class="btn" id="btn_13">
+        <input type="button" value="string.trimStart()" class="btn" id="btn_14">
+        <input type="button" value="string.trimEnd()" class="btn" id="btn_15">
+        <p id="result8"></p>
+    </div>
+
+    <script src="string.js"></script>
+</body>
+
+</html>

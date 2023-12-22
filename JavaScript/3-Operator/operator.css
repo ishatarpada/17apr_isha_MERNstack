@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.conatiner{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #e2d8dd;
+}
+ 
+.conatiner h1{
+    height: auto;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #31091e;
+}
+
+.conatiner p{
+    width: 95%;
+    margin: auto;
+    font-size: 25px;
+}
+
+.conatiner .operator{
+    height: auto;
+    width: 95%;
+    padding: 10px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 3px #31091e;
+}
+
+.conatiner .operator h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+.conatiner .operator ul{
+    height: auto;
+    width: 40%;
+    color: #31091e;
+    margin-left: 10%;
+    font-size: 20px;
+    list-style: decimal;
+}
+
+.conatiner .operator table{
+    width: 40%;
+}
+
+.conatiner .operator table thead{
+    font-weight: 700;
+}
+
+.conatiner .operator tr , td{
+    padding: 10px;
+}
+
+.conatiner .operator .syntax{
+    margin: 5px;
+}

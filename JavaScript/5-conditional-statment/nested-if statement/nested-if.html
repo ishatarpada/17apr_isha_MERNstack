@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested if</title>
+</head>
+
+<body>
+    <center>
+        <label for="no">First Number:-</label>
+        <input type="number" id="fno">
+        <br><br>
+        <label for="no">Second Number:-</label>
+        <input type="number" id="sno">
+        <br><br>
+        <label for "no">Third Number:-</label>
+        <input type="number" id="tno">
+        <br><br>
+        <input type="button" value="click me!" id="btn" onclick="number()">
+        <p id="txt"></p>
+    </center>
+    <script>
+        function number() {
+            let a = parseInt(document.getElementById("fno").value);
+            let b = parseInt(document.getElementById("sno").value);
+            let c = parseInt(document.getElementById("tno").value);
+            let text = document.getElementById("txt");
+
+            if (a > b) {
+                if (a > c) {
+                    text.innerHTML = a + " is the max number.";
+                } else {
+                    text.innerHTML = c + " is the max number.";
+                }
+            } else {
+                if (b > c) {
+                    text.innerHTML = b + " is the max number.";
+                } else {
+                    text.innerHTML = c + " is the max number.";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

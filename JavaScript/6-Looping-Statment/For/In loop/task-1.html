@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for/in loop</title>
+</head>
+
+<body>
+    <script>
+        const person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 30,
+            email: "john@example.com"
+        };
+
+        for (let key in person) {
+            console.log(key + ": " + person[key]);
+        }
+        let array = [56, 'janki', "89", 'hello', 8];
+        for (let i of array) {
+            document.write(i + "<br>");
+        }
+    </script>
+</body>
+
+</html>

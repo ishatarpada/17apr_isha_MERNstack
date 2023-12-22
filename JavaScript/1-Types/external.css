@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+h1 {
+    height: auto;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: #340b21;
+}
+
+.container {
+    height: auto;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.container ul{
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.container .code{
+    height: auto;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 3px #340b21;
+}
+
+.container .code span{
+    font-size: 20px;
+    color: #340b21;
+}
+
+.container .code pre{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.container .example{
+    height: auto;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 3px #340b21;
+}
+
+.container .example h5{
+    font-size: 25px;
+    text-align: center;
+}
+
+.container  .example .output{
+    height: auto;
+    width: 40%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #b3a9ae;
+    box-shadow: 0px 0px 3px #340b21;
+}
+
+.container .example .output h4{
+    font-size: 25px;
+    text-align: center;
+    color: #340b21;
+}
+
+.container  .example .syntax{
+    height: auto;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 3px #340b21;
+}
+
+.container .example .syntax span{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: #340b21;
+}
+
+.container .example .syntax pre{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}

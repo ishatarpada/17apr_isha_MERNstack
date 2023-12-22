@@ -1,0 +1,35 @@
+body {
+    height: auto;
+    width: auto;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+}
+
+label {
+    font-size: 25px;
+    padding: 20px;
+}
+
+option {
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+select {
+    background-color: whitesmoke;
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#btn {
+    height: auto;
+    width: 100px;
+    padding: 10px;
+}
+
+p{
+    color: whitesmoke;
+}

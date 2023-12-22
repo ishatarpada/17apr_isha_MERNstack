@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vowel</title>
+</head>
+
+<body>
+    <script>
+        // function
+        // function is the block of code which is used for the to do  some specific task.
+        function countVowel(str) {
+            let count = 0;
+
+            for (let i = 0; i < str.length; i++) {
+                if (str[i] === "a" || str[i] === "e" || str[i] === "i" || str[i] === "o" || str[i] === "u") {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        let str = prompt("enter the string :- ");
+        let printVowel = countVowel(str);
+        document.write("no of vowel is :- " + printVowel + "<br>");
+        document.write("<br>")
+
+
+
+        // arrow function
+
+        const noOfCountVowel = (string) => {
+            let count = 0;
+
+            for (let i = 0; i < string.length; i++) {
+                if (string[i] === "a" || string[i] === "e" || string[i] === "i" || string[i] === "o" || string[i] === "u") {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        let userInput = prompt("Enter the string: ");
+        let numberOfVowels = noOfCountVowel(userInput);
+        document.write("Number of vowels is: " + numberOfVowels + "<br>");
+        document.write("<br>")
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Number</title>
+</head>
+
+<body>
+    <label for="no">Number :- </label>
+    <input type="text" id="num">
+    <input type="button" value="Reverse" id="btn" onclick="printReverse()">
+    <p id="result"></p>
+    <script>
+        function printReverse() {
+            let n = parseInt(document.getElementById("num").value);
+            let result = document.getElementById("result");
+
+            let i = n;
+            let reversedNumbers = "";  
+
+            do {
+                reversedNumbers += i + " <br> ";
+                i--;
+            } while (i > 0);
+
+            result.innerHTML = reversedNumbers; 
+        }
+    </script>
+</body>
+
+</html>

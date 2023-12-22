@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a0410;
+    text-transform: capitalize;
+}
+
+.container {
+    height: auto;
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.container h1{
+    text-align: center;
+    padding: 20px;
+    text-shadow: 0px 0px 3px #1a0410;
+}
+
+.container label{
+    color: #4d1032;
+    padding: 20px;
+}
+
+.container input{
+    padding: 5px;
+    background-color: #d7d2d5;
+    border: none;
+}
+
+.container .btn{
+    height: auto;
+    width: 50px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.container p{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    color: #4d1032;
+}

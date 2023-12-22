@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+h1{
+    height: auto;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: #340b21;
+}
+
+.container{
+    height: auto;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.container ul{
+    padding: 10px 30px;
+}
+
+.container .internal{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.container .internal h4{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container .internal .syntax{
+    height: auto;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 2px 0px 3px #340b21;
+}
+
+.container .internal .syntax p{
+    font-size: 20px;
+    color: #340b21;
+}
+
+.container .internal .example{
+    height: auto;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 3px #340b21;
+}
+
+.container .internal .example .output{
+    height: auto;
+    width: 40%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #b3a9ae;
+    box-shadow: 0px 0px 3px #340b21;
+}
+
+.container .internal .example .output h6{
+    font-size: 20px;
+    text-align: center;
+    color: #340b21;
+}

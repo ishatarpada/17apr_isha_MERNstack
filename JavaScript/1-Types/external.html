@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External Javascript</title>
+    <link rel="stylesheet" href="external.css">
+    <script src="external.js"></script>
+</head>
+
+<body>
+    <h1>External Javascript</h1>
+    <div class="container">
+        <ul>
+            <li>&#x279C; &numsp;External scripts are practical when the same code is used in many different web pages.
+            </li>
+            <li>&#x279C; &numsp;JavaScript files have the file extension .js.</li>
+            <li>&#x279C; &numsp;To use an external script, put the name of the script file in the src (source) attribute
+                of a &lt;script&gt; tag: </li>
+        </ul>
+
+        <div class="code">
+            <span>HTML file</span>
+            <pre>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;/head&gt;
+
+                    &lt;body&gt;
+                        &lt;script src="javascript file name"&gt;&lt;/script&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;
+            </pre>
+            <br>
+            <hr width="80%" style="margin: auto;">
+            <br>
+            <span class="span">JavaScript file</span>
+            <pre>
+                <b>//write the code in JavaScript</b>
+            </pre>
+        </div>
+
+
+        <div class="example">
+            <h5>&#10023 Syntax:-</h5>
+            <div class="syntax">
+                <span class="span">&#10526; HTML file</span>
+                <pre>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                        &lt;head&gt;
+                        &lt;/head&gt;
+    
+                        &lt;body&gt;
+                            &lt;h2>Demo External JavaScript&lt;/h2&gt;
+    
+                            &lt;p id="demo">A Paragraph.&lt;/p&gt;
+    
+                            &lt;button type="button" onclick="myFunction()"&gt;Try it&lt;/button&gt;
+    
+                            &lt;p&gt;This example links to "myScript.js".&lt;/p&gt;
+                            &lt;p&gt;(myFunction is stored in "myScript.js")&lt;/p&gt;
+    
+                            &lt;script src="external.js"&gt;&lt;/script&gt;
+                        &lt;/body&gt;
+                    &lt;/html&gt;
+                </pre>
+                <br>
+                <hr width="60%" style="margin: auto;">
+                <br>
+                <span class="span">&#10526; JavaScript file</span>
+                <pre>
+                    function myFunction() {
+                        document.getElementById("demo").innerHTML = "Paragraph changed.";
+                      }
+                </pre>
+            </div>
+
+            <h5>&#10023;  Output</h5>
+            <div class="output">
+                <!DOCTYPE html>
+                <html>
+
+                <body>
+                    <center>
+                        <p id="demo">A Paragraph.</p>
+
+                        <button type="button" onclick="myFunction()" style="width: 50%; padding: 5px; margin: auto;">Try
+                            it</button>
+                        <p>This example links to "external.js".</p>
+                        <p>(myFunction is stored in "external.js")</p>
+                    </center>
+                    <script src="external.js"></script>
+
+                </body>
+
+                </html>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

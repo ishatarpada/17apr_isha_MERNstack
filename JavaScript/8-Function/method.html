@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Method</title>
+</head>
+
+<body>
+    <!--        Map method
+        ==> map =>create a new array with the result of some operation.
+        ==> the value its callback returns are used to from new array.
+        ==> syntax:- arr.map(callBackFunction(value , index , array)) 
+    -->
+
+    <!-- 
+                            filter method
+        ==> create a new array of elements that give true for a condition / filter .
+        ==> all even element.
+     -->
+
+    <!--  
+                            reduce method
+        ==> performs some operation & reduces the array to single value .
+        ==> it returns that single value.
+      -->
+    <script>
+        let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+        // map method
+
+        // give the double number
+        let dblNum = num.map((val) => {
+            return val * 2;
+        });
+        document.write("double number :- " + dblNum);
+        document.write("<br>");
+
+        // filter method
+
+        // find the even number
+        let evenNum = num.filter((val) => {
+            return val % 2 === 0;
+        });
+        document.write("even number :- " + evenNum);
+        document.write("<br>");
+
+        // reduce method
+
+        // sum of the number
+        const sum = num.reduce((prev, curr) => {
+            return prev + curr;
+        })
+        document.write("sum :- " + sum);
+        document.write("<br>");
+
+        // find the large number
+        const largeValue = num.reduce((prev, curr) => {
+            return prev > curr ? prev : curr;
+        })
+        document.write("largeValue :- " + largeValue);
+        document.write("<br>");
+
+        //we are given array of marks of student filter out the marks of student that scored 90.
+        let n = parseInt(prompt("Enter the number of values: "));
+        let numbers = [];
+
+        for (let i = 0; i < n; i++) {
+            numbers[i] = prompt("Enter the mark for subject " + (i + 1));
+            // Convert input to a number
+            numbers[i] = parseInt(numbers[i]);
+        }
+
+        let marks = numbers.filter((val) => {
+            return val > 90;
+        });
+        document.write("student that scored 90 :- " + marks);
+        document.write("<br>");
+
+        // print the 1 to n numbers.
+        let m = parseInt(prompt("Enter the number of values: "));
+        let number = [];
+
+        for (let i = 0; i < m; i++) {
+            number[i] = i;
+            // Convert input to a number
+            number[i] = parseInt(number[i]);
+        }
+        document.write("1 to " + m + "array is :- " + number);
+        document.write("<br>");
+
+        // calculate the sum of all number using reduce method .
+        let sumNum = number.reduce((prev, curr) => {
+            return prev + curr;
+        });
+        document.write("the sum of all number :- " + sumNum);
+        document.write("<br>");
+
+        // calculate the product of all number using reduce method .
+        let factorial = number.reduce((prev, curr) => {
+            return prev * curr;
+        });
+        document.write("the product of all number :- " + factorial);
+        document.write("<br>");
+    </script>
+</body>
+
+</html>

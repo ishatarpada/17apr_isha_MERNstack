@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+
+<body>
+    <!-- 
+        Event :- the change in the state of an object is known as ana event.
+        events are fired to notify code of "interesting changes" that may affect code execution.
+
+        => mouse events 
+                    click , dblclick 
+        => keyword events 
+                    keypress , keyup , keydown
+        => form events
+                    submit , 
+        => print event
+
+        Event-Handling:-
+        node.event = ()=>{
+            //code
+        }
+
+        btn.onclick = ()=>{
+            console.log("button is clicked");
+        }
+
+        Event Object :- it is a special object that has details about the event.
+        all event handlers have access to the event object's properties and methods.
+
+        node.event = (e) => {
+            //code
+        }
+
+        Event Listeners:-
+
+        callback is the function which is pass in the second function as argument.
+
+        node.addEventListener(event , callback)
+        node.removeEventListener(event , callback)
+
+     -->
+
+    <button type="button" id="btn">change Mode</button>
+
+    <script src="event.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For each loop</title>
+</head>
+
+<body>
+    <script>
+        // callback function => it is function to execute for each element in the array.
+        // callback function is a function passed as an argument to another function. 
+        // higher order function => it is the function which is the another function takes as a parameter or argument in function or value return a function as output
+
+        // arr.forEach(callback function)
+        // for each loop in array
+        let arr = ["pune", "delhi", "mumbai"]
+        arr.forEach((val, idx, arr) => {
+            document.write(val.toUpperCase(), idx, arr + "<br>");
+            document.write("<br>");
+        });
+
+    </script>
+</body>
+
+</html>
