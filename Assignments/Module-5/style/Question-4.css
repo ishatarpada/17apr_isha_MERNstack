@@ -1,0 +1,13 @@
+*{
+    border: 1px solid lightgray;
+    color: lightgray;
+    margin: 2%;
+    padding: 5px;
+}
+li{
+    list-style: none;
+}
+span{
+    display: block;
+
+}
