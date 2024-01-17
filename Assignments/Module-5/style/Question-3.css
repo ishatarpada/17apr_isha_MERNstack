@@ -71,20 +71,16 @@
     cursor: pointer;
 }
 
-.slider-container {
-    width: auto;
+.container{
     height: auto;
-    margin :auto;
-    padding: 50px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
 }
 
-#hero {
-    height: 550px;
-    width: 50%;
-    margin: auto;
-}
-
-#hero img {
-    height: 100%;
-    width: 100%;
-}
+.container #animatedBox {
+    width: 200px;
+    height: 200px;
+    background-color: #74a4a9;
+    position: relative;
+  }

@@ -24,21 +24,25 @@
         <span class="span">jQuery code</span>
 
         <pre>
-            $(document).ready(function () {
-                $('#hero').cycle('shuffle','scrollRight');
-            });
+            $(document).ready(function() {
+                function animateBox() {
+                  $("#animatedBox").animate({
+                    left: '250px',
+                    opacity: '0.5',
+                    height: '250px',
+                    width: '250px'
+                  }, 2000, function() {
+                  });
+                }
+            
+                animateBox();
+              });
         </pre>
         <br>
     </div>
-    <div class="slider-container">
-        <div id="hero">
-            <!-- <img src="https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg" alt="">
-            <img src="https://www.oberlo.com/media/1603969791-image-1.jpg" alt="">
-            <img src="https://www.seozoom.com/wp-content/uploads/2023/01/ricerca-immagini-7.jpg" alt=""> -->
-            <img src="assets/banner-1.webp" alt="">
-            <img src="assets/banner-2.jpg" alt="">
-            <img src="assets/banner-3.webp" alt="">
-        </div>
+    
+    <div class="container">
+        <div id="animatedBox"></div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
