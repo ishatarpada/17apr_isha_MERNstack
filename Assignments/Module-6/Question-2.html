@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question-2</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+
+<body style="overflow-x: hidden;">
+
+  <div class="h1 m-3 text-light bg-dark bg-gradient text-center p-2">What is a Bootstrap Container, and how does it
+    work?
+  </div>
+
+  <p class="px-3 py-1">&#10170; Containers are a fundamental building block of Bootstrap that contain, pad, and align
+    your
+    content within a given device or viewport.</p>
+  <p class="px-3 py-1">&#10170; Containers are the most basic layout element in Bootstrap and are required when using
+    our default grid system.</p>
+  <p class="px-3 py-1">&#10170; Containers are used to contain, pad, and (sometimes) center the content within them.
+  </p>
+  <p class="px-3 py-1">&#10170; While containers can be nested, most layouts do not require a nested container.</p>
+
+  <div class="container-fluid">
+    <p class="h4 px-2 py-1 text-decoration-underline">&#10022; Bootstrap comes with three different containers:</p>
+    <p class="px-4 pt-1">&#10170;.container, which sets a max-width at each responsive breakpoint</p>
+    <p class="px-4 pt-1">&#10170; .container-{breakpoint}, which is width: 100% until the specified breakpoint</p>
+    <p class="px-4 pt-1">&#10170; .container-fluid, which is width: 100% at all breakpoints</p>
+  </div>
+
+  <br>
+  <hr style="width: 90%; margin: auto;">
+  <br>
+
+  <div class="container-fluid ">
+    <p class="h4 px-2 py-1 text-decoration-underline">&#10022; Container work as:-</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Extra small</th>
+          <th scope="col">Small</th>
+          <th scope="col">Medium</th>
+          <th scope="col">Large</th>
+          <th scope="col">X Large</th>
+          <th scope="col">XX large</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">.container</th>
+          <td>100%</td>
+          <td>540px</td>
+          <td>720px</td>
+          <td>960px</td>
+          <td>1140px</td>
+          <td>1320px</td>
+        </tr>
+        <tr>
+          <th scope="row">.container-sm</th>
+          <td>100%</td>
+          <td>540px</td>
+          <td>720px</td>
+          <td>960px</td>
+          <td>1140px</td>
+          <td>1320px</td>
+        </tr>
+        <tr>
+          <th scope="row">.container-md</th>
+          <td>100%</td>
+          <td>100%</td>
+          <td>720px</td>
+          <td>960px</td>
+          <td>1140px</td>
+          <td>1320px</td>
+        </tr>
+        <tr>
+          <th scope="row">.container-lg</th>
+          <td>100%</td>
+          <td>100%</td>
+          <td>100%</td>
+          <td>960px</td>
+          <td>1140px</td>
+          <td>1320px</td>
+        </tr>
+        <tr>
+          <th scope="row">.container-xl</th>
+          <td>100%</td>
+          <td>100%</td>
+          <td>100%</td>
+          <td>100%</td>
+          <td>1140px</td>
+          <td>1320px</td>
+        </tr>
+        <tr>
+          <th scope="row">.container-xxl</th>
+          <td>100%</td>
+          <td>100%</td>
+          <td>100%</td>
+          <td>100%</td>
+          <td>100%</td>
+          <td>1320px</td>
+        </tr>
+        <tr>
+          <th scope="row">.container-fluid</th>
+          <td>100%</td>
+          <td>100%</td>
+          <td>100%</td>
+          <td>100%</td>
+          <td>100%</td>
+          <td>100%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="h4 px-2 py-1 mb-2 text-decoration-underline">&#10022; Example:</p>
+
+  <p class="h4 px-2 py-1 ">&#10022; container:</p>
+  <div class="container border border-success border-3 h-20 p-2 m-2">.container :- fixed-width container</div>
+
+  <p class="h4 px-2 py-1 ">&#10022; container-sm:</p>
+  <div class="container-sm border border-success border-3 h-20 p-2 m-2">.container-sm :- 100% wide until small
+    breakpoint
+  </div>
+
+  <p class="h4 px-2 py-1 ">&#10022; container-md:</p>
+  <div class="container-md border border-success border-3 h-20 p-2 m-2">.container-md :- 100% wide until medium
+    breakpoint
+  </div>
+
+  <p class="h4 px-2 py-1 ">&#10022; container-lg:</p>
+  <div class="container-lg border border-success border-3 h-20 p-2 m-2">.container-lg :- 100% wide until large
+    breakpoint
+  </div>
+
+  <p class="h4 px-2 py-1 ">&#10022; container-xl:</p>
+  <div class="container-xl border border-success border-3 h-20 p-2 m-2">.container-xl :- 100% wide until extra large
+    breakpoint
+  </div>
+
+  <p class="h4 px-2 py-1 ">&#10022; container-xxl:</p>
+  <div class="container-xxl border border-success border-3 h-20 p-2 m-2">.container-xxl :- 100% wide until extra extra
+    large
+    breakpoint
+  </div>
+
+  <p class="h4 px-2 py-1 ">&#10022; container-fluid:</p>
+  <div class="container-fluid border border-success border-3 h-20 p-2 m-2">.container-fluid :- full width container
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
