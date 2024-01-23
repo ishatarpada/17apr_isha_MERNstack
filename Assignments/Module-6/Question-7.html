@@ -42,6 +42,26 @@
         </div>
     </div>
 
+    <div class="container border border-dark mx-5 my-3 p-3">
+        <p class="h4 px-2 py-1">&#10022; vertical button group Example :</p>
+        <p class="px-3 py-1">&#10170; In Bootstrap 5, btn-group within another .btn-group when you want dropdown menus mixed with a series of buttons.</p>
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-primary">1</button>
+            <button type="button" class="btn btn-warning">2</button>
+          
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+              </ul>
+            </div>
+          </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
