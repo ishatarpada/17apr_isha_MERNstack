@@ -14,7 +14,7 @@ $(document).ready(function () {
     //  index for track the image.
     var index = 0;
 
-    // Function to change the background image with fade effect
+    // Function to change the background image 
     function changeImage() {
       slider.animate({ opacity: 0 }, "slow", function () {
         slider.css("background-image", images[index]);
