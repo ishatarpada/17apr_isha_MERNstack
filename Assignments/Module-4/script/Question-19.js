@@ -3,7 +3,7 @@ const boxes = document.querySelectorAll(".box");
 const prevBtn = document.querySelector("#prev");
 const nextBtn = document.querySelector("#next");
 
-let currentSlide = parseInt(Math.ceil(boxes.length / 2)) - 1;
+let currentSlide = parseInt(Math.ceil(boxes.length / 2)) + 1;
 console.log(currentSlide);
 
 function showSlide(index) {
