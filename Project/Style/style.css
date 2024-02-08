@@ -5,6 +5,7 @@
 }
 body{
     color: #3c4046;
+    line-height: 20px;
     font: 14px Arial, Helvetica, sans-serif;
 }
 
@@ -249,6 +250,7 @@ body{
     font-size: 20px;
     width: 25%;
     letter-spacing: -1px;
+    word-spacing: 3px;
     margin: 3.5% 7% 2.5%;
     font-weight: 400;
 }

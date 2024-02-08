@@ -65,6 +65,11 @@
     margin: auto;
 }
 
+.content-container .content-section1 .form .radio-section .radio-btn .radio label{
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .content-container .content-section1 .form .radio-section .radio-btn .radio input {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
