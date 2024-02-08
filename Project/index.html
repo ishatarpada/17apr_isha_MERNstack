@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airlines International Travel</title>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="Style/style.css">
+    <!-- home page css -->
+    <link rel="stylesheet" href="Style/home.css">
+    <!-- aircraft page css -->
+    <link rel="stylesheet" href="Style/aircraft.css">
+    <!-- safety page css -->
+    <link rel="stylesheet" href="Style/safety.css">
+    <!-- charter page css -->
+    <link rel="stylesheet" href="Style/charter.css">
+    <!-- contact page css -->
+    <link rel="stylesheet" href="Style/contact.css">
+    <!-- media query css -->
+    <link rel="stylesheet" href="Style/media-1.css">
+    <link rel="stylesheet" href="Style/media-2.css">
+
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header start-->
+    <div class="header-container">
+        <div class="header-logo">
+            <div class="logo-img">
+                <img src="Assets/logo.png" alt="" height="100%" width="100%">
+            </div>
+        </div>
+        <div class="header-menu">
+            <div class="header-icon">
+                <div class="icon icon1">
+                    <i class="fa-solid fa-house" style="color: #525356;"></i>
+                </div>
+                <div class="icon icon2">
+                    <i class="fa-regular fa-envelope" style="color: #525356;"></i>
+                </div>
+                <div class="icon icon3">
+                    <i class="fa-solid fa-plane-departure" style="color: #525356;"></i>
+                </div>
+            </div>
+            <div class="header-upMenu">
+                <div class="header-listMenu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aircraft.html">Our Aircraft</a></li>
+                        <li><a href="safety.html">Safety</a></li>
+                        <li><a href="charter.html">Charters</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="header-sideMenu">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aircraft.html">Our Aircraft</a></li>
+                        <li><a href="safety.html">Safety</a></li>
+                        <li><a href="charter.html">Charters</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+
+    <!-- carousal start  -->
+    <div class="banner-container">
+        <div class="banner"></div>
+        <div class="banner-content">
+            <h1>Comfort</h1>
+            <h3>Guaranteed</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente reprehenderit odit iste
+                molestiae commodi suscipit dolores.</p>
+
+            <button type="button">
+                <a href="#">Order Tickets Online</a>
+                <i class="fa-solid fa-greater-than" style="color: white;"></i>
+            </button>
+        </div>
+    </div>
+    <!--  carousal end  -->
+
+    <!-- main section start-->
+    <section class="content-container">
+        <div class="content-section1">
+            <div class="title-form grid-section ">
+                <p>Your Flight Planner</p>
+            </div>
+            <section class="form grid-section">
+                <form action="#">
+                    <div class="radio-section section">
+                        <div class="radio-btn">
+                            <div class="radio">
+                                <input type="radio" name="tripType" id="radio-1" value="Round-Trip">
+                                <label for="radio-1">Round-Trip</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="tripType" id="radio-2" value="Empty-Leg">
+                                <label for="radio-2">Empty-Leg</label>
+                            </div>
+                        </div>
+                        <div class="radio-btn">
+                            <div class="radio">
+                                <input type="radio" name="tripType" id="radio-3" value="One-Way">
+                                <label for="radio-3">One-Way</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="tripType" id="radio-4" value="Multi-Leg">
+                                <label for="radio-4">Multi-Leg</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leaving-section section">
+                        <div class="label">
+                            <label for="LeavingFrom">Leaving From : </label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="" id="" placeholder="Enter City  or Airport Code">
+                        </div>
+                    </div>
+                    <div class="going-section section">
+                        <div class="label">
+                            <label for="GoingFrom">Going From : </label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="" id="" placeholder="Enter City  or Airport Code">
+                        </div>
+                    </div>
+                    <div class="date-section section goingDate-section">
+                        <div class="label">
+                            <label for="">Departure Date and Time</label>
+                        </div>
+                        <div class="input">
+                            <input type="date" name="" id="">
+                            <input type="time" name="" id="">
+                        </div>
+                    </div>
+                    <div class="returnDate-section section date-section">
+                        <div class="label">
+                            <label for="">Return Date and Time</label>
+                        </div>
+                        <div class="input">
+                            <input type="date" name="" id="">
+                            <input type="time" name="" id="">
+                        </div>
+                    </div>
+                    <div class="passenger-section section">
+                        <div class="passenger">
+                            <div class="noPassenger">
+                                <div class="label">
+                                    <label for="noPassenger">passenger(s) :</label>
+                                </div>
+                                <div class="input">
+                                    <input type="number" name="" id="" placeholder="# passengers">
+                                </div>
+                            </div>
+                            <div class="goBtn">
+                                <button type="button"><a href="#">GO !</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section class="reviews grid-section">
+                <h1>Recent News</h1>
+                <div class="news-1 news">
+                    <p>Nemo enim ips am voluptatem quia</p>
+                    <span>Nonember 5 , 2010</span>
+                </div>
+                <div class="news-2 news">
+                    <p>Voluptas as pernatur autoditaut fjugt</p>
+                    <span>Nonember 1 , 2010</span>
+                </div>
+                <div class="news-3 news">
+                    <p>sed quia consequuntur magni</p>
+                    <span>October 23 , 2010</span>
+                </div>
+            </section>
+        </div>
+        <div class="content-section2">
+            <div class="welcome-section home-section">
+                <h2>Welcome to Our Website</h2>
+                <p>Air Lines is a free web template created by TemplateMonster.com team. This website template is
+                    optimized for 1024X768 screen resolution. </p>
+                <div class="aircraft home-content">
+                        <ul>
+                            <li>
+                                <a href="#">Aircraft</a>
+                            </li>
+                        </ul>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                        magni dolores eos qui ratione.</p>
+                    <div class="aircraft-btn home-content-btn">
+                        <div class="btn">
+                            <button><a href="#">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="charter home-content">
+                        <ul>
+                            <li><a href="#">Charter</a></li>
+                        </ul>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                        quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        voluptatem.</p>
+                    <div class="charter-btn home-content-btn">
+                        <div class="btn">
+                            <button type="button" class="fleet-btn"><a href="#">FLEET</a></button>
+                            <button type="button" class="reservation-btn"><a href="#">RESERVATION</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="client-section home-section">
+                <div class="client-part-1">
+                    <h2>Our Clients</h2>
+                    <p><strong>Avero eoset</strong> accusamus et iusto odio dig- nissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti.</p>
+                    <p>Atque corrupti quos dolores et quas moles- tias excepturi sint <a href="#">occaecati
+                            cupiditate</a> non provident, similique sunt in culpa qui officia deserunt mollitia animi,
+                        id est laborum et dolorum fuga.</p>
+                </div>
+                <div class="client-part-2">
+                    <div class="quote">
+                        <img src="Assets/Quotes.gif" alt="">
+                        <div class="quote-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adip- isicing elit, sed do eius- mod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                <span>Mr. Thomas Lloyd </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main section end -->
+
+    <!-- Footer start -->
+    <div class="footer">
+        <p>© 2024 Le Travenues Technology Ltd. India. All brands are trademarks of their respective owners.</p>
+    </div>
+    <!-- Footer end -->
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+@media (max-width:775px) and (min-width:200px) {
+    .header-container .header-menu .header-upMenu .header-listMenu {
+        display: none;
+    }
+
+    .header-container .header-menu .header-upMenu .header-sideMenu {
+        display: block;
+    }
+
+    .banner-container {
+        height: 600px;
+    }
+
+    .banner-container .banner {
+        height: 600px;
+    }
+
+    .banner-container .banner-content {
+        top: 20%;
+    }
+
+    .banner-container .banner-content p {
+        width: 50%;
+        font-size: 25px;
+    }
+
+    .content-container {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .content-container .content-section1 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .content-container .content-section2 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .content-container .content-section2 .client-section {
+        display: block;
+    }
+
+    .content-container .content-section2 .client-section .client-part-1 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .content-container .content-section2 .client-section .client-part-2 {
+        width: 60%;
+        margin: auto;
+    }
+
+    .content-container .content-section2 .sales-section .sales-list {
+        display: block;
+    }
+
+    .content-container .content-section2 .sales-section .sales-list .sales-items {
+        width: 80%;
+        margin: auto;
+    }
+
+    .content-container .content-section2 .expert-section .safety-about {
+        display: block;
+        margin-top: 3%;
+    }
+
+    .content-container .content-section2 .expert-section .safety-about .safety-about-img {
+        width: 75%;
+        margin: auto;
+    }
+
+    .content-container .content-section2 .expert-section .safety-about .safety-about-content {
+        width: 75%;
+        margin: auto;
+    }
+
+
+    .content-container .content-section2 .management-section .management-list {
+        display: block;
+        width: 90%;
+    }
+
+    .content-container .content-section2 .management-section .management-list .management-items {
+        width: 70%;
+        padding: 0;
+        margin: auto;
+
+    }
+
+    .content-container .content-section2 .management-section .management-items li {
+        font-size: 18px;
+    }
+
+    .content-container .content-section2 .service-section .service-part {
+        display: block;
+    }
+
+    .content-container .content-section2 .service-section .service-part .service-img {
+        width: 80%;
+    }
+
+    .content-container .content-section2 .service-section .service-part .service-content {
+        width: 90%;
+    }
+
+    .content-container .content-section2 .charter-part .aircraft-container {
+        display: block;
+    }
+
+    .content-container .content-section2 .charter-part .aircraft-container .charter-img {
+        width: 80%;
+    }
+
+    .content-container .content-section2 .charter-part .aircraft-container .charter-content {
+        width: 95%;
+
+    }
+
+    .contact-container {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .contact-container .contact-section1 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .contact-container .contact-section2 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .contact-container .contact-section2 .contact-form .form-part .form-label{
+        width: 50%;
+    }
+
+    .contact-container .contact-section2 .contact-form .form-part .form-input{
+        width: 50%;
+    }
+}
+
+@media (max-width:450px) and (min-width:200px) {
+    .content-container .content-section2 .client-section .client-part-2 .quote {
+        margin-top: 3%;
+        height: 300px;
+    }
+}

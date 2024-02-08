@@ -1,0 +1,391 @@
+/* .header-container .header-menu .header-upMenu .header-listMenu ul li:nth-child(2) a {
+    background-color: black;
+    border-radius: 5px;
+} */
+
+/* main section start */
+.content-container {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+
+.content-container .content-section1 {
+    height: auto;
+    width: 40%;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(1fr, auto);
+    grid-template-columns: repeat(1fr, auto);
+    background-color: #f4f4f4;
+}
+
+
+.content-container .content-section1 .grid-section {
+    height: auto;
+    width: auto;
+    margin: 5px;
+}
+
+.content-container .content-section1 .title-form {
+    grid-area: 1 / 1 / 2 / 12;
+}
+
+.content-container .content-section1 .title-form p {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: #3c4046;
+    padding: 5px;
+}
+
+.content-container .content-section1 .form {
+    grid-area: 2 / 1 /7 / 12;
+}
+
+.content-container .content-section1 .form .section {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.content-container .content-section1 .form .radio-section .radio-btn {
+    height: auto;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+.content-container .content-section1 .form .radio-section .radio-btn .radio {
+    height: auto;
+    width: 45%;
+    margin: auto;
+}
+
+.content-container .content-section1 .form .radio-section .radio-btn .radio input {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4046;
+}
+
+.content-container .content-section1 .form .section .label,
+.input {
+    height: auto;
+    width: 90%;
+    margin: 2px auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4046;
+}
+
+.content-container .content-section1 .form .section .input input {
+    height: auto;
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4046;
+    border: 1px solid #666769;
+}
+
+.content-container .content-section1 .form .date-section .label,
+.input {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4046;
+}
+
+.content-container .content-section1 .form .date-section .input input {
+    height: auto;
+    width: auto;
+    padding: 5px;
+    margin: auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4046;
+    border: 1px solid #666769;
+}
+
+.content-container .content-section1 .form .passenger-section .passenger {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.content-container .content-section1 .form .passenger-section .passenger .noPassenger {
+    height: auto;
+    width: 65%;
+    margin: auto;
+}
+
+.content-container .content-section1 .form .passenger-section .passenger .goBtn {
+    height: auto;
+    width: 30%;
+    margin: auto;
+    background-image: linear-gradient(#6ea6bb, #59a5bd, #3a8fb4, #257b9a);
+}
+
+.content-container .content-section1 .form .passenger-section .passenger .goBtn button {
+    height: auto;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px 5px;
+    border: none;
+    background: transparent;
+}
+
+.content-container .content-section1 .form .passenger-section .passenger .goBtn:hover {
+    background-image: linear-gradient(to top, #6ea6bb, #59a5bd, #3a8fb4, #257b9a);
+}
+
+
+.content-container .content-section1 .form .passenger-section .passenger .goBtn button a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.content-container .content-section1 .aircraft-part {
+    grid-area: 7 / 1 / 11 / 12;
+    height: auto;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+.content-container .content-section1 .aircraft-part  h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    color: #464646;
+}
+
+.content-container .content-section1 .aircraft-part .aircraft-about{
+    height: auto;
+    width: auto;
+    padding: 30px;
+}
+
+.content-container .content-section1 .aircraft-part .aircraft-about p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4046;
+}
+
+.content-container .content-section1 .aircraft-part .aircraft-about .button{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content-container .content-section1 .aircraft-part .aircraft-about .button button{
+    padding: 10px 30px;
+    border: none;
+    margin-top: 3%;
+    background-image: linear-gradient(#59a6bd, #3a8fb4, #257b9a, #1e749a);
+}
+
+.content-container .content-section1 .aircraft-part .aircraft-about .button button a{
+    text-decoration: none;
+    color: white;
+}
+
+.content-container .content-section2 {
+    height: auto;
+    width: 60%;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(1fr, auto);
+    grid-template-columns: repeat(1fr, auto);
+}
+
+.content-container .content-section2 .aircraft-section {
+    height: auto;
+    width: auto;
+}
+
+.content-container .content-section2 .sales-section {
+    grid-area: 1 / 1 / 6 / 12;
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
+
+.content-container .content-section2 .sales-section h2 {
+    font-weight: 400;
+    margin-bottom: 2%;
+    padding: 0px 40px;
+    font-size: 30px;
+    color: #3c4046;
+    line-height: 38px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+
+.content-container .content-section2 .sales-section .sales-part{
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.content-container .content-section2 .sales-section .sales-part .sales-img{
+    height: auto;
+    width: 30%;
+    margin: auto;
+}
+
+.content-container .content-section2 .sales-section .sales-part .sales-content{
+    height: auto;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+.content-container .content-section2 .sales-section .sales-part .sales-content p{
+    color: #3e3e3e;
+    font-size: 18px;
+}
+
+.content-container .content-section2 .sales-section .sales-info{
+    height: auto;
+    width: 85%;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.content-container .content-section2 .sales-section .sales-info p{
+    color: #3e3e3e;
+    font-size: 18px;
+}
+
+.content-container .content-section2 .sales-section .sales-list{
+    height: auto;
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.content-container .content-section2 .sales-section .sales-list .sales-items{
+    height: auto;
+    width: 48%;
+    margin: auto;
+    padding: 5px;
+}
+
+.content-container .content-section2 .sales-section .sales-list .sales-items li{
+    padding: 2px;
+    color: #257b9a;
+}
+
+.content-container .content-section2 .sales-section .sales-list .sales-items li a{
+    color: #257b9a;
+    font-size: 16px;
+}
+
+.content-container .content-section2 .sales-section .sales-list .sales-items li a:hover{
+    text-decoration: none;
+}
+
+.content-container .content-section2 .sales-section .sale-button{
+    height: auto;
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+
+.content-container .content-section2 .sales-section .sale-button button{
+    padding: 10px 30px;
+    border: none;
+    margin-top: 3%;
+    border-radius: 5px;
+    background-image: linear-gradient(#505459 , #000);
+}
+
+.content-container .content-section2 .sales-section .sale-button button:hover{
+    background-image: linear-gradient( #000 , #505459 );
+}
+
+.content-container .content-section2 .sales-section .sale-button button a{
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.content-container .content-section2 .manegement-section {
+    grid-area: 7 / 1 / 12 / 12;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+}
+
+.content-container .content-section2 .manegement-section h2{
+    font-weight: 400;
+    margin-bottom: 2%;
+    padding: 0px 40px;
+    font-size: 30px;
+    color: #3c4046;
+    line-height: 38px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+
+.content-container .content-section2 .manegement-section .manegement-part{
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.content-container .content-section2 .manegement-section .manegement-part .manegement-img{
+    height: auto;
+    width: 30%;
+    margin: auto;
+}
+
+.content-container .content-section2 .manegement-section .manegement-part .manegement-content{
+    height: auto;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+.content-container .content-section2 .manegement-section .manegement-part .manegement-content p{
+    font-size: 18px;
+    color: #3e3e3e;
+}
+
+.content-container .content-section2 .manegement-section .manegement-info{
+    height: auto;
+    width: 85%;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.content-container .content-section2 .manegement-section .manegement-info p{
+    color: #3e3e3e;
+    font-size: 18px;
+}
+
+/* main section end */

@@ -1,0 +1,59 @@
+@media (max-width:1370px) and (min-width:775px) {
+
+    .header-container .header-menu .header-upMenu .header-listMenu {
+        display: none;
+    }
+
+    .header-container .header-menu .header-upMenu .header-sideMenu {
+        display: block;
+    }
+
+    .content-container {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .content-container .content-section1 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .content-container .content-section2 {
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .content-container .content-section2 .sales-section .sales-list {
+        display: block;
+    }
+
+    .content-container .content-section2 .sales-section .sales-list .sales-items {
+        width: 80%;
+        margin: auto
+    }
+
+
+    .content-container .content-section2 .sales-section .sales-list .sales-items li a {
+        font-size: 18px;
+    }
+
+    .contact-container {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .contact-container .contact-section1 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .contact-container .contact-section2 {
+        width: 100%;
+        margin: auto;
+    }
+
+
+}
