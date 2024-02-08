@@ -15,7 +15,7 @@ body{
     height: auto;
     width: 100%;
     display: flex;
-    background-image: linear-gradient(black, #363738);
+    background-image: linear-gradient(#000000, #262728);
     background-size: cover;
     background-repeat: no-repeat;
 }
