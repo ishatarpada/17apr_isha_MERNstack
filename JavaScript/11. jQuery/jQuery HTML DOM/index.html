@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery HTML DOM</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <pre>
+        &#10022; Removing HTML Elements:- remove() method used for the remove the HTML Elements
+    </pre>
+    <button type="button" id="removeBtn">remove content </button>
+    <p>Hello World !</p>
+    <p class="removeContent">remove the content</p>
+    <hr>
+
+    <pre>
+        &#10022; Get Parent Element :-.parent().prop("nodeName") is method  Return the parent of an HTML element
+    </pre>
+    <button type="button" id="getParentBtn">Get Parent Element</button>
+    <div class="parentDiv"></div>
+    <p class="getParent">Get Parent Element </p>
+    <p id="demo"></p>
+    <hr>
+
+    <script>
+        $(document).ready(function () {
+            $("#removeBtn").click(function () {
+                $(".removeContent").remove();
+            });
+
+            $("#getParentBtn").click(function () {
+                $("#demo").text($(".getParent").parent().prop("nodeName"));
+            });
+        });
+    </script>
+    <!-- <script src="main.js"></script> -->
+</body>
+
+</html>
