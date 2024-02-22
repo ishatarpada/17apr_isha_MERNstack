@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance</title>
+    <style>
+        h5{
+            font-size: 40px;
+            color: darkcyan;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+        Performance :- 
+
+        1. Reduce Activity in Loops
+            =>Loops are often used in programming.
+            => Each statement in a loop, including the for statement, is executed for each iteration of the loop.
+            => Statements or assignments that can be placed outside the loop will make the loop run faster.
+
+            => Bad:
+                for (let i = 0; i < arr.length; i++) {}
+            => Better Code:
+                let l = arr.length;
+                for (let i = 0; i < l; i++) {}
+
+            => The bad code accesses the length property of an array each time the loop is iterated.
+            => The better code accesses the length property outside the loop and makes the loop run faster.
+
+        2. Reduce DOM Access
+            => Accessing the HTML DOM is very slow, compared to other JavaScript statements.
+            => If you expect to access a DOM element several times, access it once, and use it as a local variable
+
+        3. Avoid Unnecessary Variables  
+
+        4. Delay JavaScript Loading
+            => Putting your scripts at the bottom of the page body lets the browser load the page first.
+            => While a script is downloading, the browser will not start any other downloads. In addition all parsing and rendering activity might be blocked.
+     -->
+    
+    <h5 id="demo"></h5>
+    <script src="performance.js"></script>
+</body>
+</html>

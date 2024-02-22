@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules</title>
+    <style>
+        h5{
+            font-size: 40px;
+            color: darkcyan;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h5 id="demo"></h5>
+
+
+    <script type="module">
+        let ans = document.getElementById("demo")
+        import message from "./modules.js";
+        ans.innerHTML = message() + "<br>";
+
+        import {name , age} from "./modules.js";
+        let text = "My name is " + name + ", I am " + age + ".";
+        ans.innerHTML += text;
+    </script>
+    <script src="modules.js">
+
+    </script>
+</body>
+</html>

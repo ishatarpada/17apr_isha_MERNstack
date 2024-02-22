@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Keyword</title>
+    <style>
+        h5{
+            font-size: 40px;
+            color: darkcyan;
+            padding: 5px;
+        }
+        h2{
+            padding: 0;
+            margin: 0;
+            color: #255657;
+        }
+        button{
+            margin: 0;
+            padding:20px 10px;
+            color: white;
+            font-size: 25px;
+            background-color: #1e7ddb;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+        => this keyword refers to the object.
+
+        =>this refers to the global object.
+
+        =>in strict mode this is global object.
+
+        =>in function this refers to the window object.
+
+        =>in function strict mode this keyword refers to the undefined. 
+
+        => in object this refers to the person object.
+
+        => In HTML event handlers, this refers to the HTML element that received the event
+
+        => Explicit Function Binding :- 
+            The call() and apply() methods are predefined JavaScript methods.
+            They can both be used to call an object method with another object as argument.
+
+        => bind()
+            bind() is used to create a new function that, when called, has its this keyword set to a specific value.
+
+        => apply()
+            apply() is used to call a function with a given this value and an array of arguments.
+
+        => call()
+            call() is similar to apply(), but it accepts an argument list, rather than an array of arguments.
+        
+        => object Function (Method)
+            A method is a function that is a property of an object. When a method is called, the this keyword refers to the object that the method was called on.
+
+        => Function in Global Scope
+            A function in the global scope is simply a function defined outside of any other function or object. 
+     -->
+
+
+    
+    <h5 id="demo"></h5>
+    <button id="btn">Click to Remove Me!</button>
+    <script src="this.js"></script>
+</body>
+</html>

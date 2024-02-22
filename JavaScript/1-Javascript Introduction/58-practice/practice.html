@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        h5{
+            font-size: 40px;
+            color: darkcyan;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+        => avoid global variables , avoid new , avoid == , avoid eval() .
+
+        => avoid global variable because global variable can be overwritten by other script.
+
+        => always declare local variable .
+
+        => Local variables must be declared with the var, the let, or the const keyword, otherwise they will become global variables.
+
+        => Declarations on Top
+            => Give cleaner code
+            => Provide a single place to look for local variables
+            => Make it easier to avoid unwanted (implied) global variables
+            => Reduce the possibility of unwanted re-declarations
+
+        => Initialize Variables
+
+        => declare object with const
+
+        => declare array with const
+
+        => Don't Use new Object()
+            => Use "" instead of new String()
+            => Use 0 instead of new Number()
+            => Use false instead of new Boolean()
+            => Use {} instead of new Object()
+            => Use [] instead of new Array()
+            => Use /()/ instead of new RegExp()
+            => Use function (){} instead of new Function()
+
+        =>Beware of Automatic Type Conversions
+            => JavaScript is loosely typed.
+            => A variable can contain all data types.
+            => A variable can change its data type
+
+        => Use === Comparison
+            => The == comparison operator always converts (to matching types) before comparison.
+            => The === operator forces comparison of values and type.
+
+        => Use Parameter Defaults
+            => If a function is called with a missing argument, the value of the missing argument is set to undefined.
+            => Undefined values can break your code. It is a good habit to assign default values to arguments.
+
+        => End Your Switches with Defaults
+
+        => Avoid Number, String, and Boolean as Objects because this is slow the code and execution speed.
+
+        => Avoid eval() 
+            => The eval() function is used to run text as code. In almost all cases, it should not be necessary to use it.
+            => Because it allows arbitrary code to be run, it also represents a security problem.
+     -->
+    
+    <h5 id="demo"></h5>
+    <script src="practice.js"></script>
+</body>
+</html>

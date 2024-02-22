@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+    <style>
+        h5{
+            font-size: 30px;
+            color: darkcyan;
+            padding: 5px;
+        }
+        button{
+            padding: 30px 40px;
+            color: white;
+            background-color: #2a8abe;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+        Arrow Function :- arrow function short syntax  of function.
+
+        syntax :- function_name = () =>{
+            // block of code
+        }
+
+        if function has one statement than remove {} curly brackets  and return statement.
+        example :- 
+
+        hello = () => "hello";
+
+        => Arrow Function With Parameters:
+            If we have parameters, we pass them inside the parentheses.
+
+            example :- 
+            hello = (val) => "Hello " + val;
+
+            
+        => Arrow Function Without Parentheses:
+            if we have only one parameter, we can skip the parentheses as well:
+
+            example :- 
+            hello = val => "Hello " + val;
+
+        => in arrow function this keyword refers to the window object .
+            Click the button to execute the function again, and will see that "this" still represents the window object.
+
+        => in Regular function this keyword refers to the html element object as well as window object. 
+            Click the button to execute the function again, and will see that "this" represents the html element  object.
+
+     -->
+    
+    <h5 id="demo"></h5>
+     <button type="button" id="btn">Click Me!</button>
+     <button type="button" id="btn-1">Click Me!</button>
+
+    <footer><script src="arrowFunction.js"></script></footer>
+</body>
+</html>

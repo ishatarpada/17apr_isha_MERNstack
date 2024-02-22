@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+    <style>
+        h5 {
+            font-size: 40px;
+            color: darkcyan;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 
+            JSON :- JSON stands for the javascript object notation.
+                    JSON is lightweight data transferring format.
+                    JSON is the language independent.
+                    JSON is the transfer the data server to webpage.
+                    JSON is storing and transporting data.
+
+            JSON syntax rule:- 
+                    => in JSON data are in names/values pair.
+                    => in JSON { } curly braces are stored the data as object.
+                    => in JSON [ ] square braces are stored the data as array. 
+                    => in JSON data are separated by comma.
+
+            example :- 
+            "{
+                employ: [
+                            {"firstName":"John", "lastName":"Doe"},
+                            {"firstName":"Anna", "lastName":"Smith"},
+                            {"firstName":"Peter", "lastName":"Jones"}
+                        ]
+            }"
+
+            JSON object :- JSON objects are written inside curly braces.
+                            it is the same as the javascript object.
+
+            example :- {"firstName" : "John" , "lastName" :"Doe"};
+
+
+            JSON Array :- JSON array are written inside the square braces.
+                            it is the same as the javascript array.
+
+            example :- employ: ["firstName" : "isha" , "lastName" : "Patel"];
+
+            Converting a JSON Text to a JavaScript Object 
+                => JSON text representing an object with properties .
+                => than we used JSON.parse() method to convert this JSON text into a JavaScript object.
+                => we can access the properties of the JavaScript object like any other JavaScript object.
+
+            for example :- 
+
+                let info = "{ employ:[
+                                        {"firstName":"John", "lastName":"Doe"},
+                                        {"firstName":"Anna", "lastName":"Smith"},
+                                        {"firstName":"Peter", "lastName":"Jones"}
+                                    ]
+                            }"
+
+                let jsonObj = JSON.parse(info);
+
+            
+            
+
+
+    -->
+
+    <h5 id="demo"></h5>
+    <script src="json.js"></script>
+</body>
+
+</html>
