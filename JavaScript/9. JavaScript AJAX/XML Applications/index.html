@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Applications</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button type="button" onclick="loadXMLDoc()">Get my CD collection</button>
+    <br><br>
+    <table id="demo"></table>
+    <div class='showCD'></div>
+    <br>
+    <input type="button" onclick="previous()" value="<<">
+    <input type="button" onclick="next()" value=">>">
+    <p id='displayCD'></p>
+    <table id="demo1"></table>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

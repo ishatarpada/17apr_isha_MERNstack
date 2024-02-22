@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX PHP Example</title>
+</head>
+
+<body>
+    <h3>Start typing a name in the input field below:</h3>
+
+    <p>Suggestions: <span id="txtHint"></span></p>
+    <p>First name: <input type="text" id="txt1" onkeyup="showHint(this.value)"></p>
+
+
+
+    <script>
+        function showHint(str) {
+            if (str.length == 0) {
+                document.getElementById("txtHint").innerHTML = "";
+                return;
+            }
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                document.getElementById("txtHint").innerHTML =
+                    this.responseText;
+            }
+            xhttp.open("GET", "gethint.php?q=" + str);
+            xhttp.send();
+        }
+    </script>
+</body>
+
+</html>
