@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: auto;
+            width: 100%;
+            margin: auto;
+        }
+
+        .container .form {
+            height: auto;
+            width: 30%;
+            padding: 10px;
+            margin: 100px auto;
+            border-radius: 5px;
+            box-shadow: 0px 0px 3px gray;
+        }
+
+        .container .form h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .container .form .box {
+            height: auto;
+            width: 90%;
+            padding: 10px;
+            margin: 20px auto;
+        }
+
+        .container .form .box .label {
+            height: auto;
+            width: 100%;
+            margin: 5px auto;
+        }
+
+        .container .form .box .label label {
+            font-weight: 600;
+            font-size: 25px;
+        }
+
+        .container .form .box .input {
+            height: auto;
+            width: 100%;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 3px gray;
+        }
+
+
+        .container .form .box .input .fa-solid {
+            border: none;
+            margin: 5px;
+            font-size: 20px;
+        }
+
+        .container .form .box .input .fa-regular {
+            border: none;
+            font-size: 20px;
+            margin: 5px;
+        }
+
+        .container .form .box .input input {
+            border: none;
+            margin: 5px;
+            width: 80%;
+            font-size: 20px;
+        }
+
+        .container .form .box .input input:focus {
+            outline: none;
+        }
+
+        .container .form .box .button {
+            height: auto;
+            width: 100%;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: rosybrown;
+        }
+
+        .container .form .box .button button {
+            width: 100%;
+            background-color: transparent;
+            color: white;
+            font-size: 25px;
+            font-weight: 500;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form" name="myForm" onsubmit="return validateForm()">
+            <h1>GET STARTED</h1>
+            <div class="box">
+                <div class="label">
+                    <label for="userName">User Name</label>
+                </div>
+                <div class="input">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="User Name" id="user" >
+                </div>
+            </div>
+            <div class="box">
+                <div class="label">
+                    <label for="mail">E-mail</label>
+                </div>
+                <div class="input">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="mail" placeholder="E-mail" name="mail" >
+                </div>
+            </div>
+            <div class="box">
+                <div class="label">
+                    <label for="phn">Phone-no</label>
+                </div>
+                <div class="input">
+                    <i class="fa-regular fa-call"></i>
+                    <input type="tel" placeholder="phone-no" name="phn" >
+                </div>
+            </div>
+            <div class="box">
+                <div class="label">
+                    <label for="password">Password</label>
+                </div>
+                <div class="input">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Password" id="password" name="password" >
+                </div>
+            </div>
+            <div class="box">
+                <div class="button">
+                    <button type="submit" id="btn">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>

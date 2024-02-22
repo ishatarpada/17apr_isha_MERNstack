@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Accessor</title>
+</head>
+<body>
+
+    <!-- 
+
+        Object Accessor :- Getter and Setter
+            => It gives simpler syntax
+            => It allows equal syntax for properties and methods
+            => It can secure better data quality
+            => It is useful for doing things behind-the-scenes
+
+        Getter :- get the value of property.
+        Setter :- set the value of property.
+
+        if we get the value using the get keyword or using function. but function access the property as function and get access the property as a property.
+
+        ex:- 
+        const person = {
+            fnm : "isha" ,
+            lnm : "Patel" ,
+            hobby : "coding" ,
+            language : " ",
+            get fullName(){
+                return this.fnm + " " + this.lnm ;
+            }
+            set laung(value){
+                return this.language = value ;
+            }
+
+        }
+        person.language = "english";
+
+        JavaScript can secure better data quality when using getters and setters.
+
+        define Property
+        const objName = {
+            //properties
+        }
+
+        Object.defineProperty(objName , "propertyName" , attribute)
+        // define object
+        const obj = {
+            counter: 0
+        };
+
+        // define set and get
+        Object.defineProperty(obj, "reset", {
+            get: function () {
+                this.counter = 0;
+            }
+        });
+        Object.defineProperty(obj, "add", {
+            set: function (value) {
+                this.counter += value;
+            }
+        });
+    -->
+
+    <section>
+        <p id="demo"></p>
+    </section>
+
+    <footer>
+        <script src="main.js"></script>
+    </footer>
+</body>
+</html>

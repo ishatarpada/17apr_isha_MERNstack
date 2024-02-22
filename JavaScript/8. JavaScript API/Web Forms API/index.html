@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation API</title>
+
+    <style>
+        * {
+            margin: 5px;
+        }
+
+        input{
+            width: 40%;
+        }
+
+        #myForm{
+            border: 1px solid black;
+            padding: 10px;
+            color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- 
+        JavaScript Validation API :- 
+
+        Constraint Validation DOM Methods
+        Property	        Description
+        checkValidity()	    Returns true if an input element contains valid data.
+        setCustomValidity()	Sets the validationMessage property of an input element.
+
+     -->
+    <input id="id1" type="number" min="100" max="300" placeholder="value write in 100 to 300 between" required>
+    <p>If the number is less than 100 or greater than 300, an error message will be displayed.</p>
+    <br>
+    <button id="btn">checkValidity</button>
+    <button id="btn1">range</button>
+    <br>
+
+    <form id="myForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" pattern="[a-zA-Z0-9]+"  placeholder="enter a username">
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="100"  placeholder="enter a age"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"  placeholder="enter a mail-ID"> <br><br>
+
+        <input type="submit" value="Submit" id="submit">
+    </form>
+
+    <p id="demo"></p>
+    <script src="main.js"></script>
+</body>
+
+</html>

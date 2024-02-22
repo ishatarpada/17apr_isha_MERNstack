@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2px;
+        }
+
+        pre {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <pre>
+        <h2>&#10022; What is the DOM</h2>
+        &#10170; The DOM is a W3C (World Wide Web Consortium) standard.
+        &#10170; The DOM defines a standard for accessing documents:
+        &#10170; "The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document."
+        &#10170; The W3C DOM standard is separated into 3 different parts:
+
+        1. Core DOM - standard model for all document types
+        2. XML DOM - standard model for XML documents
+        3. HTML DOM - standard model for HTML documents
+
+        &#10022; change the content of html 
+            1. innerHTML 
+            2. innerText
+            
+        &#10022; method :
+            1. getElementById()
+            2. getElementByTagName()
+            3. getElementByClassName()
+
+        &#10022; changing HTML elements
+            1. elements.innerHTML = " content ";
+            2. elements.innerText = " content ";
+            3. elements.attribute = " new value ;"
+            4. elements.style.property = " new style";
+            5. elements.setAttribute(attribute, value)	Change the attribute value of an HTML element.
+
+        &#10022; Adding and Deleting Elements
+            1. document.createElement(element) =	Create an HTML element
+            2. document.removeChild(element) =	Remove an HTML element
+            3. document.appendChild(element) =	Add an HTML element
+            4. document.replaceChild(new, old) =	Replace an HTML element
+            5. document.write(text) =	Write into the HTML output stream
+
+        &#10022; Adding Event Handlers :-  
+            1.  element.onclick = function(){} =Adding event handler code to an onclick event
+
+        &#10022; finding html object :- 
+            Finding HTML elements by id
+            Finding HTML elements by tag name
+            Finding HTML elements by class name
+            Finding HTML elements by CSS selectors
+            Finding HTML elements by HTML object collections
+        
+        &#10022; Data Validation :- 
+            &#10170; HTML constraint validation is based on:
+                1. Constraint validation HTML Input Attributes
+                2. Constraint validation CSS Pseudo Selectors
+                3. Constraint validation DOM Properties and Methods
+
+        &#10170; Constraint Validation HTML Input Attributes :- 
+            1. disabled	= Specifies that the input element should be disabled
+            2. max	= Specifies the maximum value of an input element
+            3. min	= Specifies the minimum value of an input element
+            4. pattern	= Specifies the value pattern of an input element
+            5. required	= Specifies that the input field requires an element
+            6. type 	= Specifies the type of an input element
+
+        &#10170; Constraint Validation CSS Pseudo Selectors :- 
+            1. :disabled	= Selects input elements with the "disabled" attribute specified
+            2. :invalid	= Selects input elements with invalid values
+            3. :optional	= Selects input elements with no "required" attribute specified
+            4. :required	= 	Selects input elements with the "required" attribute specified
+            5. :valid	= Selects input elements with valid values
+
+        &#10022; JavaScript HTML Events :- 
+            1. onclick 
+            2. onload
+            3. onunload
+            4. oninput
+            5. onchange
+            6. onmouseover
+            7. onmouseout
+            8. onmousedown
+            9. onmouseup
+            10 onfocus
+            11. onblur
+
+        &#10022; DOM EventListener :-      
+
+
+    </pre>
+
+    <form id="frm1" action="#">
+        First name: <input type="text" name="fname" value="Donald" id="name-1"><br>
+        Last name: <input type="text" name="lname" value="Duck" id="name-2"><br><br>
+        <input type="submit" value="Submit" id="btn" disabled>
+    </form>
+
+    <button class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYscfUBUbqwGd_DHVhG-ZjCOD7MUpxp4uhNe7toUg4ug&s"
+            alt="" class="img">
+    </button>
+    <button id="demo">Hello click Me</button>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

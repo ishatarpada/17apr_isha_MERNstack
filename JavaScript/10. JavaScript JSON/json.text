@@ -1,0 +1,19 @@
+=> json stands for javascript object notation.
+=> json is a text format for storing and transporting data.
+=> json is "self-describing" and easy to understand.
+
+=>JSON Data - A Name and a Value
+    example :- "name":"John";
+
+=> JSON Values
+        In JSON, values must be one of the following data types:
+            a string
+            a number
+            an object
+            an array
+            a boolean
+            null
+        In JavaScript values can be all of the above, plus any other valid JavaScript expression, including:
+            a function
+            a date
+            undefined

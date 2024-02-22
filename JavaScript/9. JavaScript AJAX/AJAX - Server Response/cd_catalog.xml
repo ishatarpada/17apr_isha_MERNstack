@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD_CATALOG>
+  <CD>
+    <ARTIST>Artist 1</ARTIST>
+    <TITLE>Title 1</TITLE>
+    <YEAR>2000</YEAR>
+  </CD>
+  <CD>
+    <ARTIST>Artist 2</ARTIST>
+    <TITLE>Title 2</TITLE>
+    <YEAR>2005</YEAR>
+  </CD>
+  <CD>
+    <ARTIST>Artist 3</ARTIST>
+    <TITLE>Title 3</TITLE>
+    <YEAR>2010</YEAR>
+  </CD>
+</CD_CATALOG>

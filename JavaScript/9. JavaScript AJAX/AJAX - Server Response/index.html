@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX - Server Response</title>
+</head>
+
+<body>
+
+    <pre>
+        &#10022; Server Response Property :- 
+            1. responseText	=> get the response data as a string
+            2. responseXML	=> get the response data as XML data
+
+        &#10022; Server Response Methods
+            1.getResponseHeader() =>	Returns specific header information from the server resource
+            2. getAllResponseHeaders() => Returns all the header information from the server resource
+    </pre>
+
+    <button type="button" id="btn1">click ME</button>
+    <button type="button" id="btn2">click ME</button>
+    <button type="button" id="btn3">click ME</button>
+    <button type="button" id="btn4">click ME</button>
+
+    <p id="demo"></p>
+    <script>
+        const btn1 = document.getElementById("btn1");
+        const btn2 = document.getElementById("btn2");
+        const btn3 = document.getElementById("btn3");
+        const btn4 = document.getElementById("btn4");
+
+        btn1.addEventListener("click", function () {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                document.getElementById("demo").innerHTML =
+                    this.responseText;
+            }
+            xhttp.open("GET", "ajax_info.txt");
+            xhttp.send();
+        });
+
+        btn2.addEventListener("click", function () {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                const xmlDoc = this.responseXML;
+                const x = xmlDoc.getElementsByTagName("ARTIST");
+                let txt = "";
+                for (let i = 0; i < x.length; i++) {
+                    txt = txt + x[i].childNodes[0].nodeValue + "<br>";
+                }
+                document.getElementById("demo").innerHTML = txt;
+            }
+            xhttp.open("GET", "cd_catalog.xml");
+            xhttp.send();
+        })
+
+        btn3.addEventListener("click", function () {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                document.getElementById("demo").innerHTML =
+                    this.getAllResponseHeaders();
+            }
+            xhttp.open("GET", "ajax_info.txt");
+            xhttp.send();
+        })
+
+        btn4.addEventListener("click", function () {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                document.getElementById("demo").innerHTML =
+                    this.getResponseHeader("Last-Modified");
+            }
+            xhttp.open("GET", "ajax_info.txt");
+            xhttp.send();
+        })
+
+    </script>
+    <!-- <script src="main.js"></script> -->
+</body>
+
+</html>

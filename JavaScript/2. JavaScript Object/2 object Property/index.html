@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Property</title>
+</head>
+<body>
+    
+    <!-- 
+        Object Property :-  
+        => Properties are the most important part of any JavaScript object.
+        => Properties are the values associated with a JavaScript object.
+        => A JavaScript object is a collection of unordered properties.
+        => Properties can usually be changed, added, and deleted, but some are read only.
+
+        accessing javascript Property :
+            objectName.property      // person.age
+            objectName["property"]   // person["age"]
+            objectName[expression]   // x = "age"; person[x]
+
+        for in loop :- this loop access the value of object
+
+        Adding New Properties : objName.propertyName = value
+
+        Delete the Properties :
+            => The delete keyword deletes both the value of the property and the property itself.
+            => After deletion, the property cannot be used before it is added back again.
+            => The delete operator is designed to be used on object properties. It has no effect on variables or functions.
+            => The delete operator should not be used on predefined JavaScript object properties. It can crash your application.
+
+        Nested Object : Values in an object can be another object
+            const personInfo = {
+                fisrtName : "isha" , 
+                lastName : "Patel" ,
+                age : 21 ,
+
+                skills : {
+                    webDev : "HTML CSS JS" ,
+                    programming : "C C++" ,
+                    database : "mysql"
+                }
+            }
+
+        Nested Arrays and Objects : Values in objects can be arrays, and values in arrays can be objects.
+
+        Other attributes are: enumerable, configurable, and writable.
+     -->
+
+
+
+    <section>
+        <p id="demo"></p>
+    </section>
+
+    <footer>
+        <script src="main.js"></script>
+    </footer>
+</body>
+</html>

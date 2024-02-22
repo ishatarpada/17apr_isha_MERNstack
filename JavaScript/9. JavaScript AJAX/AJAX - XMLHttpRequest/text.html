@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX - The XMLHttpRequest Object</title>
+</head>
+<body>
+    <pre>
+        AJAX - The XMLHttpRequest Object:- 
+
+    => The keystone of AJAX is the XMLHttpRequest object.
+        1. Create an XMLHttpRequest object
+        2. Define a callback function
+        3. Open the XMLHttpRequest object
+        4. Send a Request to a server
+
+    => Create an XMLHttpRequest Object :- 
+
+        Syntax :- const varName =  new XMLHttpRequest();
+
+    => Define a Callback Function :- 
+        A callback function is a function passed as a parameter to another function
+
+        Syntax :- 
+                xhttp.onload = function() {
+                    // What to do when the response is ready
+                }
+
+    => Send a Request
+        To send a request to a server, you can use the open() and send() methods of the XMLHttpRequest object:
+
+
+    => XMLHttpRequest Object Methods
+        1.  open(method, url [, async, user, password]): Initializes a request.
+            method: The HTTP method to use (e.g., "GET", "POST").
+            url: The URL to send the request to.
+            async (optional, default true): Whether the request should be asynchronous.
+            user (optional): The username for authentication purposes.
+            password (optional): The password for authentication purposes.
+            send([body]): Sends the request to the server.
+
+        2.  body (optional): The data to send with the request,     typically used for POST requests.
+
+        3.  setRequestHeader(header, value): Sets the value of an HTTP request header.
+            header: The name of the header.
+            value: The value to set for the header.
+
+        4.  getResponseHeader(header): Retrieves the value of a specified header from the response.
+            header: The name of the header to retrieve.
+            
+        5.  getAllResponseHeaders(): Retrieves all the response headers as a string.
+    </pre>
+</body>
+</html>

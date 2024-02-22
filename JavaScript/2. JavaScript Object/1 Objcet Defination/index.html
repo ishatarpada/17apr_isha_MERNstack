@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Definition</title>
+</head>
+<body>
+    
+    <!-- 
+        Object Definition : in javascript object is everything .
+
+        boolean can be object it create new keyword.
+        let a = new boolean();
+
+        numbers can be object , it create new keyword.
+        let num = new Number(5);
+
+        string can be object , it create new keyword.
+        let str = new String("isha");
+
+        Dates , Function , Array , Regular-Expression , object , Maths are always object .
+
+        in javascript all are object expect primitive datatype .
+
+        primitive data type =>  1. string
+                                2. bigInt
+                                3. number
+                                4. symbol
+                                5. boolean
+                                6. undenied
+                                7. null
+
+        javascript variable can contain single value when object contain many values.
+        objects are variables too.
+        objects values is in pair (name:value).
+        example:- 
+            let person = {firstName:"Isha", lastName:"Patel", age:21};
+
+        Object Methods :- 
+            methods is actions that can be performed on objects
+
+            const person = {
+                firstName : "isha",
+                lastName : "patel",
+                age : 21 ,
+                fullName : function(){return this.firstName + " " + this.lastName};
+            }
+
+        Different ways to create object :- 
+                1.  create a single object using object literals (using literals)
+                        let person = {firstName:"Isha", lastName:"Patel", age:21};
+
+                2.  create a single object using new keyword (new keyword)
+                        const person = new Object();
+                        person.firstName = "isha";
+                        person.lastName = "Patel";
+                        person.age = 21;
+
+                3.  Define an object constructor, and then create objects of the constructed type.
+                        // Define the object constructor
+                        function Circle(radius) {
+                            this.radius = radius;
+                            this.getArea = function () {
+                                return Math.PI * Math.pow(this.radius, 2);
+                            }
+                        }
+
+                        // Create objects of the constructed type
+                        const circle1 = new Circle(5);
+                        const circle2 = new Circle(10);
+
+                        // Use the objects
+                        ans.innerHTML += circle1.getArea() + "<br>";
+                        ans.innerHTML += circle2.getArea() + "<br><br>";
+
+                4.  Create an object using Object.create().
+                        let personPrototype = {
+                            fullName: function() {
+                                console.log(this.firstName + " " + this.lastName);
+                            }
+                        };
+
+                        function createPerson(firstName , lastName) {
+                            let person = Object.create(personPrototype);
+                            person.firstName = firstName;
+                            person.lastName = lastName;
+                            return person;
+                        }
+
+                        let person1 = new createPerson("isha" , "Patel");
+                        let person2 = new createPerson("Viraj" , "Patel");
+
+                        person1.fullName();
+                        person2.fullName();
+    -->
+
+
+    <div class="section">
+        <h2 id="demo"></h2>
+    </div>
+    <footer>
+        <script src="main.js"></script>
+    </footer>
+</body>
+</html>
