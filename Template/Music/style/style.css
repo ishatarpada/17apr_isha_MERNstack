@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 1000px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    border: 1px solid black;
+}
+
+.banner .banner-part {
+    height: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+}
+
+.banner .banner-part .part-1 {
+    height: 1000px;
+    width: 60%;
+    background-color: black;
+    margin: auto;
+}
+
+.banner .banner-part .part-2 {
+    height: 1000px;
+    width: 40%;
+    background-image: url("../Images/dj.jpg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.banner .header {
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: transparent;
+}
+
+.banner .header .logo{
+    width: 30%;
+    margin: auto;
+}
+
+.banner .header .logo h1{
+    font-size: 4rem;
+    color: white;
+    text-align: start;
+}
+
+.banner .header .header-item{
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+
+.banner .header .header-item .navbar{
+    background-color: transparent;
+}
+
+.banner .header .header-item .navbar a{
+    color: white;
+}
+
+.banner .header .header-item .navbar .navbar-toggler{
+    justify-content: end;
+}
+
+.banner .header .header-item .navbar .navbar-toggler-icon {
+    background-color: white;
+}
+
+.banner .content {
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    background-color: transparent;
+}
+
+.event{
+    background-color: black;
+}
+
+.event .card{
+    margin: 2px 20px;
+    border: none;
+}
+
+.event .card .card-img-top img:hover{
+    transition: .3s all ease;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.event .card .card-body{
+    background-color: black;
+}
+
+.events{
+    background-color: black;
+}
+
+.events .poster{
+    width: 70%;
+    margin: auto;
+}
+
+.events .poster .event-part1 , .event-part2{
+    width: 40%;
+    margin: auto;
+}
+
+.site-footer{
+    background-color: black;
+    color: white;
+}
