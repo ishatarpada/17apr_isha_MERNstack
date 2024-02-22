@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+</head>
+<body>
+    <!--
+         Date :- 
+
+         display today date :- 
+                        const date = new Date();
+         display user given date :- 
+                        const date = new Date("2024-1-29");
+         display month year day hours minute second milisecond :- 
+                        const date = new Date(2024 , 0 , 29 , 10 , 23 , 45 , 56);
+        in js month count from 0 to 11 .
+        january = 0 ,
+        december = 11.
+
+        a day higher than max, will not result in an error but add the overflow to the next month.
+
+        6 numbers specify year, month, day, hour, minute, second.
+
+        5 numbers specify year , month , day , hour and minute.
+        
+        4 numbers specify year, month, day, hour.
+
+        3 numbers specify year, month, day.
+
+        2 numbers specify year, month.
+
+        One and two digit years will be interpreted as 19xx.
+        like 1902 , 1999 etc
+
+        JavaScript stores dates as number of milliseconds since January 01, 1970.
+        Zero time is January 01, 1970 00:00:00 UTC.
+        One day (24 hours) is 86 400 000 milliseconds. 
+        
+        date methods :- 
+        1. d.toString() 
+        2. d.toDateString() :- method converts a date to a more readable format
+        3. toUTCString() :- method converts a date to a string using the UTC standard
+        4. toISOString() :-  method converts a date to a string using the ISO standard.
+
+        date input :- 
+        ISO Date	"2015-03-25" (The International Standard)
+        Short Date	"03/25/2015"
+        Long Date	"Mar 25 2015" or "25 Mar 2015"
+     -->
+
+     <p id="demo"></p>
+     <script src="date.js"></script>
+</body>
+</html>
