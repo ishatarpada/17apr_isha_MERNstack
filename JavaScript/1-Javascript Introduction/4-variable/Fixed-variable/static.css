@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.container {
+    height: auto;
+    width: 40%;
+    padding: 20px;
+    margin: 20px auto;
+    color: #460728;
+    background-color: #877980;
+    box-shadow: 0px 0px 5px #4d3d45;
+}

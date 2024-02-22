@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Examples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .event-container {
+            margin: 20px;
+        }
+
+        button {
+            padding: 10px;
+            margin: 5px;
+        }
+
+        input {
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="event-container">
+    <h2>Event Examples</h2>
+
+    <!-- onload event -->
+    <p>Page Loaded:</p>
+
+    <!-- onchange event -->
+    <label for="inputChange">Input Change:</label>
+    <input type="text" id="inputChange">
+
+    <!-- onclick event -->
+    <button onclick="onClickEvent()">Click Me</button>
+
+    <!-- onmouseover and onmouseout events -->
+    <button onmouseover="onMouseOverEvent()" onmouseout="onMouseOutEvent()">Mouse Over/Out</button>
+
+    <!-- onkeypress event -->
+    <label for="inputKeyPress">Key Press:</label>
+    <input type="text" id="inputKeyPress" onkeypress="onKeyPressEvent(event)">
+</div>
+
+<script>
+    // onload event
+    window.onload = function () {
+        alert("Page loaded!");
+    };
+
+    // onchange event
+    document.getElementById("inputChange").onchange = function () {
+        console.log("Input changed:", this.value);
+    };
+
+    // onclick event
+    function onClickEvent() {
+        console.log("Button clicked!");
+    }
+
+    // onmouseover and onmouseout events
+    function onMouseOverEvent() {
+        console.log("Mouse over button!");
+    }
+
+    function onMouseOutEvent() {
+        console.log("Mouse out of button!");
+    }
+
+    // onkeypress event
+    function onKeyPressEvent(event) {
+        console.log("Key pressed:", event.key);
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- show-hide bulb -->
+    <div class="container">
+        <img src="../../Assets/bulb-off.jpg" alt="" id="bulb">
+        <button type="button" onclick="turnOn()">Turn On</button>
+        <button type="button" onclick="turnOff()">Turn Off </button>
+    </div>
+
+    <script>
+        
+
+        function turnOn() {
+            bulb.src = "../../Assets/bulb-on.webp";
+        }
+
+        function turnOff() {
+            bulb.src = "../../Assets/bulb-off.jpg";
+        }
+    </script>
+</body>
+</html>

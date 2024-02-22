@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #44132d;
+        }
+
+        p {
+            font-size: 40px;
+            margin: 10px 50px;
+        }
+
+        button,
+        input {
+            padding: 10px;
+            margin: 10px 50px;
+            border-radius: 5px;
+            display: block;
+            width: auto;
+            color: #ffffff;
+            background-color: #beb4b9;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #44132d;
+        }
+    </style>
+</head>
+
+<body id="body" onload="loadPage()">
+
+    <!-- 
+        Events:- 
+            HTML events are "things" that happen to HTML elements.
+            When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+            An HTML event can be something the browser does, or something a user does.
+     -->
+
+
+    <button onclick="displayDate()">Show Date</button>
+    <p id="demo"></p>
+
+    <input id="inputTime" onchange="displayTime(this.value)" placeholder="Enter time">
+    <button onmouseover="changeColor()" onmouseout="resetColor()">Change Color</button>
+    <input id="inputMsg" onkeypress="displayMessage()" placeholder="Press a key">
+    <p id="demo-1"></p>
+
+
+
+    <script src="event.js"></script>
+</body>
+
+</html>

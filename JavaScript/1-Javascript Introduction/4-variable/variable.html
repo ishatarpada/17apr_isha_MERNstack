@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variable</title>
+    <link rel="stylesheet" href="variable.css">
+</head>
+
+<body>
+    <h1>&#10023; variable</h1>
+    <div class="container">
+        <h2>variable</h2>
+        <p>&#10526;  variable is like a container where we can store the value</p>
+
+        <div class="declare variable">
+            <h2>&#10526; Types Of Declaring variables</h2>
+            <ul>
+                <li>1. let</li>
+                <li>2. var</li>
+                <li>3. const</li>
+            </ul>
+
+            <div class="variables">
+                <h4>&#10526; let</h4>
+                <p>Variables defined with let can not be redeclare or let can be reinitialize.</p>
+
+                <div class="syntax">
+                    &#10526; Syntax
+                    <pre>
+                    let x = "John Doe";
+                    let y = 0;
+                    </pre>
+                </div>
+            </div>
+
+            <hr width="80%" style="margin: auto;">
+
+            <div class="variables">
+                <h4>&#10526; var</h4>
+                <p>Variables defined with var can be redeclare or var can be reinitialize.</p>
+
+                <div class="syntax">
+                    &#10526; Syntax
+                    <pre>
+                    let x = "John Doe";
+                    let x = 0;
+                    </pre>
+                </div>
+            </div>
+
+            <hr width="80%" style="margin: auto;">
+
+            <div class="variables">
+                <h4>&#10526; const</h4>
+                <p>Variables defined with let can not be redeclare or let can not be reinitialize.</p>
+
+                <div class="syntax">
+                    &#10526; Syntax
+                    <pre>
+                        const age = 30;
+                        const name = "John";
+                    </pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="types variable">
+            <h2>&#10526; Types Of variables</h2>
+            <ul>
+                <li>1. local</li>
+                <li>2. global</li>
+            </ul>
+
+            <div class="variables">
+                <h4>&#10526; Local</h4>
+                <p>which variable define inside the function body or block</p>
+                <p>Local variable can only use inside that function only</p>
+
+                <div class="syntax">
+                    &#10526; Syntax
+                    <pre>
+                        function localVar() 
+                        {
+                            //declare the local variable
+                            var local = 10;
+                            console.log(local);
+                        }
+                        localVar();
+                    </pre>
+                </div>
+            </div>
+            <hr width="80%" style="margin: auto;">
+            <div class="variables">
+                <h4>&#10526; Global</h4>
+                <p>Which was define outside the function body.</p>
+                <p>We can use it any were in that file</p>
+
+                <div class="syntax">
+                    &#10526; Syntax
+                    <pre>
+                        //declare the global variable
+                        var global = 10;
+                        function globalVar() 
+                        {
+                            console.log(global);
+                        }
+                        globalVar();
+                    </pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="value variable">
+            <h2>&#10526; Types Of value</h2>
+            <ul>
+                <li>1. static</li>
+                <li>2. dynamic</li>
+            </ul>
+
+            <div class="variables">
+                <h4>&#10526; static</h4>
+                <p>Which was define in the compile time(source code)</p>
+
+                <div class="syntax">
+                    &#10526; Syntax
+                    <pre>
+                        const x = 10; // Static value
+                        const y = 1000; // Static value
+                        const pi = 3.14159; // Static value
+                        </pre>
+                </div>
+            </div>
+            <hr width="80%" style="margin: auto;">
+            <div class="variables">
+                <h4>&#10526; Dynamic</h4>
+                <p>Which was define in the run time(Taken from the user).</p>
+
+                <div class="syntax">
+                    &#10526; Syntax
+                    <pre>
+                           &lt;!DOCTYPE html&gt;
+                           &lt;html lang="en"&gt;
+                           &lt;head&gt;
+                           &lt;/head&gt;
+                           &lt;body&gt;
+                                &lt;form action=""&gt;
+                                    &lt;label for=""&gt;First Value : &lt;/label&gt;
+                                    &lt;input type="text" placeholder="enter the first value" id="inp-1"&gt;
+
+                                    &lt;label for=""&gt;second Value : &lt;/label&gt;
+                                    &lt;input type="text" placeholder="enter the second value" id="inp-1"&gt;
+                                &lt;/form&gt;
+                                &lt;script&gt;
+                                    let inp1 = document.getElementById('inp-1');
+                                    let inp2 = document.getElementById('inp-2');
+                                    let answer = document.getElementById('inp-3');
+                                    function add() {
+                                        answer.value = parseInt(inp1.value) + parseFloat(inp2.value);
+                                    }
+                                &lt;/script&gt;
+                           &lt;/body&gt;
+                           &lt;/html&gt;    
+                    </pre>
+                </div>
+
+                <div class="output">
+                    <h4 style="text-align: center; padding: 20px;">Output</h4>
+
+                    <!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                    </head>
+                    <body>
+                        <form action="">
+                        <label for="">First Value : </label>
+                        <input type="text" placeholder="enter the first value" id="inp-1">
+                        <br><br>
+                        <label for="">second Value : </label>
+                        <input type="text" placeholder="enter the second value" id="inp-1">
+                    </form>
+                    <script>
+                        let inp1 = document.getElementById('inp-1');
+                        let inp2 = document.getElementById('inp-2');
+                        let answer = document.getElementById('inp-3');
+                        function add() {
+                            answer.value = parseInt(inp1.value) + parseFloat(inp2.value);
+                        }
+                    </script>
+                    </body>
+                    </html>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

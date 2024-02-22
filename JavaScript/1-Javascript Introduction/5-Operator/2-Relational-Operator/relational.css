@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.container {
+    height: auto;
+    width: 40%;
+    padding: 20px;
+    margin: 20px auto;
+    color: #fff;
+    background-color: #4d3d45;
+    border: 1px solid #460728;
+}
+
+.container .value {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container label {
+    width: 25%;
+    margin: auto;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+}
+
+.container input {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+.container .buttons {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .buttons .button{
+    height: auto;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+}
+
+.container .buttons .button button{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #460728;
+}

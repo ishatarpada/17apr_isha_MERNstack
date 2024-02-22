@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change content</title>
+    <style>
+        img {
+            height: 250px;
+            width: 250px;
+        }
+
+        .container {
+            height: auto;
+            width: 90%;
+            margin: 5px auto;
+        }
+    </style>
+
+    <!-- in head tag -->
+    <script>
+        var show = document.getElementById("show");
+
+        function showElement() {
+            show.style.display = "block"
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- change content -->
+    <div class="container">
+        <p id="id">Hello World</p>
+        <button type="button" onclick="changeContent()">Change Content</button>
+    </div>
+    <hr>
+
+    <!-- change attribute -->
+    <div class="container">
+        <img src="../../Assets/bulb-off.jpg" alt="" id="image">
+        <button type="button" onclick="changeAttribute()">Change Attribute</button>
+    </div>
+    <hr>
+
+    <!-- change style -->
+    <div class="container">
+        <p id="style">Hello JavaScript</p>
+        <button type="button" onclick="changeStyle()">Change Style</button>
+    </div>
+    <hr>
+
+    <!-- hide the element -->
+    <div class="container">
+        <p id="hide">Hello JavaScript</p>
+        <p id="show" style="display: none;">Hello JavaScript</p>
+        <button type="button" onclick="hideElement()">Hide Element</button>
+        <button type="button" onclick="showElement()">Show Element</button>
+    </div>
+    <hr>
+
+    <!-- show-hide bulb -->
+    <div class="container">
+        <img src="../../Assets/bulb-off.jpg" alt="" id="bulb">
+        <button type="button" onclick="turnOn()">Turn On</button>
+        <button type="button" onclick="turnOff()">Turn Off </button>
+    </div>
+
+    <!-- in body tag -->
+    <script>
+        var hide = document.getElementById("hide");
+        function hideElement() {
+            hide.style.display = "none"
+        }
+    </script>
+
+    <!-- external JavaScript -->
+    <script src="changeContent.js"></script>
+</body>
+
+</html>

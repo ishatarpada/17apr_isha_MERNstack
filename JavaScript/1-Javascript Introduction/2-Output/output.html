@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+    <style>
+        .container{
+            height: auto;
+            width: 80%;
+            margin: 10px auto;
+        }
+
+        input{
+            height: auto;
+            width: 30%;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        button{
+            height: auto;
+            width: 30%;
+            padding: 5px;
+            margin: 5px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--
+         javaSCript display Probabilities:-
+            1.  using innerHtml
+            2.  using document.write() method
+            3.  using console.log screen
+            4.  using windows.alert() alert box
+            5.  using javaScript print
+    -->
+
+    <div class="container">
+        <input type="text" name="" id="var_1" placeholder="enter the first value">
+        <input type="text" name="" id="var_2" placeholder="enter the second value">
+
+        <!-- using innerHtml -->
+        <button type="button" id="add" onclick="addition()">Addition</button>
+
+        <!-- using document.write() -->
+        <button type="button" id="sub" onclick="substraction()">Substraction</button>
+
+        <!-- using console.log -->
+        <button type="button" id="mul" onclick="multiplication()">Multiplication</button>
+
+        <!-- using windows.alert -->
+        <button type="button" id="div" onclick="division()">Division</button>
+
+        <!-- using javaScript Print -->
+        <button type="button" id="mod" onclick="window.print()">Print this Page</button>
+
+        <button type="button" id="ans"> answer</button>
+    </div>
+
+
+    <script src="output.js"></script>
+</body>
+
+</html>

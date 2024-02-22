@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison-Operator</title>
+    <link rel="stylesheet" href="comparison.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="value">
+            <label for="fv">First value :- </label>
+            <input type="text" id="fvalue" placeholder="enter the first value....">
+            <br><br>
+        </div>
+
+        <div class="value">
+            <label for="sv">Second value :- </label>
+            <input type="text" id="svalue" placeholder="enter the second value....">
+            <br><br>
+        </div>
+
+        <div class="buttons">
+            <div class="button">
+                <button onclick="lessThan()" title="lessThan">
+                    < </button>
+            </div>
+
+            <div class="button">
+                <button onclick="lessThanOrEqualTo()" title="lessThanOrEqualTo">
+                    <= </button>
+            </div>
+
+            <div class="button">
+                <button onclick="greaterThan()" title="greaterThan">></button>
+            </div>
+
+            <div class="button">
+                <button onclick="greaterThanOrEqualTo()" title="greaterThanOrEqualTo">>=</button>
+            </div>
+
+            <div class="button">
+                <button onclick="equalTo()" title="equalTo">==</button>
+            </div>
+
+            <div class="button">
+                <button onclick="strongEqualTo()" title="strongEqualTo">===</button>
+            </div>
+
+            <div class="button">
+                <button onclick="notEqualTo()" title="notEqualTo">!=</button>
+            </div>
+
+            <div class="button">
+                <button onclick="strickNotEqualTo()" title="strickNotEqualTo">!==</button>
+            </div>
+
+            <div class="value">
+                <label for="sv">answer value :- </label>
+                <input type="text" id="ans" placeholder="answer....">
+                <br><br>
+            </div>
+        </div>
+    </div>
+    <script src="comparison.js"></script>
+</body>
+
+</html>
