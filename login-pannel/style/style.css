@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 950px;
+    width: 100%;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right, #62cff4, #2c67f2);
+}
+
+.main-container .container-box{
+    height: 800px;
+    width: 80%;
+    margin: 60px auto;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0px 0px 3px #d2cece;
+}
+
+.main-container .container-box .login-img{
+    width: 45%;
+    margin: auto;
+}
+
+.main-container .container-box .login-form{
+    width: 50%;
+    margin: auto;
+}
+
+.main-container .container-box .login-form h1{
+    text-align: center;
+    font-size: 55px;
+}
+
+.main-container .container-box .login-form .form{
+    height: auto;
+    width: 65%;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 3px darkgrey;
+}
+
+.main-container .container-box .login-form .form .form-box{
+    height: auto;
+    width: 95%;
+    margin: 5px auto;
+    padding: 10px 20px;
+}
+
+.main-container .container-box .login-form .form .form-box label{
+    font-size: 20px;
+}
+
+.main-container .container-box .login-form .form .form-box .input {
+    width: 100%;
+    margin: 3px auto;
+}
+
+.main-container .container-box .login-form .form .form-box .input input{
+    width: 100%;
+    padding: 10px;
+    color: gray;
+    border: 1ps solid gray;
+}
+
+.main-container .container-box .login-form .form .form-box .input select{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    color: gray;
+    border: 1ps solid gray;
+}
+
+.main-container .container-box .login-form .form .form-box .input option{
+    padding: 10px;
+}
+
+.main-container .container-box .login-form .form .form-box .password{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.main-container .container-box .login-form .form .form-box .password .checkbox , .forget_pswd{
+    width: 50%;
+    margin: auto;
+    color: #373737;
+}
+
+.main-container .container-box .login-form .form .form-box .password .checkbox span{
+    padding: 5px;
+}
+
+.main-container .container-box .login-form .form .form-box .password .forget_pswd{
+    text-align: end;
+}
+
+.main-container .container-box .login-form .form .form-box .password .forget_pswd a{
+    color: #373737;
+    text-decoration: none;
+}
+
+.main-container .container-box .login-form .form .form-box .button{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+.main-container .container-box .login-form .form .form-box .button button{
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(to right, #62cff4, #2c67f2);
+    padding:15px 10px;
+    border: none;
+}
+
+.main-container .container-box .login-form .form .form-box .button button a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-container .container-box .login-form .form .form-box p{
+    height: auto;
+    color: gray;
+    text-align: center;
+    margin: auto;
+}
+
+.main-container .container-box .login-form .form .form-box .buttons{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+.main-container .container-box .login-form .form .form-box .buttons button{
+    height: auto;
+    width: 97%;
+    margin: 5px;
+    padding:15px 10px;
+    background-color: transparent;
+    border: 1px solid #2c67f2;
+}
+
+.main-container .container-box .login-form .form .form-box #btn1:hover{
+    background-image: linear-gradient(to left, #62cff4, #2c67f2);
+}
+
+.main-container .container-box .login-form .form .form-box #btn1:hover a{
+    color: #fff;
+}
+
+.main-container .container-box .login-form .form .form-box .buttons button a{
+    color: #2c67f2;
+    text-decoration: none;
+}
