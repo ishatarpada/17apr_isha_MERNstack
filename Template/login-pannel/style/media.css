@@ -1,0 +1,77 @@
+@media (min-width : 200px) and (max-width : 768px) {
+    .main-container .container-box .login-img {
+        display: none;
+    }
+
+    .main-container .container-box .login-form {
+        width: 95%;
+    }
+
+    .main-container .container-box .login-form .form {
+        width: 100%;
+    }
+
+    .main-container .container-box .login-form .form .form-box .password{
+        height: auto;
+        width: 100%;
+        display: block;
+        padding: 0px;
+    }
+    
+    .main-container .container-box .login-form .form .form-box .password .checkbox , .forget_pswd{
+        width: 80%;
+        margin: 4px auto;
+    }
+
+    .main-container .container-box .login-form .form .form-box .password .forget_pswd {
+        text-align: start;
+    }
+
+
+
+
+}
+
+@media (min-width : 768px) and (max-width : 1124px) {
+    .main-container .container-box .login-img {
+        display: none;
+    }
+
+    .main-container .container-box .login-form {
+        width: 80%;
+    }
+
+    .main-container .container-box .login-form .form {
+        width: 95%;
+    }
+}
+
+@media (min-width : 1124px) and (max-width : 1280px) {
+    .main-container .container-box .login-img {
+        width: 50%;
+    }
+
+    .main-container .container-box .login-form {
+        width: 50%;
+    }
+
+    .main-container .container-box .login-form .form {
+        width: 95%;
+    }
+}
+
+@media (min-width : 1280px) and (max-width : 1536px) {
+    .main-container .container-box .login-img {
+        width: 50%;
+    }
+
+    .main-container .container-box .login-form {
+        width: 50%;
+    }
+
+    .main-container .container-box .login-form .form {
+        width: 85%;
+    }
+}
+
+@media (min-width : 1536px) {}

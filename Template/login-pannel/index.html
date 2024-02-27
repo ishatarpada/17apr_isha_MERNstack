@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container-box">
+            <div class="login-img">
+                <img src="assets/login.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="login-form">
+                <h1>Login</h1>
+                <div class="form">
+                    <div class="form-box box-1">
+                        <div class="label">
+                            <label for="role">Role : </label>
+                        </div>
+                        <div class="input">
+                            <select name="role" id="role">
+                                <option value="chose">Choose your Role</option>
+                                <option value="Faculty" id="opt-1">Faculty</option>
+                                <option value="Student" id="opt-2">Student</option>
+                                <option value="Principal" id="opt-3">Principal</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-box box-2">
+                        <div class="label">
+                            <label for="userName">User Name :</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="username.." id="username">
+                        </div>
+                    </div>
+                    <div class="form-box box-3">
+                        <div class="label">
+                            <label for="password">Password :</label>
+                        </div>
+                        <div class="input">
+                            <input type="password" placeholder="password" id="pswd">
+                        </div>
+                    </div>
+
+                    <div class="form-box button">
+                        <div class="password">
+                            <div class="checkbox"><input type="checkbox" name="" id="checkbox" checked><span>Remember Me!</span></div>
+                            <div class="forget_pswd"><a href="#">Forget Password ?</a></div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-box button">
+                        <div class="button">
+                            <button type="button" id="btn">
+                                <a href="#">Login</a>
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="form-box">
+                        <p>Or sign with</p>
+                    </div>
+
+                    <div class="form-box">
+                        <div class="buttons">
+                            <button type="button" id="btn1">
+                                <a href="#">Google</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="script/script.js"></script> -->
+    <script src="script/main.js"></script>
+
+</body>
+
+</html>
