@@ -1,0 +1,6 @@
+.main-container .header-container .header-menu .list-menu li:nth-child(4) {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(50deg, #503aca 0%, #ea34ff 100%);
+}

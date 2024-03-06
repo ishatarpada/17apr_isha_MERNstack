@@ -1,0 +1,125 @@
+
+.about-main-container {
+    height: 20rem;
+    width: 100%;
+    position: relative;
+    background-color: #0c0617;
+    /* border: 1px solid white; */
+}
+
+.about-main-container .about-header-bg-img {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.main-container .header-container {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.main-container .header-container .header-logo {
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.main-container .header-container .header-menu {
+    height: auto;
+    width: 70%;
+    margin: auto;
+}
+
+.main-container .header-container .header-menu .list-menu {
+    height: auto;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+
+.main-container .header-container .header-menu .list-menu li {
+    display: inline-block;
+    width: 12%;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+.main-container .header-container .header-menu .list-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-container .header-container .header-menu .list-menu li:nth-child(1) {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(50deg, #503aca 0%, #ea34ff 100%);
+}
+
+
+.main-container .header-container .header-btn {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: auto;
+    margin-right: 5%;
+    display: flex;
+}
+
+.main-container .header-container .header-btn .ticket-btn {
+    width: auto;
+    margin: 5px;
+    /* display: none; */
+    padding: 10px;
+    background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
+}
+
+.main-container .header-container .header-btn .ticket-btn a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-container .header-container .header-btn .menu-btn {
+    width: auto;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+    background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
+    display: none;
+}
+
+.main-container .header-container .header-btn .menu-btn a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.about-main-container .about-file-info {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.about-main-container .about-file-info .page-info-icon{
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    margin: 5px;
+    background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
+}

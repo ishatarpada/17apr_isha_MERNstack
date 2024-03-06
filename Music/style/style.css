@@ -1,0 +1,445 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+.main-container {
+    height: 1300px;
+    width: 100%;
+    position: relative;
+    background-color: #0c0617;
+    /* border: 1px solid white; */
+}
+
+.main-container .container-img {
+    width: 100%;
+    height: 1300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-container .header-container {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.main-container .header-container .header-logo {
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.main-container .header-container .header-menu {
+    height: auto;
+    width: 70%;
+    margin: auto;
+}
+
+.main-container .header-container .header-menu .list-menu {
+    height: auto;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+
+.main-container .header-container .header-menu .list-menu li {
+    display: inline-block;
+    width: 12%;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+.main-container .header-container .header-menu .list-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-container .header-container .header-menu .list-menu li:nth-child(1) {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(50deg, #503aca 0%, #ea34ff 100%);
+}
+
+
+.main-container .header-container .header-btn {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: auto;
+    margin-right: 5%;
+    display: flex;
+}
+
+.main-container .header-container .header-btn .ticket-btn {
+    width: auto;
+    margin: 5px;
+    /* display: none; */
+    padding: 10px;
+    background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
+}
+
+.main-container .header-container .header-btn .ticket-btn a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-container .header-container .header-btn .menu-btn {
+    width: auto;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+    background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
+    display: none;
+}
+
+.main-container .header-container .header-btn .menu-btn a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-container .carousal-container {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 60%;
+}
+
+.main-container .carousal-container .vibe {
+    font-family: "Satisfy", cursive;
+    font-size: 50px;
+}
+
+.main-container .carousal-container .name {
+    font-size: 80px;
+}
+
+
+.main-container .carousal-container .ticket_button {
+    background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
+}
+
+.about-container {
+    height: 94rem;
+    width: 100%;
+    position: relative;
+    background-color: #0c0617;
+}
+
+.about-container .about-container-img {
+    width: 100%;
+    height: 1695px;
+    position: absolute;
+    top: 8%;
+    left: 0;
+}
+
+.about-container .about-album {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.about-container .about-album .about-part {
+    height: auto;
+    width: 80%;
+    display: flex;
+}
+
+.about-container .about-album .about-part .singer-img {
+    height: auto;
+    width: 40%;
+    margin: auto;
+}
+
+.about-container .about-album .about-part .about_content {
+    height: auto;
+    width: 50%;
+    margin: auto;
+}
+
+.about-container .about-album .about-part .about_content .about_us {
+    font-family: "Satisfy", cursive;
+    font-size: 40px;
+    color: #ea34ff;
+}
+
+.about-container .about-album .about-part .about_content .about_para {
+    color: #c4c4c4;
+    font-size: 15px;
+}
+
+.about-container .about-album .about-part .about_content .about-btn {
+    border-radius: 0;
+    background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
+}
+
+.about-container .about-album .about-part .about_content .about-btn:hover {
+    background: linear-gradient(45deg, #ea34ff 0%, #503aca 100%);
+
+}
+
+.about-container .about-album .album-header {
+    margin: 5%;
+}
+
+.about-container .about-album .album-header .album-title {
+    font-family: "Satisfy", cursive;
+    font-size: 40px;
+    color: #ea34ff;
+}
+
+.about-container .about-album .album-header .itunes_btn {
+    background: linear-gradient(45deg, #ea34ff 0%, #503aca 100%);
+}
+
+.about-container .about-album .singer-part {
+    width: 95%;
+    margin: auto;
+}
+
+.album_list_container {
+    /* height: 1000px; */
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+
+.album_list_container .song-lists {
+    background-color: #0c0617;
+}
+
+.album_list_container .song-lists .song-title {
+    font-family: "Satisfy", cursive;
+    font-size: 30px;
+    color: #ea34ff;
+}
+
+.album_list_container .song-lists .playlist {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #262037;
+}
+
+.album_list_container .song-lists .playlist .playbtn .playicon {
+    height: auto;
+    padding: 2px 10px;
+    background-color: #3b2d81;
+}
+
+.album_list_container .song-lists .playlist:hover .social-icon i {
+    display: block !important;
+}
+
+.video-container {
+    height: 50rem;
+    width: 100%;
+    position: relative;
+    background-color: #0c0617;
+}
+
+.video-container .video-bg-img {
+    width: 100%;
+    margin: auto;
+    height: 45rem;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.video-container .video-content {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.video-container .video-content .video-title .vdo-title {
+    font-family: "Satisfy", cursive;
+    font-size: 40px;
+    color: #ea34ff;
+}
+
+.video-container .video-content .video-info .video-show img {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.video-container .video-content .video-info .video-list {
+    background-color: #0c0617;
+}
+
+.video-container .video-content .video-info .video-list .vdo-name h6:hover a {
+    color: #ea34ff;
+}
+
+.upcoming-show-container {
+    height: auto;
+    padding: 10px;
+    background-color: #0c0617;
+}
+
+.upcoming-show-container .upcoming-show-header .upcoming-show-title {
+    font-family: "Satisfy", cursive;
+    font-size: 40px;
+    color: #ea34ff;
+}
+
+.upcoming-show-container .upcoming-show-header .show_btn {
+    background: linear-gradient(45deg, #ea34ff 0%, #503aca 100%);
+}
+
+.upcoming-show-container .upcoming-show-list {
+    height: auto;
+    width: 90%;
+    margin: 5% auto;
+}
+
+.upcoming-show-container .upcoming-show-list .show-item {
+    height: auto;
+    width: 95%;
+    margin: auto;
+    padding: 2.5%;
+    display: flex;
+    border-bottom: 1px solid #ebebeb1a;
+}
+
+.upcoming-show-container .upcoming-show-list .show-item:hover {
+    background-color: #ebebeb1a;
+}
+
+.upcoming-show-container .upcoming-show-list .show-item .show-date {
+    width: 5%;
+    margin: auto;
+}
+
+.upcoming-show-container .upcoming-show-list .show-item .show-date h2 {
+    color: #ea34ff;
+}
+
+.upcoming-show-container .upcoming-show-list .show-item .show-title {
+    width: 30%;
+    margin: auto;
+}
+
+.upcoming-show-container .upcoming-show-list .show-item .show-title p {
+    color: #c4c4c4;
+}
+
+.upcoming-show-container .upcoming-show-list .show-item .show-location {
+    width: 20%;
+    margin: auto;
+}
+
+.upcoming-show-container .upcoming-show-list .show-item .show-location p {
+    color: #c4c4c4;
+}
+
+.upcoming-show-container .upcoming-show-list .show-item .show-time {
+    width: 10%;
+    margin: auto;
+}
+
+.upcoming-show-container .upcoming-show-list .show-item .show-time p {
+    color: #c4c4c4;
+}
+
+.upcoming-show-container .upcoming-show-list .show-item .showBtn {
+    width: 15%;
+    margin: auto;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(50deg, #503aca 0%, #ea34ff 100%);
+}
+
+.footer {
+    height: 50rem;
+    position: relative;
+    background-color: #0c0617;
+}
+
+.footer::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url("../image/footer-bg.png.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 2;
+}
+
+.footer .footer-content {
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+
+.footer .footer-top .footer-part-1 {
+    background-color: #191039;
+}
+
+.footer .footer-top .footer-form .footer-title .footerTitle {
+    font-family: "Satisfy", cursive;
+    font-size: 40px;
+    color: #ea34ff;
+}
+
+.footer .footer-top .footer-form .form-input,
+.footer .footer-top .footer-form .form-mail,
+.footer .footer-top .footer-form .form-msg {
+    border: none;
+    border-bottom: 1px solid #ebebeb1a !important;
+    outline: 0;
+}
+
+.footer .footer-top .footer-form .form-button {
+    background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%) !important;
+}
+
+.footer .footer-content .footerContent {
+    border-bottom: 1px solid #ebebeb1a;
+}
+
+.footer-content-1 .info-box .info-icon,
+.footer-content-2 .info-box .info-icon {
+    width: 65px;
+    height: 65px;
+    font-size: 27px;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 65px;
+    background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
+}
+
+.footer-content-3 .footer-social {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-radius: 100px !important;
+    border-image-source: linear-gradient(50deg, #503aca 0%, #ea34ff 100%);
+}

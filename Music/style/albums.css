@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container .header-container .header-menu .list-menu li:nth-child(3) {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(50deg, #503aca 0%, #ea34ff 100%);
+}
+
+.albums-page {
+    background-color: #0c0617;
+}
+
+.albums-page .album .album_card .album-pic {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+.albums-page .album .album_card .album-pic .album-img {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+}
+
+.albums-page .album .album_card .album-pic .album-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.albums-page .album .album_card .album-pic .album-title {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.5s;
+    background: linear-gradient(180deg, #761a807c 0%, #291d6689 100%);
+}
+
+.albums-page .album .album_card .album-pic .album-title .album_title_inner {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.albums-page .album .album_card .album-pic .album-title .album_title_inner h4 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    transition: 2s;
+
+}
+
+.albums-page .album .album_card .album-pic .album-title .album_title_inner p {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    transition: 1s;
+}
+
+.albums-page .album .album_card .album-pic:hover .album-title {
+    display: block;
+    opacity: 1;
+}
+
+.albums-page .album .album_card .album-links:hover .album-title {
+    display: block;
+    opacity: 1;
+
+}
+
+.albums-page .album .album_card .album-pic:hover .album-title .album_title_inner h4 {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: white;
+}
+
+.albums-page .album .album_card .album-pic:hover .album-title .album_title_inner p {
+    position: absolute;
+    top: 55%;
+    left: 39%;
+    color: white;
+}

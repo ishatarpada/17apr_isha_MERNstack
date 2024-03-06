@@ -1,0 +1,69 @@
+@media (min-width :1000px) and (max-width:1200px) {
+    .main-container .header-container .header-menu .list-menu {
+        display: none;
+    }
+
+    .main-container .header-container .header-btn .ticket-btn {
+        display: none;
+    }
+
+    .main-container .header-container .header-btn .menu-btn {
+        display: block;
+    }
+
+    .main-container .carousal-container {
+        width: 80%;
+    }
+
+    .main-container .carousal-container .vibe {
+        font-family: "Satisfy", cursive;
+        font-size: 40px;
+    }
+
+    .main-container .carousal-container .name {
+        font-size: 60px;
+    }
+
+    .about-container .about-album .about-part {
+        display: block;
+    }
+
+    .about-container .about-album .about-part .singer-img {
+        width: 80%;
+    }
+
+    .about-container .about-album .about-part .about_content {
+        width: 80%;
+    }
+
+    .about-container {
+        height: 110rem;
+    }
+
+    .about-container .about-container-img {
+        height: 2000px;
+    }
+
+    .video-container {
+        height: 55rem;
+    }
+
+    .video-container .video-bg-img {
+        height: 55rem;
+    }
+
+    .footer .footer-content .footer-top .footer-part-1 {
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    .footer .footer-content .footer-top .footer-part-2 {
+        display: none !important;
+    }
+
+    /* about page */
+    
+    .about-main-container {
+        height: 13rem;
+    }
+}

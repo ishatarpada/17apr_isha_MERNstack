@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- main css external file link -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- media query external file link-->
+    <link rel="stylesheet" href="style/media-1.css">
+
+    <link rel="stylesheet" href="style/media-2.css">
+
+    <link rel="stylesheet" href="style/media-3.css">
+
+
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font awesome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- main-container -->
+    <div class="container-fluid main-container">
+
+        <!-- container image -->
+        <div class="container-img">
+            <img src="image/hero-bg.png.webp" alt="" height="100%" width="100%">
+        </div>
+
+        <!-- header -->
+        <header>
+            <div class="header-container">
+                <div class="header-logo ms-3">
+                    <a href="index.html" class="site__logo">
+                        <img src="image/logo.png.webp" alt="">
+                    </a>
+                </div>
+                <div class="header-menu">
+                    <ul class="list-menu">
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="albums.html">ALBUMS</a>
+                        </li>
+                        <li>
+                            <a href="tours.html">TOURS</a>
+                        </li>
+                        <li>
+                            <a href="pages.html">PAGES</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-btn">
+                    <div class="ticket-btn">
+                        <a href="#">
+                            <span>BUY TICKETS</span>
+                        </a>
+                    </div>
+                    <div class="menu-btn">
+                        <a href="#">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- carousal -->
+        <div class="carousal-container container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousal-content">
+                            <span class="vibe text-light fw-bolder">The electro vibe</span>
+                            <h2 class="name text-light fw-bold text-uppercase">Tailor Lachiri</h2>
+                            <p class="content text-light w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua accumsan lacus vel
+                                facilisis. </p>
+                            <button type="button" class="btn ticket_button border border-0 p-3">
+                                <a href="#"
+                                    class="site_btn text-light text-decoration-none text-uppercase fw-bolder">Buy
+                                    tickets</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousal-content">
+                            <span class="vibe text-light fw-bolder">The electro vibe</span>
+                            <h2 class="name text-light fw-bold text-uppercase">Tailor Lachiri</h2>
+                            <p class="content text-light w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua accumsan lacus vel
+                                facilisis. </p>
+                            <button type="button" class="btn ticket_button border border-0 p-3">
+                                <a href="#"
+                                    class="site_btn text-light text-decoration-none text-uppercase fw-bolder">Buy
+                                    tickets</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousal-content">
+                            <span class="vibe text-light fw-bolder">The electro vibe</span>
+                            <h2 class="name text-light fw-bold text-uppercase">Tailor Lachiri</h2>
+                            <p class="content text-light w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua accumsan lacus vel
+                                facilisis. </p>
+                            <button type="button" class="btn ticket_button border border-0 p-3">
+                                <a href="#"
+                                    class="site_btn text-light text-decoration-none text-uppercase fw-bolder">Buy
+                                    tickets</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about-container -->
+    <div class="container-fluid about-container ">
+        <div class="about-container-img">
+            <img src="image/discography-bg.png.webp" alt="" height="100%" width="100%">
+        </div>
+
+        <div class="about-album">
+            <div class="about-part container">
+                <div class="singer-img">
+                    <img src="image/about.png.webp" alt="" class="img-fluid">
+                </div>
+                <div class="about_content p-2">
+                    <span class="about_us fw-bold my-2">About us</span>
+                    <h2 class="text-light text-uppercase fs-1 fw-bolder my-2">The electro vibe</h2>
+                    <p class="text-light about_para  my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do
+                        eiusmod
+                        tempor inc-ididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                        Risus
+                        commodo viverra maecenas accumsan lacus vel facilisis. lectus turpis sociis ut porttitor
+                        scelerisque
+                        amet ultrices placerat mid facilisis proin purus, cursus ridiculus nisi diam augue porta?
+                        Penatibus
+                        magna etiam, placerat dignissim.</p>
+                    <button type="button" class="btn about-btn border-0 my-2">
+                        <a href="#" class="site_btn text-light text-decoration-none">Contact us</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="album-header">
+                <div class="row mx-lg-5  px-lg-4">
+                    <div class="col-lg-8 text-center">
+                        <div class="section-title">
+                            <div class="album-title fw-bold">Our discography-bg
+                            </div>
+                            <h2 class="text-uppercase fw-bolder text-light">Newest Albums &amp; Singles</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 text-center text-lg-right  pt-4">
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="site__btn text-light text-decoration-none itunes_btn p-2">
+                                <i class="fab fa-apple"></i> Buy on iTunes
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-2 m-auto singer-part">
+                <div class="col-lg-3  col-md-6">
+                    <div class="album_card  d-flex flex-column align-items-center">
+                        <img src="image/1.jpg.webp" class="rounded-circle img-fluid" alt="">
+                        <h4 class="text-light">I'm a mess</h4>
+                        <p class="text-secondary">Bebe Rexha</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-3  col-md-6">
+                    <div class="album_card  d-flex flex-column align-items-center">
+                        <img src="image/2.jpg.webp" class="rounded-circle img-fluid" alt="">
+                        <h4 class="text-light">Natural</h4>
+                        <p class="text-secondary">Imagine Dragons</p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6">
+                    <div class="album_card  d-flex flex-column align-items-center">
+                        <img src="image/3.jpg.webp" class="rounded-circle img-fluid" alt="">
+                        <h4 class="text-light">Sweet Psycho</h4>
+                        <p class="text-secondary">Ava Max</p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6">
+                    <div class="album_card  d-flex flex-column align-items-center">
+                        <img src="image/4.jpg.webp" class="rounded-circle img-fluid" alt="">
+                        <h4 class="text-light">Waiting For 💜</h4>
+                        <p class="text-secondary">Avicii</p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6">
+                    <div class="album_card  d-flex flex-column align-items-center">
+                        <img src="image/5.jpg.webp" class="rounded-circle img-fluid" alt="">
+                        <h4 class="text-light">So Am I</h4>
+                        <p class="text-secondary">Ava Max</p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6">
+                    <div class="album_card  d-flex flex-column align-items-center">
+                        <img src="image/6.jpg.webp" class="rounded-circle img-fluid" alt="">
+                        <h4 class="text-light">Mamma Mia</h4>
+                        <p class="text-secondary">Hugel feat. Amber</p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6">
+                    <div class="album_card  d-flex flex-column align-items-center">
+                        <img src="image/7.jpg.webp" class="rounded-circle img-fluid" alt="">
+                        <h4 class="text-light">Bad Guy</h4>
+                        <p class="text-secondary">Billie Eilish</p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6">
+                    <div class="album_card  d-flex flex-column align-items-center">
+                        <img src="image/8.jpg.webp" class="rounded-circle img-fluid" alt="">
+                        <h4 class="text-light"> me down slowly</h4>
+                        <p class="text-secondary">Alec Benjamin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- song-list -->
+    <div class="row album_list_container container-fluid m-0 p-0">
+        <div class="col-lg-6 song-poster p-0 m-0">
+            <img src="image/track-thumb.webp" alt="" height="100%" width="100%">
+        </div>
+        <div class=" col-lg-6 song-lists ">
+            <div class="song my-4 px-2">
+                <div class="song-title">Latest album</div>
+                <h2 class="text-light">WHEN WE ALL FALL ASLEEP</h2>
+            </div>
+            <ul class="song-list my-3">
+                <li class="row playlist p-2 align-items-center my-3">
+                    <div class="col-1 playbtn  d-flex justify-content-center">
+                        <div class="playicon rounded-circle ">
+                            <button type="button" class="border border-0 bg-transparent" id="play-song1">
+                                <i class="fas fa-play text-light text-center"></i>
+                                <audio id="audioPlayer1" controls style="display: none;">
+                                    <source src="image/Teri Baaton Mein Aisa Uljha Jiya_64(PagalWorld.com.cm).mp3"
+                                        type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-4 song-name d-flex flex-column justify-content-center align-items-center">
+                        <h6 class="text-center text-light mb-2">I'm a mess</h6>
+                        <p class="text-center text-secondary mb-0">Bebe Rexha</p>
+                    </div>
+
+                    <div class="col-4 social-icon d-flex justify-content-center">
+                        <i class="fab fa-amazon me-2 text-secondary"></i>
+                        <i class="fab fa-spotify me-2 text-secondary"></i>
+                        <i class="fab fa-apple me-2 text-secondary"></i>
+                        <i class="fab fa-soundcloud me-2 text-secondary"></i>
+                    </div>
+                    <div class="col-2 song-time d-flex justify-content-center align-items-center">
+                        <p class="text-light mb-0">3.16</p>
+                    </div>
+
+                </li>
+                <li class="row playlist p-2 align-items-center my-3">
+                    <div class="col-1 playbtn  d-flex justify-content-center">
+                        <div class="playicon rounded-circle ">
+                            <button type="button" class="border border-0 bg-transparent" id="play-song2">
+                                <i class="fas fa-play text-light text-center"></i>
+                                <audio id="audioPlayer2" controls style="display: none;">
+                                    <source src="image/Dil Se Dil Tak(PagalWorld.com.cm).mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-4 song-name d-flex flex-column justify-content-center align-items-center">
+                        <h6 class="text-center text-light mb-2">Sweet But Psycho</h6>
+                        <p class="text-center text-secondary mb-0">Ava Max</p>
+                    </div>
+
+                    <div class="col-4 social-icon d-flex justify-content-center">
+                        <i class="fab fa-amazon me-2  d-none text-secondary"></i>
+                        <i class="fab fa-spotify me-2  d-none text-secondary"></i>
+                        <i class="fab fa-apple me-2  d-none text-secondary"></i>
+                        <i class="fab fa-soundcloud me-2  d-none text-secondary"></i>
+                    </div>
+                    <div class="col-2 song-time d-flex justify-content-center align-items-center">
+                        <p class="text-light mb-0">3.16</p>
+                    </div>
+
+                </li>
+                <li class="row playlist p-2 align-items-center my-3">
+                    <div class="col-1 playbtn  d-flex justify-content-center">
+                        <div class="playicon rounded-circle ">
+                            <button type="button" class="border border-0 bg-transparent" id="play-song3">
+                                <i class="fas fa-play text-light text-center"></i>
+                                <audio id="audioPlayer3" controls style="display: none;">
+                                    <source src="image/O Mahi O Mahi(PagalWorld.com.cm).mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-4 song-name d-flex flex-column justify-content-center align-items-center">
+                        <h6 class="text-center text-light mb-2">Waiting For 💜</h6>
+                        <p class="text-center text-secondary mb-0">Avicii</p>
+                    </div>
+
+                    <div class="col-4 social-icon d-flex justify-content-center">
+                        <i class="fab fa-amazon me-2  d-none text-secondary"></i>
+                        <i class="fab fa-spotify me-2  d-none text-secondary"></i>
+                        <i class="fab fa-apple me-2  d-none text-secondary"></i>
+                        <i class="fab fa-soundcloud me-2  d-none text-secondary"></i>
+                    </div>
+                    <div class="col-2 song-time d-flex justify-content-center align-items-center">
+                        <p class="text-light mb-0">3.16</p>
+                    </div>
+
+                </li>
+                <li class="row playlist p-2 align-items-center my-3">
+                    <div class="col-1 playbtn  d-flex justify-content-center">
+                        <div class="playicon rounded-circle ">
+                            <button type="button" class="border border-0 bg-transparent" id="play-song4">
+                                <i class="fas fa-play text-light text-center"></i>
+                                <audio id="audioPlayer4" controls style="display: none;">
+                                    <source src="image/Ve Haniya(PagalWorld.com.cm).mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-4 song-name d-flex flex-column justify-content-center align-items-center">
+                        <h6 class="text-center text-light mb-2">Mamma Mia</h6>
+                        <p class="text-center text-secondary mb-0">Hugel feat. Amber</p>
+                    </div>
+
+                    <div class="col-4 social-icon d-flex justify-content-center">
+                        <i class="fab fa-amazon me-2  d-none text-secondary"></i>
+                        <i class="fab fa-spotify me-2  d-none text-secondary"></i>
+                        <i class="fab fa-apple me-2  d-none text-secondary"></i>
+                        <i class="fab fa-soundcloud me-2  d-none text-secondary"></i>
+                    </div>
+                    <div class="col-2 song-time d-flex justify-content-center align-items-center">
+                        <p class="text-light mb-0">3.16</p>
+                    </div>
+
+                </li>
+                <li class="row playlist p-2 align-items-center my-3">
+                    <div class="col-1 playbtn  d-flex justify-content-center">
+                        <div class="playicon rounded-circle ">
+                            <button type="button" class="border border-0 bg-transparent" id="play-song5">
+                                <i class="fas fa-play text-light text-center"></i>
+                                <audio id="audioPlayer5" controls style="display: none;">
+                                    <source src="image/You The One(PagalWorld.com.cm).mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-4 song-name d-flex flex-column justify-content-center align-items-center">
+                        <h6 class="text-center text-light mb-2">Let me down slowly</h6>
+                        <p class="text-center text-secondary mb-0">Alec Benjamin</p>
+                    </div>
+
+                    <div class="col-4 social-icon d-flex justify-content-center">
+                        <i class="fab fa-amazon me-2  d-none text-secondary"></i>
+                        <i class="fab fa-spotify me-2  d-none text-secondary"></i>
+                        <i class="fab fa-apple me-2  d-none text-secondary"></i>
+                        <i class="fab fa-soundcloud me-2  d-none text-secondary"></i>
+                    </div>
+                    <div class="col-2 song-time d-flex justify-content-center align-items-center">
+                        <p class="text-light mb-0">3.16</p>
+                    </div>
+
+                </li>
+                <li class="row playlist p-2 align-items-center my-3">
+                    <div class="col-1 playbtn  d-flex justify-content-center">
+                        <div class="playicon rounded-circle ">
+                            <button type="button" class="border border-0 bg-transparent" id="play-song6">
+                                <i class="fas fa-play text-light text-center"></i>
+                                <audio id="audioPlayer6" controls style="display: none;">
+                                    <source src="image/Teri Baaton Mein Aisa Uljha Jiya_64(PagalWorld.com.cm).mp3"
+                                        type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-4 song-name d-flex flex-column justify-content-center align-items-center">
+                        <h6 class="text-center text-light mb-2">Everything I Need</h6>
+                        <p class="text-center text-secondary mb-0">Skylar Grey</p>
+                    </div>
+
+                    <div class="col-4 social-icon d-flex justify-content-center">
+                        <i class="fab fa-amazon me-2  d-none text-secondary"></i>
+                        <i class="fab fa-spotify me-2  d-none text-secondary"></i>
+                        <i class="fab fa-apple me-2  d-none text-secondary"></i>
+                        <i class="fab fa-soundcloud me-2  d-none text-secondary"></i>
+                    </div>
+                    <div class="col-2 song-time d-flex justify-content-center align-items-center">
+                        <p class="text-light mb-0">3.16</p>
+                    </div>
+
+                </li>
+                <li class="row playlist p-2 align-items-center my-3 border border-0">
+                    <div class="col-1 playbtn  d-flex justify-content-center">
+                        <div class="playicon rounded-circle ">
+                            <button type="button" class="border border-0 bg-transparent" id="play-song7">
+                                <i class="fas fa-play text-light text-center"></i>
+                                <audio id="audioPlayer7" controls style="display: none;">
+                                    <source src="image/O Mahi O Mahi(PagalWorld.com.cm).mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-4 song-name d-flex flex-column justify-content-center align-items-center">
+                        <h6 class="text-center text-light mb-2">On My Way</h6>
+                        <p class="text-center text-secondary mb-0">Alan Walker; Sabrina Carpenter; Farruko</p>
+                    </div>
+
+                    <div class="col-4 social-icon d-flex justify-content-center">
+                        <i class="fab fa-amazon me-2  d-none text-secondary"></i>
+                        <i class="fab fa-spotify me-2  d-none text-secondary"></i>
+                        <i class="fab fa-apple me-2  d-none text-secondary"></i>
+                        <i class="fab fa-soundcloud me-2  d-none text-secondary"></i>
+                    </div>
+                    <div class="col-2 song-time d-flex justify-content-center align-items-center">
+                        <p class="text-light mb-0">3.16</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- video section -->
+    <div class="video-container container-fluid m-0  p-0">
+
+        <div class="video-bg-img">
+            <img src="image/video-overlay.png.webp" class=" m-0" alt="" height="100%" width="100%">
+        </div>
+
+        <div class="video-content">
+            <div class="video-title text-center pb-3">
+                <div class="vdo-title fw-bolder">Our Videos</div>
+                <h2 class=" text-uppercase text-light  fw-bolder">newest albums &amp; singles.</h2>
+            </div>
+            <div class="row video-info container m-0 p-0 mx-sm-3">
+                <div class="col-lg-7 video-show p-0" id="playVdo">
+                    <img src="image/poster.webp" class="img-fluid" height="100%" width="100%" alt="">
+                </div>
+                <div class="col-lg-5 video-list">
+                    <div class="row justify-content-center align-items-center ms-2">
+                        <div class="col-12 col-md-4 my-auto text-center">
+                            <img src="image/thumb-1.webp" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-12 col-md-8 my-2">
+                            <div class="vdo-name text-center id=" video1"">
+                                <h6><a href="#" class="text-light mt-2 text-decoration-none">Maroon 5 -
+                                        Don't Wanna Know
+                                        (Audio)</a></h6>
+                                <p>
+                                    <a href="#" class="text-decoration-none" style="color: #c4c4c4;">
+                                        <i class="fa fa-play me-2"></i>
+                                        2,347k
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center ms-2">
+                        <div class="col-12 col-md-4 my-auto text-center">
+                            <img src="image/thumb-2.webp" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-12 col-md-8 my-2">
+                            <div class="vdo-name text-center">
+                                <h6><a href="#" class="text-light mt-2 text-decoration-none">Avicii (& Martin Garrix) -
+                                        Waiting for love</a></h6>
+                                <p><a href="#" class="text-decoration-none" style="color: #c4c4c4;"><i
+                                            class="fa fa-play me-2"></i>2,347k</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center ms-2">
+                        <div class="col-12 col-md-4 my-auto text-center">
+                            <img src="image/thumb-3.webp" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-12 col-md-8 my-2">
+                            <div class="vdo-name text-center">
+                                <h6><a href="#" class="text-light mt-2 text-decoration-none">Brooks & Loote - Better
+                                        When You're Gone</a></h6>
+                                <p><a href="#" class="text-decoration-none" style="color: #c4c4c4;"><i
+                                            class="fa fa-play me-2"></i>2,347k</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center ms-2">
+                        <div class="col-12 col-md-4 my-auto text-center">
+                            <img src="image/thumb-4.webp" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-12 col-md-8 my-2">
+                            <div class="vdo-name text-center">
+                                <h6><a href="#" class="text-light mt-2 text-decoration-none">David Guetta - Without You
+                                        ft. Usher</a></h6>
+                                <p><a href="#" class="text-decoration-none" style="color: #c4c4c4;"><i
+                                            class="fa fa-play me-2"></i>2,347k</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Upcoming shows -->
+    <div class="upcoming-show-container container-fluid">
+        <div class="upcoming-show-header">
+            <div class="row mx-lg-5  px-lg-4">
+                <div class="col-lg-8 text-center">
+                    <div class="section-title">
+                        <div class="upcoming-show-title fw-bold">Upcoming Shows
+                        </div>
+                        <h2 class="text-uppercase fw-bolder text-light">WHEN WE ALL FALL ASLEEP</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 text-center text-lg-right  pt-4">
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="site__btn text-light text-decoration-none show_btn p-2">
+                            VIEW ALL
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="upcoming-show-list">
+            <div class="show-item text-light d-flex justify-content-center align-items-center">
+                <div class="show-date text-center">
+                    <h2 class="fw-bold m-0 p-0">25</h2>
+                    <p class="m-0 p-0">Aug</p>
+                </div>
+                <div class="show-title text-center">
+                    <h4 class="fs-6 fw-bolder">Sunburn Arena with Wiz Khalifa</h4>
+                    <p class="fs-6">EDM, Pop, Rap | English | Age 15+ | 5hrs</p>
+                </div>
+                <div class="show-location text-center">
+                    <p><i class="fa-solid fa-location-dot me-2" style="color: #ea34ff;"></i> Multiple Venues</p>
+                </div>
+                <div class="show-time text-center">
+                    <p><i class="fa-regular fa-clock me-2" style="color: #ea34ff;"></i> 02:00 PM</p>
+                </div>
+                <div class="showBtn text-center p-2">
+                    <a href="#" class="show-sub-btn sb--line text-light text-decoration-none">Buy tickets</a>
+                </div>
+            </div>
+            <div class="show-item text-light d-flex justify-content-center align-items-center">
+                <div class="show-date text-center">
+                    <h2 class="fw-bold m-0 p-0">25</h2>
+                    <p class="m-0 p-0">Aug</p>
+                </div>
+                <div class="show-title text-center">
+                    <h4 class="fs-6 fw-bolder">Sunburn Arena with Wiz Khalifa</h4>
+                    <p class="fs-6">EDM, Pop, Rap | English | Age 15+ | 5hrs</p>
+                </div>
+                <div class="show-location text-center">
+                    <p><i class="fa-solid fa-location-dot me-2" style="color: #ea34ff;"></i> Multiple Venues</p>
+                </div>
+                <div class="show-time text-center">
+                    <p><i class="fa-regular fa-clock me-2" style="color: #ea34ff;"></i> 02:00 PM</p>
+                </div>
+                <div class="showBtn text-center p-2">
+                    <a href="#" class="show-sub-btn sb--line text-light text-decoration-none">Buy tickets</a>
+                </div>
+            </div>
+            <div class="show-item text-light d-flex justify-content-center align-items-center">
+                <div class="show-date text-center">
+                    <h2 class="fw-bold m-0 p-0">25</h2>
+                    <p class="m-0 p-0">Aug</p>
+                </div>
+                <div class="show-title text-center">
+                    <h4 class="fs-6 fw-bolder">Sunburn Arena with Wiz Khalifa</h4>
+                    <p class="fs-6">EDM, Pop, Rap | English | Age 15+ | 5hrs</p>
+                </div>
+                <div class="show-location text-center">
+                    <p><i class="fa-solid fa-location-dot me-2" style="color: #ea34ff;"></i> Multiple Venues</p>
+                </div>
+                <div class="show-time text-center">
+                    <p><i class="fa-regular fa-clock me-2" style="color: #ea34ff;"></i> 02:00 PM</p>
+                </div>
+                <div class="showBtn text-center p-2">
+                    <a href="#" class="show-sub-btn sb--line text-light text-decoration-none">Buy tickets</a>
+                </div>
+            </div>
+            <div class="show-item text-light d-flex justify-content-center align-items-center">
+                <div class="show-date text-center">
+                    <h2 class="fw-bold m-0 p-0">25</h2>
+                    <p class="m-0 p-0">Aug</p>
+                </div>
+                <div class="show-title text-center">
+                    <h4 class="fs-6 fw-bolder">Sunburn Arena with Wiz Khalifa</h4>
+                    <p class="fs-6">EDM, Pop, Rap | English | Age 15+ | 5hrs</p>
+                </div>
+                <div class="show-location text-center">
+                    <p><i class="fa-solid fa-location-dot me-2" style="color: #ea34ff;"></i> Multiple Venues</p>
+                </div>
+                <div class="show-time text-center">
+                    <p><i class="fa-regular fa-clock me-2" style="color: #ea34ff;"></i> 02:00 PM</p>
+                </div>
+                <div class="showBtn text-center p-2">
+                    <a href="#" class="show-sub-btn sb--line text-light text-decoration-none">Buy tickets</a>
+                </div>
+            </div>
+            <div class="show-item border border-0 text-light d-flex justify-content-center align-items-center">
+                <div class="show-date text-center">
+                    <h2 class="fw-bold m-0 p-0">25</h2>
+                    <p class="m-0 p-0">Aug</p>
+                </div>
+                <div class="show-title text-center">
+                    <h4 class="fs-6 fw-bolder">Sunburn Arena with Wiz Khalifa</h4>
+                    <p class="fs-6">EDM, Pop, Rap | English | Age 15+ | 5hrs</p>
+                </div>
+                <div class="show-location text-center">
+                    <p><i class="fa-solid fa-location-dot me-2" style="color: #ea34ff;"></i> Multiple Venues</p>
+                </div>
+                <div class="show-time text-center">
+                    <p><i class="fa-regular fa-clock me-2" style="color: #ea34ff;"></i> 02:00 PM</p>
+                </div>
+                <div class="showBtn text-center p-2">
+                    <a href="#" class="show-sub-btn sb--line text-light text-decoration-none">Buy tickets</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <footer class="footer container-fluid">
+        <div class="container-fluid  footer-content">
+            <div class="container mx-auto">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-lg-8 footer-part-1">
+                            <div class="footer-form">
+                                <div class="footer-title mx-3 my-5">
+                                    <div class="footerTitle fw-bold px-3">Contact us</div>
+                                    <h2 class="text-uppercase text-light px-3">Got a Question?</h2>
+                                </div>
+                                <form class=" my-5">
+                                    <div class="row">
+                                        <div class="col-lg-6 my-2">
+                                            <input type="text" placeholder="Name"
+                                                class="w-75 text-light m-auto mx-3 bg-transparent p-3 form-input">
+                                        </div>
+                                        <div class="col-lg-6 my-2">
+                                            <input type="text" placeholder="E-mail"
+                                                class="w-75 text-light m-auto mx-3 bg-transparent p-3 form-mail">
+                                        </div>
+                                        <div class="col-lg-12 my-2">
+                                            <textarea placeholder="Message"
+                                                class=" my-auto text-light mx-3 bg-transparent p-3 form-msg d-block w-75"></textarea>
+                                            <button class="mx-5 my-3 p-2 border-0 text-light form-button my-2">Send
+                                                Email</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 p-0 footer-part-2">
+                            <img src="image/footer-img.jpg.webp" alt="" height="100%" width="100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5 footerContent pb-3">
+                    <div class="col-lg-4 col-md-5 mx-md-auto footer-content-1">
+                        <div class="info-box d-flex my-2">
+                            <div class="info-icon text-center m-1 me-2">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <p class="text-light">333 Middle Winchendon Rd, <br> Rindge, NH 03461 </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 mx-md-auto footer-content-2">
+                        <div class="info-box info-box-center d-flex my-2">
+                            <div class="info-icon text-center m-1 me-2">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <p class="text-light">125-711-811 | 125-668-886 <br> Support.music@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5 mx-md-auto footer-content-3">
+                        <div class="footer-social px-1 py-3 d-flex justify-content-center mt-3">
+                            <a href="#" class="text-light"><i class="fab fa-facebook me-3"></i></a>
+                            <a href="#" class="text-light"><i class="fab fa-twitter me-3"></i></a>
+                            <a href="#" class="text-light"><i class="fab fa-youtube me-3"></i></a>
+                            <a href="#" class="text-light"><i class="fab fa-instagram me-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright-text p-2">
+                    <p class="text-center text-light p-2">Copyright ©
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+                        is made with 💜 by <a href="https://colorlib.com" class="text-decoration-none text-light" target="-blank">developer</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- javascript external file link -->
+    <script src="script/script.js"></script>
+
+    <!-- bootstrap javascript  link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

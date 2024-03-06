@@ -1,0 +1,132 @@
+@media (min-width :767px) and (max-width:1000px) {
+    .main-container .header-container .header-menu .list-menu {
+        display: none;
+    }
+
+    .main-container .header-container .header-btn .ticket-btn {
+        display: none;
+    }
+
+    .main-container .header-container .header-btn .menu-btn {
+        display: block;
+    }
+
+    .main-container .carousal-container {
+        width: 80%;
+    }
+
+    .main-container .carousal-container .vibe {
+        font-family: "Satisfy", cursive;
+        font-size: 25px;
+
+    }
+
+    .main-container .carousal-container .name {
+        font-size: 40px;
+    }
+
+    .about-container {
+        height: 145rem;
+    }
+
+    .about-container .about-album .about-part {
+        display: block;
+    }
+
+    .about-container .about-album .about-part .singer-img {
+        width: 80%;
+    }
+
+    .about-container .about-album .about-part .about_content {
+        width: 80%;
+    }
+
+    .about-container .about-container-img {
+        height: 133rem;
+    }
+
+    .video-container {
+        height: 75rem;
+    }
+
+    .video-container .video-bg-img {
+        height: 75rem;
+    }
+
+    .upcoming-show-container .upcoming-show-list .show-item {
+        display: block !important;
+    }
+
+    .upcoming-show-container .upcoming-show-list .show-item .show-date {
+        width: 80%;
+    }
+
+    .upcoming-show-container .upcoming-show-list .show-item .show-title {
+        width: 80%;
+    }
+
+    .upcoming-show-container .upcoming-show-list .show-item .show-location {
+        width: 80%;
+    }
+
+    .upcoming-show-container .upcoming-show-list .show-item .show-time {
+        width: 80%;
+    }
+
+    .upcoming-show-container .upcoming-show-list .show-item .showBtn {
+        width: 40%;
+    }
+
+    .footer {
+        height: 61rem;
+    }
+
+    .footer .footer-content .footer-top .footer-part-1 {
+        width: 80% !important;
+        margin: auto !important;
+    }
+
+    .footer .footer-content .footer-top .footer-part-2 {
+        display: none !important;
+    }
+
+    .footer .footer-content .footerContent,
+    .footer .footer-content .footerContent .footer-content-1,
+    .footer .footer-content .footerContent .footer-content-2,
+    .footer .footer-content .footerContent .footer-content-3 {
+        height: auto !important;
+        width: 80% !important;
+        margin: 5px auto !important;
+    }
+
+    /* about page */
+    
+    .about-main-container {
+        height: 15rem;
+    }
+
+    /* pages */
+    .tickets-page .show-item {
+        display: block !important;
+    }
+
+    .tickets-page .show-item .show-date {
+        width: 80%;
+    }
+
+    .tickets-page .show-item .show-title {
+        width: 80%;
+    }
+
+    .tickets-page .show-item .show-location {
+        width: 80%;
+    }
+
+    .tickets-page .show-item .show-time {
+        width: 80%;
+    }
+
+    .tickets-page .show-item .showBtn {
+        width: 40%;
+    }
+}
