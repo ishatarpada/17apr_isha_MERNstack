@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-image: linear-gradient(#0c5c51, #6a7674);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .box-area {
+            display: flex;
+            border-radius: 30px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .left-box,
+        .right-box {
+            padding: 40px 30px;
+        }
+
+        .left-box {
+            background: #0c5c51;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            color: #fff;
+        }
+
+        .left-box img {
+            width: 250px;
+        }
+
+        .left-box p {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .left-box small {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            width: 17rem;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .right-box {
+            flex: 1;
+        }
+
+        .header-text {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .header-text h2 {
+            margin-bottom: 10px;
+        }
+
+        .header-text p {
+            margin: 0;
+        }
+
+        .form-control {
+            width: 90%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            background-color: #f8f9fa;
+        }
+
+        .form-select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            background-color: #f8f9fa;
+            color: #6c757d;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #0c5c51;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #084c43;
+        }
+
+        .social-btns{
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+
+        .social-btn i {
+            font-size: 1.5rem;
+        }
+
+        .bi-google {
+            background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .form-footer {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .form-footer a {
+            color: #0c5c51;
+            text-decoration: none;
+        }
+
+        .form-footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 767px) {
+            .box-area {
+                flex-direction: column;
+                width: 98%;
+                margin: auto;
+            }
+
+            .left-box {
+                height: 50px;
+                overflow: hidden;
+                padding: 20px;
+            }
+
+            .right-box {
+                padding: 20px;
+            }
+        }
