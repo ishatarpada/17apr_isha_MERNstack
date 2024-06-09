@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOM vs DOM Comparison</title>
+  <!-- Bootstrap CSS link for styling -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">BOM vs DOM Comparison</h1>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Aspect</th>
+          <th>Browser Object Model (BOM)</th>
+          <th>Document Object Model (DOM)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Definition</td>
+          <td>The BOM represents additional objects provided by the browser, such as the window, history, navigator, and screen objects.</td>
+          <td>The DOM represents the structure of the HTML document as a tree of objects, allowing JavaScript to interact with and manipulate the document's elements.</td>
+        </tr>
+        <tr>
+          <td>Main Object</td>
+          <td>The main object in BOM is the window object.</td>
+          <td>The main object in DOM is the document object.</td>
+        </tr>
+        <tr>
+          <td>Scope</td>
+          <td>Manages browser functionality and features outside of the web page content, such as window size, location, and navigation history.</td>
+          <td>Manages the structure, content, and style of the web page, allowing manipulation of HTML elements and their attributes.</td>
+        </tr>
+        <tr>
+          <td>Usage</td>
+          <td>Used for controlling browser behavior, managing pop-up windows, handling cookies, and accessing browser-specific information.</td>
+          <td>Used for accessing and modifying HTML elements, handling events, updating styles and content dynamically, and creating interactive web pages.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Bootstrap JS and dependencies for functionality -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
