@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.collapse .nav-link:hover{
+    color: crimson;
+}
+
+.carousel .carousel-inner .carousel-item{
+    height: 800px;
+    width: 100%;
+}
+
+.carousel .carousel-inner .carousel-item img{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+import -export => it is used for the component used in another component.
+
+example : -
+
+export default function Nav() {
+return (
+<>
+  hello how are you ??
+</>
+)
+}
+
+
+import Nav from "./Nav"
+
+export default function App() {
+return (
+<>
+  <Nav />
+</>
+)
+}
+
+

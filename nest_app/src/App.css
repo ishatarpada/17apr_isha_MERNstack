@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width:1260px) {
+  .header-1{
+    display: none;
+  }
+
+  .header-1{
+    display: none;
+  }
+
+  .header-1{
+    display: none;
+  }
+
+  .header-4{
+    display: block;
+  }
+}

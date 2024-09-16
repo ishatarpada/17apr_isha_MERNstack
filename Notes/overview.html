@@ -1,0 +1,128 @@
+React Js :- 
+  React is framework of javascript and it is created by facebook.
+  React Js is tool for building UI components.
+  React Js is single page application.
+  React is allows to reuse the components.
+
+React JS Work :-
+  reacts create the virtual dom in memory.
+  browser takes HTML and create DOM .
+  javascript helps modify DOM based on user action or events.
+   React creates a virtual DOM in memory, where it does all the necessary changes , manipulating before making the changes in the browser DOM.
+
+React Version :- 
+  V18.0.0
+
+setting React App:-
+  1. create a React application => npm create vite@latest
+  2. navigate the first_app folder => cd first_app
+  3. start the server => npm run dev
+
+ES6 :- 
+  ES6 stands for ECMAScript 6.
+  created for standardize javascript.
+    Classes
+    Arrow Functions
+    Variables (let, const, var)
+    Array Methods like .map()
+    Destructuring
+    Modules
+    Ternary Operator
+    Spread Operator
+
+Classes :- 
+  Classes is blue print of the object .
+  Classes is the template for the method and properties
+
+    class Car {
+      constructor(name) {
+        this.brand = name;
+      }
+      
+      present() {
+        return 'I have a ' + this.brand;
+      }
+    }
+
+    const mycar = new Car("Ford");
+    mycar.present();
+
+Arrow Function :- 
+  Arrow functions allow us to write shorter function.
+
+  show = () =>{
+    return "Hello World!";
+  }
+
+Variables  :- variables is created using let ,  var , const.
+
+var :- can reassign or redeclare the value.
+let :-  reassign the value but not redeclare the value.
+const :- can not reassign or redeclare the value;
+
+
+Array :- 
+  map() method :- .map() method allows you to run a function on each item in the array, returning a new array as the result.
+
+const array = ['apple' , 'banana' , 'orange'];
+const list = array.map((item) => <p>{list}</p>);
+
+JSX :- javascript XML.
+  allows us to write HTML in react.
+  easier to write and add HTML in React.
+
+components :- Components are like functions that return HTML elements.
+Components are independent and reusable bits of code.
+Components is  two types,
+   Class components 
+   Function components
+
+LifeCycle Of Components :-  
+  1. Mounting => putting elements into the DOM.
+  2. Updating => component is updated.
+  3. Unmounting => component is removed from the DOM.
+
+Hooks :- allow function component to have access state and other react feature.
+
+what is hooks ?
+ hooks is a one type of functions i.e hook a services inside of react js.
+ hooks is no more supported inside of class components.
+ hooks is used to destructures of data in form of array or objects.
+    const[data,setData]=useState([]);
+    
+     data => data is a variables
+     setData => setData is a function  
+
+
+
+  types of hooks ?
+   a) useState() :useState is used to stored data , manage state data, destructured data 
+        const[data,setData]=useState([]);
+
+   b) useEffects(): useEffects is used to add effects, fetch data , manage data or add dependency add
+
+            1) [] =>render only one times 
+                useEffect(() => {
+                  //Runs on every render
+                });
+
+            2) no dependency =>render again and again  
+                useEffect(() => {
+                  //Runs only on the first render
+                }, []);
+
+            3) [props,state] =>render only one times but we change or update data any times.
+                  useEffect(() => {
+                    //Runs on the first render
+                    //And any time any dependency value changes
+                  }, [prop, state]);
+             
+   c) useRef() : Manage State Globally
+
+
+   d) useMemo()
+   e) useReducer()
+   f) useContext() :  share state between deeply nested components more easily than with useState alone.
+
+   g) fetch()
+   h) Callback()
