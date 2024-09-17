@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Template</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Carousel -->
+  <div class="container-fluid mt-2">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" id="carousel-1">
+          <img src="assets/corousal-1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-danger fw-bold fs-3">Earn up to Rs 40000/_ monthly</h5>
+            <p class="fw-bold fs-5">We care for your safety! Free insurance & early salary access for all riders</p>
+            <button type="button" class="btn btn-danger px-5 fw-bold"
+              onclick="$('#carouselExampleCaptions').carousel('next')">Next</button>
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item" id="carousel-2">
+        <img src="assets/corousal-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-danger fw-bold fs-3">We care for your safety!</h5>
+          <p class="text-dark fw-bold fs-5"> Plus additional joining & referral bonuses </p>
+          <button type="button" class="btn btn-danger px-5 fw-bold"
+            onclick="$('#carouselExampleCaptions').carousel('next')">Next</button>
+        </div>
+      </div>
+      <div class="carousel-item" id="carousel-3">
+        <img src="assets/corousal-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-danger fw-bold fs-3">Work within your own area</h5>
+          <p class=" fw-bold fs-5"> Short distance & quick delivery within your area</p>
+          <a href="home.html" class="btn btn-danger px-5 fw-bold text-light">Get Standard</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-iOqVuE7WlM6KLkAowCOjvuStcafxkrF5u52YshLNXN/Ax2F3nWeqVEkgdsl1GJIe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script src="script/script.js"></script>
+</body>
+
+</html>

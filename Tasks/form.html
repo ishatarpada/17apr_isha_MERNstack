@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="booking">
+        <form id="bookingForm">
+            <input type="text" id="name" placeholder="Enter Your Name" required> <br>
+
+            <input type="email" id="email" placeholder="Enter Your Email Address" required> <br>
+
+            <input type="tel" id="phone" placeholder="Enter Phone No." required> <br>
+
+            <input type="number" id="guests" placeholder="Enter Number of Guests" required> <br>
+
+            <input type="date" id="date" required> <br>
+
+            <input type="time" id="time" placeholder="Enter Time" required> <br>
+
+            <textarea id="message" cols="30" rows="4" placeholder="Special Instruction"></textarea> <br>
+
+            <button type="submit" id="submit">Click</button>
+
+            <div id="data-box"></div>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("bookingForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission behavior
+
+            let name = document.getElementById("name").value;
+            let date = document.getElementById("date").value;
+            let time = document.getElementById("time").value;
+            let dataBox = document.getElementById("data-box");
+
+            dataBox.innerHTML = `
+                Name: ${name}<br>
+                Date: ${date}<br>
+                Time: ${time}<br>
+            `;
+        });
+    </script>
+</body>
+</html>

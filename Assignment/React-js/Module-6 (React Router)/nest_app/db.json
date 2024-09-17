@@ -1,0 +1,490 @@
+{
+  "blogs": [
+    {
+      "title": "Side Dish",
+      "descriptions": "Summer Quinoa Salad Jars with Lemon Dill",
+      "author": "Admin",
+      "category": "news",
+      "tags": "#blogs #news",
+      "image": "https://wp.alithemes.com/html/nest/demo/assets/imgs/blog/blog-2.png",
+      "date": "2024-06-15",
+      "id": "2f51"
+    },
+    {
+      "id": "b7a0",
+      "title": "Break Fast",
+      "descriptions": "Almond Butter Chocolate Chip Zucchini Bars",
+      "author": "Admin",
+      "category": "tips",
+      "tags": "#blogs",
+      "image": "https://wp.alithemes.com/html/nest/demo/assets/imgs/blog/blog-5.png",
+      "date": "2024-06-15"
+    },
+    {
+      "id": "a276",
+      "title": "Vegan",
+      "descriptions": "Smoky Beans & Greens Tacos with Aji Verde",
+      "author": "Admin",
+      "category": "recipes",
+      "tags": "#blogs #recipe",
+      "image": "https://wp.alithemes.com/html/nest/demo/assets/imgs/blog/blog-8.png",
+      "date": "2024-06-15"
+    },
+    {
+      "id": "2143",
+      "title": "Dairy Free",
+      "descriptions": "The Absolute Easiest Spinach and Pizza",
+      "author": "Admin",
+      "category": "recipes",
+      "tags": "#blogs #recipe",
+      "image": "https://wp.alithemes.com/html/nest/demo/assets/imgs/blog/blog-9.png",
+      "date": "2024-06-15"
+    }
+  ],
+  "category": [
+    {
+      "id": "8948",
+      "categoryName": "Fresh Produce",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQztowFxfi-lbOr_sqUdiAOvBz7chgEnw6Bg&s",
+      "date": "2024-06-12"
+    },
+    {
+      "id": "140b",
+      "categoryName": "Dairy and Eggs",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREJrhdi92I4HV0sPzTQ_SCyHuEEQ6QTCXo3A&s",
+      "date": "2024-06-16"
+    },
+    {
+      "id": "4ef2",
+      "categoryName": "Bakery",
+      "image": "https://img.paisawapas.com/ovz3vew9pw/2022/08/29131335/Frame-1-12.jpg",
+      "date": "2024-06-17"
+    },
+    {
+      "id": "692d",
+      "categoryName": "Beverages",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_P9USpvhpXlDfpQZO8kpf6slZ4HkryWowrA&s",
+      "date": "2024-06-12"
+    },
+    {
+      "id": "21b1",
+      "categoryName": "Snacks",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMQ-1VuYXWM7a98rMXts4oNR24Zd7Pl7AZFN7-Xn-dBsOc7qZJu4RAZgijVXTItMg3p0&usqp=CAU",
+      "date": "2024-06-20"
+    },
+    {
+      "id": "5565",
+      "categoryName": "Pantry Staples",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS8dplELLaDByp-2gDMg_FcuV_KujxFG-8vw&s",
+      "date": "2024-06-15"
+    },
+    {
+      "id": "a3cc",
+      "categoryName": "Condiments & Sauces",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjslnFd0L0RW-VzlQFZrjc1SItY6srEHXR-LjXGpLYE4HPTODgZO9vlFZ_UJfLq5Lgk7U&usqp=CAU",
+      "date": "2024-06-18"
+    },
+    {
+      "id": "6524",
+      "categoryName": "Canned Goods",
+      "image": "https://www.unlockfood.ca/getattachment/en/Articles/Nutrition-Labelling/Food-Safety-Canned-Foods/bigstock-Isolated-On-Black-Canned-Food-389022184.jpg.aspx?width=600&height=342",
+      "date": "2024-06-20"
+    },
+    {
+      "id": "1870",
+      "categoryName": "Grains & Pasta",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR823tErwhnRGGJNe7qceTAl98BoKIgefDMQaH3LRWWfLJkGI9S3AFBUhx6U5wbnlz0wTM&usqp=CAU",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "4099",
+      "categoryName": "Breakfast Foods",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR-Ok8U09Ops476osf3__q5czee9o27Me-GA&s",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "2c91",
+      "categoryName": "Baby Products",
+      "image": "https://m.media-amazon.com/images/I/71IHmLWPq2L.jpg",
+      "date": "2024-06-20"
+    },
+    {
+      "id": "0706",
+      "categoryName": "Household Essentials",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVRnVxwXGXhMTfr7PnfypWLPerFHjUNf7nxQ&s",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "d50d",
+      "categoryName": "Personal Care",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2B9QG55XlUr3bkse2SMN6q2WRl8M19MVIv1kntjLK2CfcMA1O-oK3oWiREUks5srZupI&usqp=CAU",
+      "date": "2024-06-20"
+    },
+    {
+      "id": "c42e",
+      "categoryName": "Pet Supplies",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRyVkekO_EtZTSDbwe-d7JDF7r01C5uFYnjg&s",
+      "date": "2024-06-20"
+    },
+    {
+      "id": "c932",
+      "categoryName": "International Foods",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoL8994iIsAgrW8KYuvwcj49usl1nQQcqtfA&s",
+      "date": "2024-12-06"
+    },
+    {
+      "id": "d239",
+      "categoryName": "Organic & Natural Foods",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxFWgEF4Tb46D6o7gnXWzDzUCoAtNEnxEclg&s",
+      "date": "2024-06-21"
+    }
+  ],
+  "sub-category": [
+    {
+      "id": "e118",
+      "category": "Fresh Produce",
+      "subCategoryName": "Citrus Fruits",
+      "descriptions": "Includes oranges, lemons, limes, grapefruits, and tangerines. Known for their high vitamin C content and tangy flavor.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYIHX2HuRRK89NMVYqAXpxtDxNzdszfWzzng&s",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "639f",
+      "category": "Fresh Produce",
+      "subCategoryName": "Berries",
+      "descriptions": "Includes strawberries, blueberries, raspberries, and blackberries. Rich in antioxidants, vitamins, and fiber.\n",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR6108C-00BidYjvT-ohOccjSIcCLrVU67Wg&s",
+      "date": "2024-06-20"
+    },
+    {
+      "id": "cfb5",
+      "category": "Fresh Produce",
+      "subCategoryName": "Stone Fruits",
+      "descriptions": "Includes peaches, plums, cherries, and apricots. Characterized by a large pit or \"stone\" inside.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_m2DAG8BpkvFGQzcIlydcn4I7Oiaz7uytg&s",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "f62a",
+      "category": "Fresh Produce",
+      "subCategoryName": "Tropical Fruits",
+      "descriptions": "Includes bananas, pineapples, mangoes, papayas, and kiwis.\nTypically grown in tropical regions and known for their exotic flavors.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOjt1BYA7P9_JbeM-EKg7x2pskDssK6bRwrQ&s",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "9dc4",
+      "category": "Fresh Produce",
+      "subCategoryName": "Pomes",
+      "descriptions": "Includes apples and pears.\nCrisp and juicy fruits that are often eaten raw or used in cooking.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQgAt1iMPUJNMxuMK5wsrF5xEQSQAb145ilj3f4LvXxcHuYs9jM-bVEMzwfEvs8Cycu6o&usqp=CAU",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "9fbc",
+      "category": "Fresh Produce",
+      "subCategoryName": "Melons",
+      "descriptions": "Includes watermelons, cantaloupes, and honeydews.\nRefreshing and hydrating fruits, especially popular in summer.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWYA5YpTeIKvmX19GEldJhxBf9rjzxnZACw&s",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "0d66",
+      "category": "Fresh Produce",
+      "subCategoryName": "Leafy Greens",
+      "descriptions": "Includes lettuce, spinach, kale, arugula, and chard.\nNutrient-dense vegetables high in vitamins A, C, and K, and folate.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPOMPemfetvAo9YlaE9mMPdDrmR2TcFbQE2A&s",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "4cdb",
+      "category": "Fresh Produce",
+      "subCategoryName": "Cruciferous Vegetables",
+      "descriptions": "Includes broccoli, cauliflower, cabbage, and Brussels sprouts.\nKnown for their cancer-fighting properties and high fiber content.",
+      "image": "https://cdn.viva.org.uk/wp-content/uploads/2020/02/Cruciferous.jpg",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "2f80",
+      "category": "Fresh Produce",
+      "subCategoryName": "Root Vegetables",
+      "descriptions": "Includes carrots, potatoes, beets, radishes, and turnips.\nGrow underground and are rich in carbohydrates and nutrients.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCPKZduK6XxXippYOy7ry0mf_DhzgpLUX1S23opMDp4zgjyF6Beyh1vT3IHIglLczXuzw&usqp=CAU",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "d024",
+      "category": "Fresh Produce",
+      "subCategoryName": "Bulbs",
+      "descriptions": "Includes onions, garlic, and leeks.\nUsed to add flavor to a variety of dishes and have numerous health benefits.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ49rbeVkONcVf90krbJYcvTXGylmPiRiaVQ&s",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "5a6c",
+      "category": "Fresh Produce",
+      "subCategoryName": "Tubers",
+      "descriptions": "Includes sweet potatoes and yams.\nStarchy vegetables that are a good source of energy.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKjRxCu_85L4hcJE6OWH8zGO0ZQQZfYrXMNA&s",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "95d5",
+      "category": "Fresh Produce",
+      "subCategoryName": "Stem Vegetables",
+      "descriptions": "Includes asparagus and celery.\nEdible stalks that are often used in salads and cooking.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlyE1irenyOd-CQLtNI2hBvqGXTRX8G-gafA&s",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "75d7",
+      "category": "Fresh Produce",
+      "subCategoryName": "Fruiting Vegetables",
+      "descriptions": "Includes tomatoes, cucumbers, bell peppers, and eggplants.\nBotanically fruits, but used as vegetables in culinary contexts.",
+      "image": "https://media.post.rvohealth.io/wp-content/uploads/2020/08/fruits-and-vegetables-thumb.jpg",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "c31b",
+      "category": "Fresh Produce",
+      "subCategoryName": "Legumes",
+      "descriptions": "Includes beans, peas, and lentils.\nHigh in protein, fiber, and essential nutrients.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzr7lrOQTXvyUhNNmcVSrRppByl18vzfv1uw&s",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "ef31",
+      "category": "Fresh Produce",
+      "subCategoryName": "Squash and Gourds",
+      "descriptions": "Includes zucchini, pumpkin, and butternut squash.\nVersatile vegetables used in a variety of dishes.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdXLp4w1quivvWCKvEk5q0hdFpaq7kFvNClw&s",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "4889",
+      "category": "Fresh Produce",
+      "subCategoryName": "Allium Vegetables",
+      "descriptions": "Includes onions, garlic, shallots, and chives.\nKnown for their pungent flavors and aromatic qualities.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSjks1Wei_z4rB7wPLOYcg_Bt-YrDzolNdkA&s",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "beef",
+      "category": "Fresh Produce",
+      "subCategoryName": "Culinary Herbs",
+      "descriptions": "Includes basil, parsley, cilantro, thyme, rosemary, and dill.\nUsed to enhance the flavor of dishes and provide health benefits",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSObKSXFh0l2FVnRP3PjbnbfRbmt_10uhPoeQ&s",
+      "date": "2024-06-23"
+    },
+    {
+      "id": "0b7d",
+      "category": "Dairy and Eggs",
+      "subCategoryName": "Milk",
+      "descriptions": "Various types of milk including whole, skim, and plant-based alternatives.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1glxJ7ZY5j1NJaZ2pmRSkVDJD-YuKr-Xdeg&s",
+      "date": "2024-06-24"
+    },
+    {
+      "id": "25c1",
+      "category": "Dairy and Eggs",
+      "subCategoryName": "Cheese",
+      "descriptions": "Different varieties of cheese including cheddar, mozzarella, and Swiss.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxM6Qnrkrny5HAIL04Tf0cgpovz-QXmNwGOg&s",
+      "date": "2024-06-24"
+    },
+    {
+      "id": "2396",
+      "category": "Dairy and Eggs",
+      "subCategoryName": "Yogurt",
+      "descriptions": "Includes Greek yogurt, flavored yogurt, and plant-based yogurt options.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUHp_fZ_yTQ2zcmUP-Y93CFVDKo7LaSxXFew&s",
+      "date": "2024-06-24"
+    },
+    {
+      "id": "a82f",
+      "category": "Dairy and Eggs",
+      "subCategoryName": "Eggs",
+      "descriptions": "Varieties of eggs including free-range, organic, and conventional.",
+      "image": "https://media6.ppl-media.com/mediafiles/blogs/Eggs_29a36cfdd5.jpg",
+      "date": "2024-06-24"
+    },
+    {
+      "id": "61dc",
+      "category": "Dairy and Eggs",
+      "subCategoryName": "Butter",
+      "descriptions": "Includes salted, unsalted, and plant-based butter alternatives.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-86uQPicnVb9OMTI1sr-xnwhEQpY40f1vDg&s",
+      "date": "2024-06-24"
+    },
+    {
+      "id": "ae1d",
+      "category": "Dairy and Eggs",
+      "subCategoryName": "Cream",
+      "descriptions": "Different types of cream including heavy cream, whipping cream, and sour cream.",
+      "image": "https://theviewfromgreatisland.com/wp-content/uploads/2023/06/Chantilly-Cream-5556-June-15-2023-2.jpg",
+      "date": "2024-06-24"
+    },
+    {
+      "id": "e124",
+      "category": "Dairy and Eggs",
+      "subCategoryName": "Ice Cream",
+      "description": "Various flavors of ice cream and plant-based alternatives.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzYD3fzBdT3VpyUzJp0gBJMdH3-pco5VZ7Qg&s",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "e125",
+      "category": "Dairy and Eggs",
+      "subCategoryName": "Cottage Cheese",
+      "description": "Different types of cottage cheese including low-fat and full-fat options.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZjbAMFnCq5MG8xrjgMtbdiY0JrLDB1eKiNjMnzf2sXVnHFTeIxz_Tow7iFYY26wg8bE&usqp=CAU",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "e126",
+      "category": "Dairy and Eggs",
+      "subCategoryName": "Sour Cream",
+      "description": "Includes regular and low-fat sour cream options.",
+      "image": "https://www.realsimple.com/thmb/WIQw_c6ePyPKkXAGrFVB5hvMN_A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/make-sour-cream-2000-513d49b3aaba4708a67b19380cc32de6.jpg",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "e127",
+      "category": "Dairy and Eggs",
+      "subCategoryName": "Kefir",
+      "description": "A fermented milk drink similar to yogurt but with a thinner consistency.",
+      "image": "https://m.media-amazon.com/images/I/814+C4AX+tL.jpg",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "e128",
+      "category": "Dairy and Eggs",
+      "subCategoryName": "Lactose-Free Products",
+      "description": "Includes lactose-free milk, cheese, and other dairy products.",
+      "image": "https://cdn.farmjournal.com/s3fs-public/styles/840x600/public/B6CE9912-9C5D-4396-81F9C5CEF3561712.jpg?itok=RodJwACb",
+      "date": "2024-06-21"
+    }
+  ],
+  "products": [
+    {
+      "id": "de38",
+      "category": "Fresh Produce",
+      "subCategory": "Citrus Fruits",
+      "productName": "Lemons",
+      "descriptions": "Sour and acidic, used in cooking, baking, and drinks.",
+      "shopkeeper": "Citrus World",
+      "price": "$3.49",
+      "quantity": "60",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW7wehds3Tb-5N6RrPRuRNEEJEX-JGBBGcQg&s",
+      "date": "2024-06-23"
+    },
+    {
+      "id": "e47b",
+      "category": "Fresh Produce",
+      "subCategory": "Citrus Fruits",
+      "productName": "Oranges",
+      "descriptions": "Oranges are sweet and juicy fruits rich in vitamin C. They are commonly eaten fresh or juiced.",
+      "shopkeeper": "FreshMart",
+      "price": "$5.99",
+      "quantity": "48",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx8dD6zAMt9Pp2s1WTKhzGxK3UsnFCFfnGvw&s",
+      "date": "2024-07-01"
+    },
+    {
+      "id": "a8ef",
+      "category": "Fresh Produce",
+      "subCategory": "Citrus Fruits",
+      "productName": "Limes",
+      "descriptions": " Limes are small, green citrus fruits with a sour taste, often used in cooking, cocktails, and as a garnish.",
+      "shopkeeper": "CitrusHub",
+      "price": "$3.99",
+      "quantity": "60",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV0g165PWRGLFPfhNCbQTzBr1FQmyi8HxW_g&s",
+      "date": "2024-07-01"
+    },
+    {
+      "id": "8cbc",
+      "category": "Fresh Produce",
+      "subCategory": "Citrus Fruits",
+      "productName": "Grapefruits",
+      "descriptions": "Grapefruits are large, tangy fruits with a slight bitterness. They are high in vitamins A and C and often eaten for breakfast.",
+      "shopkeeper": "FruitBasket",
+      "price": "$6.99",
+      "quantity": "72",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx1PqG0zXn3_EvBuE_BtWKYmVPFG2lX6wdow&s",
+      "date": "2024-07-01"
+    },
+    {
+      "id": "ab01",
+      "category": "Fresh Produce",
+      "subCategory": "Citrus Fruits",
+      "productName": "Tangerines",
+      "descriptions": "Tangerines are small, sweet, and easy-to-peel citrus fruits. They are a great snack and high in vitamin C.",
+      "shopkeeper": "FreshDirect",
+      "price": "$5.49",
+      "quantity": "72",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGR-AYiH9NmPtJDsV5vyzESjkoC157YT4lQA&s",
+      "date": "2024-07-01"
+    },
+    {
+      "id": "e94c",
+      "category": "Fresh Produce",
+      "subCategory": "Citrus Fruits",
+      "productName": "Mandarins",
+      "descriptions": "Mandarins are similar to tangerines but slightly smaller and sweeter. They are perfect for snacking and salads.",
+      "shopkeeper": "CitrusMarket",
+      "price": "$6.99",
+      "quantity": "82",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTvxESHAM7nj6gLsoJ45lioKKN6vy9RjUyhQ0GxvErJ4fgGXctB4bsll48VTCgrhuaDMI&usqp=CAU",
+      "date": "2024-07-01"
+    },
+    {
+      "id": "4642",
+      "category": "Fresh Produce",
+      "subCategory": "Citrus Fruits",
+      "productName": "Clementines",
+      "descriptions": "Clementines are seedless, sweet, and easy to peel, making them a favorite among children and adults alike.",
+      "shopkeeper": "HealthyHarvest",
+      "price": "$7.49",
+      "quantity": "90",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQGLIf67ny5IN8NxKWk3IYwkydb-iBVFxEFg&s",
+      "date": "2024-07-01"
+    },
+    {
+      "id": "5e2c",
+      "category": "Fresh Produce",
+      "subCategory": "Citrus Fruits",
+      "productName": "Blood Oranges",
+      "descriptions": " Blood oranges have a distinctive red flesh and a rich, sweet flavor. They are high in antioxidants and vitamin C.",
+      "shopkeeper": "GourmetFruits",
+      "price": "$8.99",
+      "quantity": "48",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCfdo0ndpyDQUs2iYRCQXqjBF7_Wv98mueMg&s",
+      "date": "2024-07-01"
+    },
+    {
+      "id": "81ce",
+      "category": "Fresh Produce",
+      "subCategory": "Citrus Fruits",
+      "productName": "Pomelos",
+      "descriptions": "Pomelos are the largest citrus fruits with a sweet and mild flavor. They are often enjoyed fresh or in salads.",
+      "shopkeeper": "ExoticFruitCo",
+      "price": " $9.99",
+      "quantity": "60",
+      "image": "data:image/jpeg;base64,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",
+      "date": "2024-07-01"
+    },
+    {
+      "id": "b01a",
+      "category": "Fresh Produce",
+      "subCategory": "Citrus Fruits",
+      "productName": "Key Limes",
+      "descriptions": " Key limes are small and aromatic with a strong, tart flavor. They are commonly used in pies and cocktails.",
+      "shopkeeper": "LimeTime",
+      "price": "$4.99",
+      "quantity": "96",
+      "image": "data:image/jpeg;base64,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",
+      "date": "2024-07-01"
+    }
+  ]
+}

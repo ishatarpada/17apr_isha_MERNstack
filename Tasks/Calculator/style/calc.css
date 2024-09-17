@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+.calculator {
+    height: auto !important;
+}
+
+.calculator .btn {
+    border: 1px solid white;
+}
+
+.calculator .input-container .input-btn {
+    width: 25%;
+}
+
+.calculator .input-container .input-btn button {
+    height: 105px;
+}
+
+/* @media (max-width:420px) {
+    .calculator .input-container .input-btn button {
+        border-radius: 50% !important;
+    }
+} */

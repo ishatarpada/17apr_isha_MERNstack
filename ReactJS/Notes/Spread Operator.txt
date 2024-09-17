@@ -1,0 +1,1 @@
+Spread Operator :-  spread operator (...) is a way to take all the items from an array, object, or another iterable and "spread" them out into individual pieces.

@@ -1,0 +1,92 @@
+<html>: Root element.
+<head>: Contains meta-information about the HTML document.
+<title>: Sets the title of the document.
+<meta>: Defines metadata.
+<body>: Contains the content of the HTML document.
+
+
+<h1> to <h6>: Headings.
+<p>: Paragraph.
+<a>: Anchor (for hyperlinks).
+<img>: Image.
+: Line break.
+<hr>: Horizontal rule.
+
+
+=> Lists :
+<ul>: Unordered list.
+<li>: List item.
+<ol>: Ordered list.
+<li>: List item.
+<dl>: Definition list.
+<dt>: Definition term.
+<dd>: Definition description.
+
+=> tables:-
+<table>: Defines a table.
+<tr>: Table row.
+<th>: Table header cell.
+<td>: Table data cell.
+<thead> : table header tag.
+<tfooter> : table footer tag.
+<tbody> : table body tag.
+
+
+=>Forms:
+<form>: Defines an HTML form.
+<input>: Input field.
+<textarea>: Text area.
+<select>: Dropdown list.
+<button>: Button.
+<label>: Label for an input element.
+<fieldset>: Groups related elements in a form.
+<legend>: Caption for <fieldset>.
+Text: <input type="text">
+Email: <input type="email">
+Password:<input type="password">
+Tel: <input type="tel">
+Color:<input type="color">
+Range:<input type="range">
+URL:<input type="url">
+Search:<input type="search">
+File:<input type="file">
+image: <input type="image">
+Date: <input type="date">
+DateTime: <input type="datetime">
+DateTimeLocal: <input type="datetime-local">
+Time: <input type="time">
+week: <input type="week">
+Month: <input type="month">
+Radio <input type="radio" name="radio" id="">
+<input type="radio" name="radio" id="">
+<input type="radio" name="radio" id="">
+Check-box:<input type="checkbox" name="check">
+<input type="checkbox" name="check">
+<input type="checkbox" name="check">
+
+
+=> Multimedia:
+<audio>: Embeds sound content.
+<source>: Specifies multiple media resources.
+<video>: Embeds video content.
+<source>: Specifies multiple video resources.
+<track>: Adds subtitles or captions.
+<iframe> :  embed another document within the current HTML document 
+
+=> HTML5 Structural Elements:
+<header>: Represents a header section.
+<footer>: Represents a footer section.
+<nav>: Defines a navigation menu.
+<article>: Represents an independent piece of content.
+<section>: Represents a section of a document.
+<aside>: Represents content aside from the content it is placed in.
+<main>: Represents the main content of the document.
+<figure>: Represents any content that is referenced from the main content.
+<figcaption>: Represents a caption for a <figure> element.
+
+
+=> Miscellaneous:
+<div>: Defines a division or a section.
+<span>: Defines a section in a document.
+<canvas>: Used for graphics.
+<script>: Embeds or references an external script.

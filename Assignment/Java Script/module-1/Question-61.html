@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array vs Object Comparison</title>
+    <!-- Bootstrap CSS link for styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="mb-4">Array vs Object Comparison</h1>
+      <table class="table table-dark table-hover">
+        <thead>
+          <tr>
+            <th>Aspect</th>
+            <th>Array</th>
+            <th>Object</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Definition</td>
+            <td>
+              An array is an ordered collection of elements, accessed by their
+              numeric index.
+            </td>
+            <td>
+              An object is an unordered collection of key-value pairs, where
+              each key is unique and maps to a value.
+            </td>
+          </tr>
+          <tr>
+            <td>Access</td>
+            <td>
+              Elements are accessed by their index (e.g., array[0], array[1]).
+            </td>
+            <td>
+              Properties (values) are accessed by their keys (e.g., object.key,
+              object['key']).
+            </td>
+          </tr>
+          <tr>
+            <td>Order</td>
+            <td>Preserves the order of elements as they are inserted.</td>
+            <td>Does not guarantee any specific order for properties.</td>
+          </tr>
+          <tr>
+            <td>Key Type</td>
+            <td>Only numeric indices (0, 1, 2, ...) are used as keys.</td>
+            <td>
+              Keys can be strings or symbols, providing more flexibility in
+              naming.
+            </td>
+          </tr>
+          <tr>
+            <td>Iteration</td>
+            <td>Use numeric loops (for, forEach) for iteration.</td>
+            <td>
+              Use for...in or Object methods (Object.keys, Object.values) for
+              iteration.
+            </td>
+          </tr>
+          <tr>
+            <td>Use Case</td>
+            <td>
+              Best suited for collections of similar data types or ordered data.
+            </td>
+            <td>
+              Best suited for representing structured data with named properties
+              and complex relationships.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Bootstrap JS and dependencies for functionality -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
