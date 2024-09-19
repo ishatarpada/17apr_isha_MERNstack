@@ -2,17 +2,26 @@ import React, { useState } from 'react';
 import useHttp from '../useHttp/useHttp';
 import Card from './Reusable/Card';
 import Modal from './Reusable/Modal';
+import Button from "./Reusable/Button";
 
 export default function Layout() {
-  const { data, loading, error } = useHttp('https://api.escuelajs.co/api/v1/products');
-  const [selectedProduct, setSelectedProduct] = useState(null); 
+
+  /* for fetch the product using useHttp hooks */
+  const { data, loading, error } = useHttp('https://api.escuelajs.co/api/v1/products?limit=20');
+
+  /* state using for select the product */
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
+  // this state for model visible or not
   const [isModalVisible, setIsModalVisible] = useState(false);
 
+  /* function for view details */
   const handleViewDetails = (product) => {
     setSelectedProduct(product);
     setIsModalVisible(true);
   };
 
+  /* function for modal close */
   const handleCloseModal = () => {
     setIsModalVisible(false);
   };
@@ -28,6 +37,11 @@ export default function Layout() {
   return (
     <div className="min-h-screen min-w-screen bg-gray-800 font-serif">
       <h1 className="text-center font-bold font-serif p-5 text-white text-5xl">Products</h1>
+      <div className="flex justify-end gap-3 me-5">
+        <Button color="green">
+          <a href="/">Back To Home</a>
+        </Button>
+      </div>
       <div className="flex flex-wrap justify-center items-center gap-8 container mx-auto">
         {data.map((item, index) => (
           <Card
@@ -43,7 +57,7 @@ export default function Layout() {
               description: item.description,
               image: item.images[0],
               category: item.category.name,
-            })} 
+            })}
           />
         ))}
       </div>
@@ -52,7 +66,7 @@ export default function Layout() {
       <Modal
         isVisible={isModalVisible}
         onClose={handleCloseModal}
-        product={selectedProduct} 
+        product={selectedProduct}
       />
     </div>
   );
