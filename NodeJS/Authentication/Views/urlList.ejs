@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+  <div class="container mx-auto p-4">
+    <h1 class="text-2xl font-bold mb-4">URL List</h1>
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white border border-gray-300">
+        <thead>
+          <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+            <th class="py-3 px-6 text-left">Short ID</th>
+            <th class="py-3 px-6 text-left">Redirect URL</th>
+            <th class="py-3 px-6 text-left">Visits</th>
+          </tr>
+        </thead>
+        <tbody class="text-gray-600 text-sm font-light">
+          <% urls.forEach(url=> { %>
+            <tr class="border-b border-gray-300 hover:bg-gray-100">
+              <td class="py-3 px-6 text-left whitespace-nowrap">
+                <span class="font-semibold">
+                  <%= url.shortId %>
+                </span>
+              </td>
+              <td class="py-3 px-6 text-left">
+                <a href="<%= url.redirectURL %>" class="text-blue-500 underline">
+                  <%= url.redirectURL %>
+                </a>
+              </td>
+              <td class="py-3 px-6 text-left">
+                <span class="text-white bg-black p-2 rounded">
+                  <%= url.visitHistory.length %> visits
+                </span>
+              </td>
+            </tr>
+            <% }) %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</body>
+
+</html>

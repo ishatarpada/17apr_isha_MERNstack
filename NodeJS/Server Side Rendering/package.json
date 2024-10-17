@@ -1,0 +1,20 @@
+{
+  "name": "server-side-rendering",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^6.13.0",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.22",
+    "shortid": "^2.2.16",
+    "sweetalert2": "^11.12.4"
+  },
+  "description": ""
+}

@@ -1,0 +1,10 @@
+REST API - export JSON Data
+
+GET/users - list all users
+
+GET/users/1 - get the user with id 1
+GET/users/2 - get the user with id 2
+
+POST/users - create new user
+PATCH/user/id - edit/update the user with id
+DELETE/user/id - delete the user with id 

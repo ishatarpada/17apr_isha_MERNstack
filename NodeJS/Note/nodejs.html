@@ -1,0 +1,198 @@
+What is Node JS :- Run time environment for javascript
+
+Using Node JS
+=> we can run Javascript outside of the browser
+=> js can talk to native machine because of c++
+=> we can create web servers in js
+
+npm => Node Package Manager
+
+version of Node Js :- Node --version
+version of npm :- npm -v
+
+how to create package.json => using npm init.
+
+in node js remove all window functionality and add the server side , file handling functionality .
+
+-----------------------------------------------------------------------------
+
+Module :- Module is the chunk of code in external file that performs specific task or function.
+
+
+Require function :- it does so with a singular argument -> the file path.
+
+-----------------------------------------------------------------------------
+
+Async :- Asynchronously means that the program may not necessarily execute line by line.
+
+Sync :- Synchronously means that the program is executed line by line.
+The program waits until the called function or the operation returns.
+
+-----------------------------------------------------------------------------
+
+Node js Architecture :-
+
+client send request to server and server build in node js and all request in event queue and then go to event loop
+
+Requests :-
+Incoming requests can be blocking (complex) or non-blocking (simple), depending upon the tasks that a user wants to
+perform in a web application.
+
+Node.js Server
+Node.js server is a server-side platform that takes requests from users, processes those requests, and returns responses
+to the corresponding users.
+
+
+Event Queue :- it is the type of queue it is store the user's request and based on fifo relation.
+
+Event Loop => watch on the event queue and pick up the request in ths event queue and processed this request and return
+the response to clients or users.
+
+Blocking Operation :- It refers to the blocking of further operation until the current operation finishes.
+Blocking methods are executed synchronously. Synchronously means that the program is executed line by line.
+The program waits until the called function or the operation returns.
+
+Thread Pool => Thread pool consists of all the threads available for carrying out some tasks that might be fulfill
+client request.
+
+
+Non-Blocking Operation :- it request is simple then event loop pick up the request and send the response to client.
+It refers to the program that does not block the execution of further operations.
+Non-Blocking methods are executed asynchronously. Asynchronously means that the program may not necessarily execute line
+by line.
+The program calls the function and move to the next operation and does not wait for it to return.
+
+Default Thread Pool Size = 4
+
+Max ? -> 8core cpu - 8
+
+-----------------------------------------------------------------------------
+
+HTTP Server :- HTTP module can create an HTTP server that listens to server ports and gives a response back to the
+client.
+
+Building the Web Server :-
+
+Step 1: Create the Server File
+Create a file named index.js
+
+
+Step 2: Import Required Modules
+const http = require("http");
+
+
+Step 3: Create the Server
+const server = http.createServer((req, res) => {
+console.log("New Request Receive");
+console.log(req.headers);
+console.log(req);
+res.end("hello from server");
+});
+
+
+Step 4: Specify the Port and Start the Server
+server.listen(8000, () => console.log("server started"));
+
+
+Step 5: Run the Server
+npm node index.js
+
+-----------------------------------------------------------------------------
+
+URL :- Uniform Resource Locator
+
+https://www.google.com/
+
+https => HyperText Transfer Protocol secure
+www.google.com => Domain - user friendly name of ip address of server
+/ path => route path
+Query Parameters =>
+
+-----------------------------------------------------------------------------
+
+HTTP Methods :-
+1. GET => get the data from the server.
+2. POST => we want to send data and mutate(change/add data) some data in server.
+3. PUT => upload the file or images on the server
+4. PATCH => modified or change the existing data on server
+5. DELETE => delete the data
+
+-----------------------------------------------------------------------------
+
+Why Express JS :- easily handle routes, requests, and responses, which makes the process of creating robust and scalable
+applications much easier.
+
+-----------------------------------------------------------------------------
+
+versioning :- 4.19.2 =>
+1st part shows the major changes in package
+2nd part shows the security and bug fixes changes in package
+3rd part shows the minor changes in package
+
+-----------------------------------------------------------------------------
+
+Rest API :- an application programming interface (API) that conforms to the design principles of the representational
+state transfer (REST) architectural style.
+
+API :-
+=> API is a set of rules and protocols
+=> Application Program Interface.
+=> API is used for the when fronted library not directly communicate to database when this library send the request to
+the API and API this request send to directly database and database send the response to API and API send this response
+to fronted library.
+
+Rules and Standard Protocols for Communication Between Client (Browser/Mobile/Alexa) and Server When Sending Requests or
+Responses to a REST API
+
+When a client (e.g., a web browser, mobile application, or voice assistant like Alexa) communicates with a server using
+a REST API, the following rules and protocols are typically followed:
+
+
+1. server client Architecture => both are not depended on server and client
+2. always respect all http methods
+
+-----------------------------------------------------------------------------
+
+MiddleWare :- a function that will have all the access for requesting an object, responding to an object, and moving to
+the next middleware function in the application request-response cycle.
+
+Middleware functions can perform the following tasks:
+
+Execute any code.
+Make changes to the request and the response objects.
+End the request-response cycle.
+Call the next middleware function in the stack.
+
+Express application can use the following types of middleware:
+
+Application-level middleware
+Router-level middleware
+Error-handling middleware
+Built-in middleware
+Third-party middleware
+
+
+-----------------------------------------------------------------------------
+
+HTTP Header : the client and the server pass additional information with an HTTP request or response
+
+-----------------------------------------------------------------------------
+
+HTTP Status Code :-
+
+Informational responses (100 - 199)
+Successful responses (200 - 299)
+Redirection messages (300 - 399)
+Client error responses (400 - 499)
+Server error responses (500 - 599)
+
+
+-----------------------------------------------------------------------------
+
+StateFull Authentication :-
+=> server restart then all user is logged out
+
+StateLess Authentication :-
+=> server restart then all user is not logged out Because state is remove and state put in token(JWT)
+
+JWT => Json Web Token
